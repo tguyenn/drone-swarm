@@ -1,0 +1,118 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "a3707a06-544a-4d24-b7af-4445ebcdfd54")
+	(paper "A4")
+	(lib_symbols)
+	(hierarchical_label "JOY_BUT1"
+		(shape output)
+		(at 168.91 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "276b0309-8670-44c9-a3ec-b51f4be68eb1")
+	)
+	(hierarchical_label "JOY_ADC2"
+		(shape output)
+		(at 168.91 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "296a4c0e-60e6-467b-8d7c-7d2875a89b21")
+	)
+	(hierarchical_label "JOY_BUT2"
+		(shape output)
+		(at 168.91 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3365190f-6dc2-48fd-aa35-c30c5e5b741e")
+	)
+	(hierarchical_label "BUT4"
+		(shape output)
+		(at 168.91 105.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3f303db3-ad89-49c7-a3aa-3ab72c6553b4")
+	)
+	(hierarchical_label "BUT1"
+		(shape output)
+		(at 168.91 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "665d3e6d-adbe-47c1-922d-26170cf96d16")
+	)
+	(hierarchical_label "BOOT"
+		(shape output)
+		(at 168.91 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8f1e09fc-be22-4b0f-b25b-34710da4ccc2")
+	)
+	(hierarchical_label "BUT2"
+		(shape output)
+		(at 168.91 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ceaaf9ec-70e6-4e41-be96-d28a73910b0f")
+	)
+	(hierarchical_label "BUT3"
+		(shape output)
+		(at 168.91 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e834a698-5ec1-4677-a5bc-bcf275fd0d15")
+	)
+	(hierarchical_label "RESET"
+		(shape output)
+		(at 168.91 110.49 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e9f619d0-adcf-4a27-8820-9c22cff2225e")
+	)
+	(hierarchical_label "JOY_ADC1"
+		(shape output)
+		(at 168.91 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f3c88aaf-3f31-4b88-adfd-cc0fdadb3f42")
+	)
+)

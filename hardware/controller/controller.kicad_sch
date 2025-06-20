@@ -1,0 +1,563 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "869bea87-c885-4ead-826b-3f34ceacafad")
+	(paper "A4")
+	(title_block
+		(title "Controller")
+	)
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 91.44 67.31) (xy 101.6 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19a6ac52-6709-43ed-a4cf-3f3a1052ab78")
+	)
+	(wire
+		(pts
+			(xy 96.52 50.8) (xy 91.44 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d310878-b158-4de4-bd11-3959a2ef685f")
+	)
+	(wire
+		(pts
+			(xy 91.44 69.85) (xy 101.6 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c9b225e6-bb16-4875-ae40-afdb1633889e")
+	)
+	(wire
+		(pts
+			(xy 96.52 64.77) (xy 96.52 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf88c44c-19a8-47a8-88e2-4e14c3adc4b9")
+	)
+	(wire
+		(pts
+			(xy 91.44 64.77) (xy 96.52 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d5d2a1-8a96-4269-8d2a-44659d9ff5c2")
+	)
+	(sheet
+		(at 160.02 115.57)
+		(size 33.02 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d")
+		(property "Sheetname" "MEMORY"
+			(at 160.02 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MEMORY.kicad_sch"
+			(at 160.02 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller"
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 86.36)
+		(size 33.02 29.21)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "252b634b-1fae-4e1d-86fa-b1e316b135ec")
+		(property "Sheetname" "JOYSTICK_BUTTONS"
+			(at 58.42 85.6484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "JOYSTICK_BUTTONS.kicad_sch"
+			(at 58.42 116.1546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BUT1" output
+			(at 91.44 90.17 0)
+			(uuid "959784ea-0a9c-4f6d-9aba-7e4f093e6176")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUT2" output
+			(at 91.44 92.71 0)
+			(uuid "99a457fe-b8a2-4136-9a1d-212fcd8c3d73")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUT3" output
+			(at 91.44 95.25 0)
+			(uuid "b969ff80-c1ca-4073-afab-3b8dd34472dc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUT4" output
+			(at 91.44 97.79 0)
+			(uuid "0f6092ba-b66c-4c5e-810b-021e7fe9f85e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JOY_ADC1" output
+			(at 91.44 100.33 0)
+			(uuid "bbf71206-6958-4b0a-a579-6385fb3186ac")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JOY_ADC2" output
+			(at 91.44 102.87 0)
+			(uuid "827433f7-a50b-4a7e-80a4-8d8e3953dc9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JOY_BUT1" output
+			(at 91.44 105.41 0)
+			(uuid "d836e329-5fb9-4d72-b075-79d363d4dceb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "JOY_BUT2" output
+			(at 91.44 107.95 0)
+			(uuid "47a2e738-ae2d-4133-bddc-03321947880a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BOOT" output
+			(at 91.44 110.49 0)
+			(uuid "12491437-7fd4-4394-8870-35a98d3463d6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "RESET" output
+			(at 91.44 113.03 0)
+			(uuid "5ef3103e-61f9-4a43-b7e3-8719f02b2e6f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "controller"
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 60.96)
+		(size 33.02 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a")
+		(property "Sheetname" "USBC"
+			(at 58.42 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USBC.kicad_sch"
+			(at 58.42 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBUS" output
+			(at 91.44 64.77 0)
+			(uuid "67902996-b3ef-4330-97fe-5a2db6bed216")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D+" output
+			(at 91.44 67.31 0)
+			(uuid "5fe64752-914c-4e99-85c9-e1b0ef78b148")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D-" output
+			(at 91.44 69.85 0)
+			(uuid "6febe6db-5962-41df-9ed1-846db5670b24")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "controller"
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 60.96)
+		(size 33.02 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6716075d-3941-4cbb-90c0-6bb554220bff")
+		(property "Sheetname" "USB_UART"
+			(at 101.6 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "USB_UART.kicad_sch"
+			(at 101.6 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "D+" input
+			(at 101.6 67.31 180)
+			(uuid "e0f950ca-a284-4dcf-ae12-4f0f074d1b36")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D-" input
+			(at 101.6 69.85 180)
+			(uuid "880b6fde-4eff-48f8-a94a-499ec1c18e9b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "controller"
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 87.63)
+		(size 33.02 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "803675b3-25f7-4b49-b465-4697774a1dce")
+		(property "Sheetname" "ESP32"
+			(at 160.02 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 160.02 107.2646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller"
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 121.92)
+		(size 33.02 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a91903fe-ee0b-42c2-9d54-da8a7ff8ed7e")
+		(property "Sheetname" "LCD"
+			(at 58.42 121.2084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "LCD.kicad_sch"
+			(at 58.42 141.5546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller"
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 160.02 143.51)
+		(size 33.02 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cc3ab021-ec15-450e-9af3-a840a920a1aa")
+		(property "Sheetname" "ESP34"
+			(at 160.02 142.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ESP32.kicad_sch"
+			(at 160.02 163.1446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller"
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 35.56)
+		(size 33.02 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e70789ad-230b-4d46-b635-87f45083e468")
+		(property "Sheetname" "POWER"
+			(at 58.42 34.8484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 58.42 55.1946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "VBUS" input
+			(at 91.44 50.8 0)
+			(uuid "cfdfd2c5-96a7-4083-9c4e-3f7577bcbbe0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "controller"
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
