@@ -432,7 +432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "z_Devices:TFT-320x240"
+		(property "Footprint" "SamacSys_Parts:TFT-320x240"
 			(at 157.48 74.9299 0)
 			(effects
 				(font

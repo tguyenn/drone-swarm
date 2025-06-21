@@ -12,4 +12,40 @@ K
 F 
 $ENDCMP
 #
+$CMP LO_M676-Q2S1-24-Z
+D Standard LEDs - SMD Orange, 606nm 224mcd, 20mA
+K
+F https://www.mouser.in/datasheet/2/588/Osram_7222021_LY__M676_EN-2891431.pdf
+$ENDCMP
+#
+$CMP UHD111A-FKA-C3K23E1L3VG5ZB3Z3
+D Red, Green, Blue (RGB) 620nm Red, 526nm Green, 467nm Blue LED Indication - Discrete 2V Red, 2.7V Green, 2.7V Blue 0404 (1010 Metric)
+K
+F https://downloads.cree-led.com/files/ds/h/HB-UHD111A-FKA.pdf
+$ENDCMP
+#
+$CMP PCA9685PW_Q900,118
+D NXP - PCA9685PW/Q900,118 - LED DRIVER, AEC-Q100, 16-CH, TSSOP-20
+K
+F http://www.nxp.com/docs/en/data-sheet/PCA9685.pdf
+$ENDCMP
+#
+$CMP RK73B2ATTD151J
+D KOA Thick Film Surface Mount Resistor 0805 Case 150 +/-5% 0.25W +/-200ppm/C
+K
+F https://www.arrow.com/en/products/rk73b2attd151j/koa-speer-electronics
+$ENDCMP
+#
+$CMP RNCE0805BTE100R
+D Thin Film Resistors - SMD 100Ohms 0805 25ppm 1/8W 150V 0.1% Hi Temp/Stability
+K
+F https://www.seielect.com/Catalog/SEI-rnce.PDF
+$ENDCMP
+#
+$CMP CY7C65213-32LTXI
+D USB Interface IC USB-UART LP Bridge Controller
+K
+F https://www.cypress.com/file/139881/download
+$ENDCMP
+#
 #End Doc Library
