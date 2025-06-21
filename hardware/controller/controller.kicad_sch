@@ -90,6 +90,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -132,26 +133,27 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "SCL" input
-			(at 186.69 101.6 0)
+			(at 153.67 100.33 180)
 			(uuid "8b61db5d-8bfc-407a-a3ec-c26860714782")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(pin "SDA" bidirectional
-			(at 186.69 104.14 0)
+			(at 153.67 102.87 180)
 			(uuid "651d5c87-ac69-48bb-b702-b6676d9ebea9")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 		(instances
@@ -194,11 +196,12 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
-		(pin "BUT1" output
-			(at 91.44 90.17 0)
-			(uuid "959784ea-0a9c-4f6d-9aba-7e4f093e6176")
+		(pin "BUT_BOOT" output
+			(at 91.44 91.44 0)
+			(uuid "5ea55227-9744-4ce9-a846-a35b33d7198e")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -206,9 +209,9 @@
 				(justify right)
 			)
 		)
-		(pin "BUT2" output
-			(at 91.44 92.71 0)
-			(uuid "99a457fe-b8a2-4136-9a1d-212fcd8c3d73")
+		(pin "BUT_DWN" output
+			(at 91.44 96.52 0)
+			(uuid "7913bd3f-ffe1-463e-a1fd-ba1f12ebc140")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -216,9 +219,9 @@
 				(justify right)
 			)
 		)
-		(pin "BUT3" output
-			(at 91.44 95.25 0)
-			(uuid "b969ff80-c1ca-4073-afab-3b8dd34472dc")
+		(pin "BUT_LFT" output
+			(at 91.44 99.06 0)
+			(uuid "644311b9-2105-4575-85ae-70ac79c86687")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -226,9 +229,9 @@
 				(justify right)
 			)
 		)
-		(pin "BUT4" output
-			(at 91.44 97.79 0)
-			(uuid "0f6092ba-b66c-4c5e-810b-021e7fe9f85e")
+		(pin "BUT_RHT" output
+			(at 91.44 101.6 0)
+			(uuid "71b860b0-d11c-47a1-b576-0766a1ece1ce")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -236,9 +239,9 @@
 				(justify right)
 			)
 		)
-		(pin "JOY_ADC1" output
-			(at 91.44 100.33 0)
-			(uuid "bbf71206-6958-4b0a-a579-6385fb3186ac")
+		(pin "BUT_RST" output
+			(at 91.44 88.9 0)
+			(uuid "b8568d89-24ef-4a25-9e84-58e4df6076dd")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -246,9 +249,9 @@
 				(justify right)
 			)
 		)
-		(pin "JOY_ADC2" output
-			(at 91.44 102.87 0)
-			(uuid "827433f7-a50b-4a7e-80a4-8d8e3953dc9d")
+		(pin "BUT_UP" output
+			(at 91.44 93.98 0)
+			(uuid "f31738dd-25a9-4398-aa5b-79d6169c9c42")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -256,9 +259,9 @@
 				(justify right)
 			)
 		)
-		(pin "JOY_BUT1" output
-			(at 91.44 105.41 0)
-			(uuid "d836e329-5fb9-4d72-b075-79d363d4dceb")
+		(pin "JOY1_H" output
+			(at 91.44 104.14 0)
+			(uuid "8bd265f4-49de-4ab4-9ba5-c1296cc75001")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -266,9 +269,9 @@
 				(justify right)
 			)
 		)
-		(pin "JOY_BUT2" output
-			(at 91.44 107.95 0)
-			(uuid "47a2e738-ae2d-4133-bddc-03321947880a")
+		(pin "JOY1_V" output
+			(at 91.44 106.68 0)
+			(uuid "e1ba6af7-2e3e-4190-8b85-604a760bdb7d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -276,9 +279,9 @@
 				(justify right)
 			)
 		)
-		(pin "BOOT" output
-			(at 91.44 110.49 0)
-			(uuid "12491437-7fd4-4394-8870-35a98d3463d6")
+		(pin "JOY2_H" output
+			(at 91.44 109.22 0)
+			(uuid "a7d38819-1616-41d6-8840-4b9b4630eb63")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -286,9 +289,9 @@
 				(justify right)
 			)
 		)
-		(pin "RESET" output
-			(at 91.44 113.03 0)
-			(uuid "5ef3103e-61f9-4a43-b7e3-8719f02b2e6f")
+		(pin "JOY2_V" output
+			(at 91.44 111.76 0)
+			(uuid "e8b07e47-08ea-4476-a294-77b8891f5279")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -336,6 +339,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "VBUS" output
@@ -408,6 +412,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "D+" input
@@ -490,6 +495,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -501,7 +507,7 @@
 		)
 	)
 	(sheet
-		(at 58.42 121.92)
+		(at 153.67 120.65)
 		(size 33.02 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -517,7 +523,7 @@
 		)
 		(uuid "a91903fe-ee0b-42c2-9d54-da8a7ff8ed7e")
 		(property "Sheetname" "LCD"
-			(at 58.42 121.2084 0)
+			(at 153.67 119.9384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -526,12 +532,13 @@
 			)
 		)
 		(property "Sheetfile" "LCD.kicad_sch"
-			(at 58.42 141.5546 0)
+			(at 153.67 140.2846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(instances
@@ -574,6 +581,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "VBUS" input

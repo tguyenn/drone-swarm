@@ -30,4 +30,9 @@
 - Power led
 - Multicolor Runtime led
 - External flash for graphics?
-    - might not need since ESP32 
+- USBC / LiPo battery charging and power
+    - Physical board switch
+- Support two operational modes:
+    - Determine by switch position
+    - On (drone control software config and control)
+    - Off (allow battery to be charged) 

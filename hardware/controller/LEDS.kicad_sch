@@ -5,6 +5,189 @@
 	(uuid "a3707a06-544a-4d24-b7af-4445ebcdfd54")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Device:LED"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Light emitting diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED* LED_SMD:* LED_THT:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -3.048 -0.762) (xy -4.572 -2.286) (xy -3.81 -2.286) (xy -4.572 -2.286) (xy -4.572 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.778 -0.762) (xy -3.302 -2.286) (xy -2.54 -2.286) (xy -3.302 -2.286) (xy -3.302 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -937,6 +1120,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V3"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V3\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V3_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V3_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1163,6 +1471,32 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "todo: find bigger RGB leds"
+		(exclude_from_sim no)
+		(at 122.682 32.004 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "716fab85-e185-40c8-8a64-f024a0bb50fe")
+	)
+	(no_connect
+		(at 63.5 78.74)
+		(uuid "195a6378-3fcf-48a1-8444-e01f2c1ff532")
+	)
+	(no_connect
+		(at 63.5 73.66)
+		(uuid "467c7587-d3df-4d37-b096-0b2c9bff60a5")
+	)
+	(no_connect
+		(at 63.5 76.2)
+		(uuid "85142ccc-00c5-4f1b-910c-5e7e3f137d51")
+	)
+	(no_connect
+		(at 63.5 81.28)
+		(uuid "c0b22106-2b9e-4b38-94b9-88f6441f24da")
 	)
 	(wire
 		(pts
@@ -1415,7 +1749,7 @@
 		(uuid "0ff4db80-f0ab-4e84-a9c7-616c2706fc54")
 	)
 	(label "C_BLU1"
-		(at 63.5 88.9 0)
+		(at 63.5 91.44 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1495,7 +1829,7 @@
 		(uuid "432a7f36-30c5-4e48-ba1d-33f93605c70e")
 	)
 	(label "C_BLU2"
-		(at 63.5 86.36 0)
+		(at 63.5 88.9 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1525,7 +1859,7 @@
 		(uuid "617c1fff-1446-4207-852f-553a3a172c56")
 	)
 	(label "C_BLU3"
-		(at 63.5 83.82 0)
+		(at 63.5 86.36 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1605,7 +1939,7 @@
 		(uuid "d4b46937-34e1-48aa-a322-8fe297f8d87b")
 	)
 	(label "C_BLU4"
-		(at 63.5 81.28 0)
+		(at 63.5 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1675,7 +2009,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "1e0e89ac-28ee-4577-a5eb-4e2e1a0c10d7")
-		(property "Reference" "R11"
+		(property "Reference" "R14"
 			(at 150.368 110.49 0)
 			(effects
 				(font
@@ -1700,7 +2034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rnce.PDF"
+		(property "Datasheet" "~"
 			(at 147.32 110.49 0)
 			(effects
 				(font
@@ -1744,12 +2078,8 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "R11")
-					(unit 1)
-				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "R11")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -1765,7 +2095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "229fb8fb-38fc-425d-867a-cee9853580cc")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR011"
 			(at 106.68 55.88 0)
 			(effects
 				(font
@@ -1819,7 +2149,7 @@
 					(unit 1)
 				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "#PWR02")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -1834,7 +2164,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "24020dbb-4211-4090-8602-bc6148359cde")
-		(property "Reference" "LED2"
+		(property "Reference" "LED1"
 			(at 112.268 38.862 0)
 			(effects
 				(font
@@ -1943,12 +2273,8 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "LED2")
-					(unit 1)
-				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "LED2")
+					(reference "LED1")
 					(unit 1)
 				)
 			)
@@ -1963,7 +2289,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2a0f8678-18a1-45e2-9c60-fdcaa45469ca")
-		(property "Reference" "LED5"
+		(property "Reference" "LED4"
 			(at 112.268 99.822 0)
 			(effects
 				(font
@@ -2072,12 +2398,74 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "LED5")
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
+					(reference "LED4")
 					(unit 1)
 				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 201.93 60.96 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "341568d5-95bd-4159-92fa-435c5e32c309")
+		(property "Reference" "#PWR015"
+			(at 201.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 201.93 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 201.93 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cad49ce1-6c30-4993-baee-955d09fa5322")
+		)
+		(instances
+			(project ""
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "LED5")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -2092,7 +2480,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3ae260c9-c496-49c6-adf2-35e230de3671")
-		(property "Reference" "R9"
+		(property "Reference" "R17"
 			(at 164.592 93.726 0)
 			(effects
 				(font
@@ -2117,7 +2505,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rnce.PDF"
+		(property "Datasheet" "~"
 			(at 161.29 93.98 0)
 			(effects
 				(font
@@ -2161,12 +2549,8 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "R9")
-					(unit 1)
-				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "R9")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -2182,7 +2566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5d78165a-9bb1-4292-b6d2-4c13de20afe4")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR014"
 			(at 106.68 116.84 0)
 			(effects
 				(font
@@ -2231,12 +2615,111 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "#PWR07")
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
+					(reference "#PWR014")
 					(unit 1)
 				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 201.93 72.39 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6cf5ac88-b1cb-4e8a-b942-738be49000e5")
+		(property "Reference" "R19"
+			(at 210.312 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "150R"
+			(at 205.74 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "RESC2012X60N"
+			(at 203.708 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 201.93 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "KOA Speer"
+			(at 201.93 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "RK73B2ATTD151J"
+			(at 201.93 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "660-RK73B2ATTD151J"
+			(at 201.93 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KOA-Speer/RK73B2ATTD151J?qs=Eg3swSo9kV1ngoeZFqQs4w%3D%3D"
+			(at 201.93 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b20d2aa-097f-4946-bc95-f7e46210028b")
+		)
+		(pin "2"
+			(uuid "d8a98db2-80e5-4efa-86f5-a43a14edda65")
+		)
+		(instances
+			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "#PWR08")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2251,7 +2734,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6f4d2d47-8549-44e1-beab-99957e42461e")
-		(property "Reference" "R1"
+		(property "Reference" "R7"
 			(at 144.272 44.45 0)
 			(effects
 				(font
@@ -2276,7 +2759,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.arrow.com/en/products/rk73b2attd151j/koa-speer-electronics"
+		(property "Datasheet" "~"
 			(at 135.89 44.45 0)
 			(effects
 				(font
@@ -2338,12 +2821,8 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "R1")
-					(unit 1)
-				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "R1")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -2358,7 +2837,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "6fd65ad0-5365-4168-a3b8-6e5e09eaec6f")
-		(property "Reference" "R4"
+		(property "Reference" "R8"
 			(at 144.272 64.77 0)
 			(effects
 				(font
@@ -2383,7 +2862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.arrow.com/en/products/rk73b2attd151j/koa-speer-electronics"
+		(property "Datasheet" "~"
 			(at 135.89 64.77 0)
 			(effects
 				(font
@@ -2445,12 +2924,8 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "R4")
-					(unit 1)
-				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "R4")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -2465,7 +2940,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83dc8eb9-a761-4cbc-adbe-32903f225562")
-		(property "Reference" "R8"
+		(property "Reference" "R13"
 			(at 150.368 90.17 0)
 			(effects
 				(font
@@ -2490,7 +2965,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rnce.PDF"
+		(property "Datasheet" "~"
 			(at 147.32 90.17 0)
 			(effects
 				(font
@@ -2534,12 +3009,8 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "R8")
-					(unit 1)
-				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "R8")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -2555,7 +3026,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97bf1e04-f658-4400-8915-6458727687b4")
-		(property "Reference" "IC1"
+		(property "Reference" "IC2"
 			(at 48.26 50.8 0)
 			(effects
 				(font
@@ -2736,12 +3207,8 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "IC1")
-					(unit 1)
-				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "IC1")
+					(reference "IC2")
 					(unit 1)
 				)
 			)
@@ -2756,7 +3223,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a36ec595-75be-4f67-aa2c-660453f50a5c")
-		(property "Reference" "R7"
+		(property "Reference" "R9"
 			(at 144.272 85.09 0)
 			(effects
 				(font
@@ -2781,7 +3248,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.arrow.com/en/products/rk73b2attd151j/koa-speer-electronics"
+		(property "Datasheet" "~"
 			(at 135.89 85.09 0)
 			(effects
 				(font
@@ -2843,12 +3310,8 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "R7")
-					(unit 1)
-				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "R7")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -2864,7 +3327,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9ad52e1-f529-4090-a760-409aaad05419")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR09"
 			(at 33.02 97.79 0)
 			(effects
 				(font
@@ -2918,7 +3381,7 @@
 					(unit 1)
 				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "#PWR010")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -2933,7 +3396,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ab426ebb-0964-49a8-92ce-08b257647828")
-		(property "Reference" "R3"
+		(property "Reference" "R15"
 			(at 164.592 53.086 0)
 			(effects
 				(font
@@ -2958,7 +3421,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rnce.PDF"
+		(property "Datasheet" "~"
 			(at 161.29 53.34 0)
 			(effects
 				(font
@@ -3002,12 +3465,8 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "R3")
-					(unit 1)
-				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "R3")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3022,7 +3481,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ae24d0f7-614c-4395-bf48-c80608575756")
-		(property "Reference" "R6"
+		(property "Reference" "R16"
 			(at 164.592 73.406 0)
 			(effects
 				(font
@@ -3047,7 +3506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rnce.PDF"
+		(property "Datasheet" "~"
 			(at 161.29 73.66 0)
 			(effects
 				(font
@@ -3091,12 +3550,137 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "R6")
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
+					(reference "R16")
 					(unit 1)
 				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 201.93 64.77 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b46ae93b-69c0-4dc4-ad43-5546eade1947")
+		(property "Reference" "LED5"
+			(at 205.74 65.0874 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "LO_M676-Q2S1-24-Z"
+			(at 205.74 67.6274 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "LEDM2214X140N"
+			(at 201.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 201.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 201.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1.4"
+			(at 595.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "720-LOM676Q2S124Z"
+			(at 695.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/OSRAM-Opto-Semiconductors/LO-M676-Q2S1-24-Z?qs=nTDll3UaDK6JlNmxoQCpEQ%3D%3D"
+			(at 795.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ams OSRAM"
+			(at 895.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "LO M676-Q2S1-24-Z"
+			(at 995.58 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 201.93 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2df4b121-cc98-440e-b803-16487ef1eb82")
+		)
+		(pin "1"
+			(uuid "d041a70a-13e1-4305-ae8c-55f0d397259d")
+		)
+		(instances
+			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "R6")
+					(reference "LED5")
 					(unit 1)
 				)
 			)
@@ -3112,7 +3696,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b6e82441-e2af-4e20-9246-c5aa6a7c8fd5")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR013"
 			(at 106.68 96.52 0)
 			(effects
 				(font
@@ -3161,12 +3745,8 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "#PWR05")
-					(unit 1)
-				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "#PWR06")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -3181,7 +3761,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b75e4371-7ee2-47ca-9d54-fff558a38dc4")
-		(property "Reference" "R2"
+		(property "Reference" "R11"
 			(at 150.368 49.53 0)
 			(effects
 				(font
@@ -3206,7 +3786,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rnce.PDF"
+		(property "Datasheet" "~"
 			(at 147.32 49.53 0)
 			(effects
 				(font
@@ -3250,12 +3830,74 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "R2")
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
+					(reference "R11")
 					(unit 1)
 				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 201.93 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b767bca7-75b9-4655-b864-e8937cac5abb")
+		(property "Reference" "#PWR016"
+			(at 201.93 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 201.93 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f284f5db-d542-4aa5-894e-1b700593a815")
+		)
+		(instances
+			(project ""
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "R2")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -3270,7 +3912,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c22da49b-a1c1-4461-aae7-7c44c556b73a")
-		(property "Reference" "LED4"
+		(property "Reference" "LED3"
 			(at 112.268 79.502 0)
 			(effects
 				(font
@@ -3379,12 +4021,8 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "LED4")
-					(unit 1)
-				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "LED4")
+					(reference "LED3")
 					(unit 1)
 				)
 			)
@@ -3399,7 +4037,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d657ddfc-88c5-48db-8a2a-40f317274202")
-		(property "Reference" "R5"
+		(property "Reference" "R12"
 			(at 150.368 69.85 0)
 			(effects
 				(font
@@ -3424,7 +4062,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rnce.PDF"
+		(property "Datasheet" "~"
 			(at 147.32 69.85 0)
 			(effects
 				(font
@@ -3468,12 +4106,8 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "R5")
-					(unit 1)
-				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "R5")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -3488,7 +4122,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e558a7c4-fb71-44cb-b2d0-176cbce7da6f")
-		(property "Reference" "R12"
+		(property "Reference" "R18"
 			(at 164.592 114.046 0)
 			(effects
 				(font
@@ -3513,7 +4147,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.seielect.com/Catalog/SEI-rnce.PDF"
+		(property "Datasheet" "~"
 			(at 161.29 114.3 0)
 			(effects
 				(font
@@ -3557,12 +4191,8 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "R12")
-					(unit 1)
-				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "R12")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -3578,7 +4208,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6bb7f46-ae64-4b1d-b29b-cc8b5d627687")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR012"
 			(at 106.68 76.2 0)
 			(effects
 				(font
@@ -3627,12 +4257,8 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "#PWR03")
-					(unit 1)
-				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "#PWR04")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -3647,7 +4273,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "eda54cc9-2e6b-4128-9cf9-a1caaf596632")
-		(property "Reference" "LED3"
+		(property "Reference" "LED2"
 			(at 112.268 59.182 0)
 			(effects
 				(font
@@ -3756,12 +4382,8 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "LED3")
-					(unit 1)
-				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "LED3")
+					(reference "LED2")
 					(unit 1)
 				)
 			)
@@ -3777,7 +4399,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f28e2077-5939-40e2-8a10-b7049ee7301a")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR010"
 			(at 63.5 62.23 0)
 			(effects
 				(font
@@ -3826,12 +4448,8 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "#PWR011")
-					(unit 1)
-				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
-					(reference "#PWR012")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -3871,7 +4489,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.arrow.com/en/products/rk73b2attd151j/koa-speer-electronics"
+		(property "Datasheet" "~"
 			(at 135.89 105.41 0)
 			(effects
 				(font
@@ -3933,10 +4551,6 @@
 		)
 		(instances
 			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "R10")
-					(unit 1)
-				)
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/1db4bee0-4e23-41b0-8f30-8f71981fa175"
 					(reference "R10")
 					(unit 1)

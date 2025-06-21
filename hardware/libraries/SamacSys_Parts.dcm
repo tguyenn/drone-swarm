@@ -48,4 +48,16 @@ K
 F https://www.cypress.com/file/139881/download
 $ENDCMP
 #
+$CMP ASC0805-10KFT5
+D WELWYN - ASC0805-10KFT5 - RESISTOR, ANTI SULPHUR, 10K, 0.125W, 1%
+K
+F https://componentsearchengine.com/Datasheets/2/ASC0805-10KFT5.pdf
+$ENDCMP
+#
+$CMP OS102011MS2QS1
+D SWITCH SLIDE SPDT 100MA 12V
+K
+F https://www.ckswitches.com/media/1428/os.pdf
+$ENDCMP
+#
 #End Doc Library
