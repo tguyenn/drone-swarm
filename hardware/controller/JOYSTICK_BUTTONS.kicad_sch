@@ -129,157 +129,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "ECE319K:SW_Push"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "SW101"
-				(at 1.27 -1.27 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Value" "UP"
-				(at -1.27 -1.27 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify right)
-				)
-			)
-			(property "Footprint" "ECE319K:SW_PUSH_6mm"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Push button switch, generic, two pins"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch normally-open pushbutton push-button"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SW_Push_0_1"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 3.048)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SamacSys_Parts:Joystick_Sparkfun_COM-09032"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1080,6 +929,106 @@
 		(at 121.92 55.88)
 		(uuid "bd0f6265-fc96-453e-8a57-7d141c1a43d0")
 	)
+	(bus_entry
+		(at 214.63 69.85)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23cdb22f-4885-4fd1-8d9c-4c24eadbb87d")
+	)
+	(bus_entry
+		(at 214.63 82.55)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35675102-9e4a-4b2e-9065-a7d271fb317e")
+	)
+	(bus_entry
+		(at 214.63 85.09)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43afb33e-603d-4aef-8add-f76e2fc99c94")
+	)
+	(bus_entry
+		(at 214.63 87.63)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a8af523-a0ef-4a96-ba3b-79de7679338d")
+	)
+	(bus_entry
+		(at 214.63 67.31)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7abe386d-2b73-46bb-8706-de0d08587e0f")
+	)
+	(bus_entry
+		(at 214.63 80.01)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3183e7b-a211-49cf-a714-38e083b15c5d")
+	)
+	(bus_entry
+		(at 214.63 72.39)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d495570d-0d51-458a-b093-6dcae5753d9c")
+	)
+	(bus_entry
+		(at 214.63 74.93)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d801bd39-5de9-49de-b0db-a28fb658ba02")
+	)
+	(bus_entry
+		(at 214.63 90.17)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd42dfd6-fdab-40e5-88b2-79c5f405f5d1")
+	)
+	(bus_entry
+		(at 214.63 77.47)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f59c8d3e-f81d-44aa-a160-13f50911703a")
+	)
+	(bus
+		(pts
+			(xy 217.17 74.93) (xy 217.17 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "047a6562-a6aa-4ca6-9842-583dc602027a")
+	)
 	(wire
 		(pts
 			(xy 147.32 120.65) (xy 146.05 120.65)
@@ -1089,6 +1038,16 @@
 			(type default)
 		)
 		(uuid "071115ca-5b93-44ec-8464-aaf3bd75b716")
+	)
+	(bus
+		(pts
+			(xy 217.17 77.47) (xy 217.17 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08dda250-c820-4bcb-9dcf-eab89000f3a1")
 	)
 	(wire
 		(pts
@@ -1100,6 +1059,26 @@
 		)
 		(uuid "16877c63-9386-4ec6-b7cf-c243cf7259a9")
 	)
+	(bus
+		(pts
+			(xy 217.17 80.01) (xy 217.17 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ccbc31-1534-46b2-af49-5bfbf5f890f3")
+	)
+	(bus
+		(pts
+			(xy 217.17 69.85) (xy 217.17 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17ce00d3-f42e-4c14-aca2-fea3e34bdd54")
+	)
 	(wire
 		(pts
 			(xy 120.65 120.65) (xy 120.65 123.19)
@@ -1109,6 +1088,26 @@
 			(type default)
 		)
 		(uuid "1d4b3400-90c9-453c-a317-bc8db72db170")
+	)
+	(bus
+		(pts
+			(xy 217.17 85.09) (xy 217.17 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20c2b49f-ee0e-490d-abbf-87a4cfeaa8fd")
+	)
+	(wire
+		(pts
+			(xy 207.01 74.93) (xy 214.63 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2145c627-a6ca-4884-a1ad-a2b70667f28c")
 	)
 	(wire
 		(pts
@@ -1140,6 +1139,16 @@
 		)
 		(uuid "294e3c64-33a3-483b-b30c-8f6f077c7f1b")
 	)
+	(bus
+		(pts
+			(xy 217.17 82.55) (xy 217.17 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2a403db9-b827-4485-8e28-db559d3ed926")
+	)
 	(wire
 		(pts
 			(xy 181.61 135.89) (xy 181.61 130.81)
@@ -1152,6 +1161,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 80.01) (xy 214.63 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3063d868-76a4-4201-9803-b083d15dd97a")
+	)
+	(wire
+		(pts
 			(xy 128.27 135.89) (xy 133.35 135.89)
 		)
 		(stroke
@@ -1159,6 +1178,16 @@
 			(type default)
 		)
 		(uuid "314d7e40-61f4-4d1a-973f-4282f93de77f")
+	)
+	(bus
+		(pts
+			(xy 217.17 90.17) (xy 217.17 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36507159-9dbd-4826-98f7-cebf703cd1b9")
 	)
 	(wire
 		(pts
@@ -1219,6 +1248,16 @@
 			(type default)
 		)
 		(uuid "48d09965-b59f-434b-b6d5-be907472ba76")
+	)
+	(bus
+		(pts
+			(xy 217.17 92.71) (xy 217.17 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48eba62e-63b8-444c-8d9d-d543469887d3")
 	)
 	(wire
 		(pts
@@ -1322,6 +1361,26 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 87.63) (xy 214.63 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "720db0ca-1e6f-4d2f-a423-51616e233155")
+	)
+	(wire
+		(pts
+			(xy 207.01 85.09) (xy 214.63 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b5f1c8-2d06-4d70-bc5c-2be8857107a3")
+	)
+	(wire
+		(pts
 			(xy 118.11 39.37) (xy 121.92 39.37)
 		)
 		(stroke
@@ -1380,6 +1439,16 @@
 		)
 		(uuid "8c8428ed-c758-4da5-864e-9b4a56fc5a4f")
 	)
+	(bus
+		(pts
+			(xy 217.17 66.04) (xy 217.17 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0b96e4-6d0d-4705-9e4e-16dc27dd369e")
+	)
 	(wire
 		(pts
 			(xy 121.92 120.65) (xy 120.65 120.65)
@@ -1392,13 +1461,13 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 36.83) (xy 140.97 36.83)
+			(xy 207.01 82.55) (xy 214.63 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "90f02822-bbf8-4dd8-a89b-c4b02c032122")
+		(uuid "8e74290e-b752-4ac4-8d39-64d02e2dfeec")
 	)
 	(wire
 		(pts
@@ -1460,6 +1529,26 @@
 		)
 		(uuid "a848ebaa-1fe3-4a57-824c-3e9929c35a06")
 	)
+	(bus
+		(pts
+			(xy 217.17 95.25) (xy 219.71 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a8f9b807-d15b-45e1-ab84-6218636a1d2a")
+	)
+	(wire
+		(pts
+			(xy 140.97 36.83) (xy 138.43 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aef17151-ee3f-4a15-a9c3-d064649bc2c1")
+	)
 	(wire
 		(pts
 			(xy 172.72 101.6) (xy 172.72 102.87)
@@ -1470,6 +1559,26 @@
 		)
 		(uuid "b84bdaa2-1a96-444d-90e2-3b505fea3b38")
 	)
+	(bus
+		(pts
+			(xy 217.17 87.63) (xy 217.17 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba71cea5-c99c-433f-91c5-65b7415a9390")
+	)
+	(wire
+		(pts
+			(xy 207.01 77.47) (xy 214.63 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "befa5904-b82f-48b6-a9c8-72a16bad53cb")
+	)
 	(wire
 		(pts
 			(xy 118.11 71.12) (xy 118.11 76.2)
@@ -1479,6 +1588,16 @@
 			(type default)
 		)
 		(uuid "c03b5b99-f53e-4103-8965-9845e82d1c1e")
+	)
+	(wire
+		(pts
+			(xy 207.01 90.17) (xy 214.63 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c22dfe79-0276-42c4-b725-708c16f97095")
 	)
 	(wire
 		(pts
@@ -1512,6 +1631,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 67.31) (xy 214.63 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4a49076-a838-4040-9262-6ec732191ea7")
+	)
+	(wire
+		(pts
 			(xy 171.45 135.89) (xy 181.61 135.89)
 		)
 		(stroke
@@ -1529,6 +1658,16 @@
 			(type default)
 		)
 		(uuid "ca2927bd-73be-466c-bd4e-549cb99d655b")
+	)
+	(bus
+		(pts
+			(xy 217.17 72.39) (xy 217.17 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb5aca00-1563-438e-8861-8c8d867b9391")
 	)
 	(wire
 		(pts
@@ -1602,6 +1741,16 @@
 	)
 	(wire
 		(pts
+			(xy 207.01 69.85) (xy 214.63 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df6d960f-f360-4616-8a1a-5ca65fa89735")
+	)
+	(wire
+		(pts
 			(xy 120.65 130.81) (xy 120.65 135.89)
 		)
 		(stroke
@@ -1609,6 +1758,16 @@
 			(type default)
 		)
 		(uuid "e311c7df-1269-4bb0-acff-fd43c4db9583")
+	)
+	(wire
+		(pts
+			(xy 207.01 72.39) (xy 214.63 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edfe4102-3153-4f9f-8f7a-4835544602ae")
 	)
 	(wire
 		(pts
@@ -1670,115 +1829,216 @@
 		)
 		(uuid "ffeb61e1-47ae-4c71-a733-c82feb67b6c1")
 	)
-	(hierarchical_label "JOY2_V"
-		(shape output)
-		(at 140.97 68.58 0)
+	(label "BUT_RIGHT"
+		(at 207.01 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right bottom)
 		)
-		(uuid "276b0309-8670-44c9-a3ec-b51f4be68eb1")
+		(uuid "024dcc05-2420-408b-8347-0e9f037029ac")
 	)
-	(hierarchical_label "JOY1_H"
-		(shape output)
-		(at 140.97 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "296a4c0e-60e6-467b-8d7c-7d2875a89b21")
-	)
-	(hierarchical_label "JOY2_H"
-		(shape output)
-		(at 140.97 81.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3365190f-6dc2-48fd-aa35-c30c5e5b741e")
-	)
-	(hierarchical_label "BUT_RHT"
-		(shape output)
-		(at 147.32 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "3f303db3-ad89-49c7-a3aa-3ab72c6553b4")
-	)
-	(hierarchical_label "BUT_UP"
-		(shape output)
-		(at 110.49 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "665d3e6d-adbe-47c1-922d-26170cf96d16")
-	)
-	(hierarchical_label "BUT_BOOT"
-		(shape output)
-		(at 167.64 120.65 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "8f1e09fc-be22-4b0f-b25b-34710da4ccc2")
-	)
-	(hierarchical_label "BUT_DWN"
-		(shape output)
+	(label "BUT_DOWN"
 		(at 134.62 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "ceaaf9ec-70e6-4e41-be96-d28a73910b0f")
+		(uuid "15fd4442-857a-4406-a152-d16ba1e032e9")
 	)
-	(hierarchical_label "BUT_LFT"
-		(shape output)
-		(at 121.92 120.65 0)
+	(label "JOY1_H"
+		(at 140.97 49.53 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "e834a698-5ec1-4677-a5bc-bcf275fd0d15")
+		(uuid "51d2c856-680b-4b73-baaf-0cf4810f4a67")
 	)
-	(hierarchical_label "BUT_RST"
-		(shape output)
+	(label "BUT_DOWN"
+		(at 207.01 82.55 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54c239fc-2bce-4cb5-a294-e40dfab44466")
+	)
+	(label "JOY2_H"
+		(at 140.97 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "61562aa4-8b52-45bc-bb83-0ff255658d48")
+	)
+	(label "BUT_RESET"
+		(at 207.01 90.17 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6e0d875a-a131-4faa-b085-6db2ad09169a")
+	)
+	(label "JOY2_V"
+		(at 207.01 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6f749c9c-62c5-4101-8293-ccf61f1ed880")
+	)
+	(label "BUT_RESET"
 		(at 182.88 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify left bottom)
 		)
-		(uuid "e9f619d0-adcf-4a27-8820-9c22cff2225e")
+		(uuid "7842940d-6bc7-4c41-85a0-59554ff985be")
 	)
-	(hierarchical_label "JOY1_V"
-		(shape output)
+	(label "JOY1_V"
 		(at 140.97 36.83 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7d44a7bb-8163-4c42-84f1-4ee9856cb892")
+	)
+	(label "BUT_RIGHT"
+		(at 147.32 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8210ba02-12be-4b46-8713-25dff7cdf7c4")
+	)
+	(label "JOY2_H"
+		(at 207.01 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8aac504a-585c-4d17-9958-0ad8a78191b0")
+	)
+	(label "BUT_UP"
+		(at 207.01 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8ddd1d0d-f6d8-4608-905c-895e977f33d5")
+	)
+	(label "BUT_BOOT"
+		(at 167.64 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "909898eb-4af7-4c59-ac07-f64202042098")
+	)
+	(label "JOY1_V"
+		(at 207.01 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a0e7416c-f8a8-43bc-816c-682d63b55202")
+	)
+	(label "JOY2_V"
+		(at 140.97 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf8a568f-96ff-4292-9d50-197d15bd51a5")
+	)
+	(label "BUT_LEFT"
+		(at 121.92 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d2198b6e-375e-49d7-9dcf-396f87ae725a")
+	)
+	(label "BUT_BOOT"
+		(at 207.01 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e39cf01c-2623-4e6e-88ff-79be46a0dba8")
+	)
+	(label "BUT_LEFT"
+		(at 207.01 80.01 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4e0b6b9-8ca7-495a-aba2-25c4da948ebb")
+	)
+	(label "JOY1_H"
+		(at 207.01 69.85 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e9430d9b-6fdc-47d8-8736-b2f269004cde")
+	)
+	(label "BUT_UP"
+		(at 110.49 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f088428b-20d8-4cc8-b6d7-782aa08af4bb")
+	)
+	(hierarchical_label "BUT_JOY{BUT_JOY_BUS}"
+		(shape output)
+		(at 219.71 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "f3c88aaf-3f31-4b88-adfd-cc0fdadb3f42")
+		(uuid "e1e5fbb2-8f74-4c10-9d24-182efe89afb5")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1967,7 +2227,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE319K:SW_Push")
+		(lib_id "Switch:SW_Push")
 		(at 109.22 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2012,7 +2272,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 109.22 111.76 0)
 			(effects
 				(font
@@ -2037,7 +2297,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE319K:SW_Push")
+		(lib_id "Switch:SW_Push")
 		(at 120.65 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2047,7 +2307,7 @@
 		(fields_autoplaced yes)
 		(uuid "2e0a5148-83d3-4519-8d8d-9b15e6357f07")
 		(property "Reference" "SW2"
-			(at 121.92 110.49 90)
+			(at 121.92 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2056,7 +2316,7 @@
 			)
 		)
 		(property "Value" "LEFT"
-			(at 121.92 113.03 90)
+			(at 121.92 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2082,7 +2342,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 120.65 111.76 0)
 			(effects
 				(font
@@ -2248,7 +2508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 127 102.87 0)
 			(effects
 				(font
@@ -2518,7 +2778,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
 			(at 172.72 101.6 0)
 			(effects
 				(font
@@ -3009,7 +3269,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE319K:SW_Push")
+		(lib_id "Switch:SW_Push")
 		(at 133.35 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3019,7 +3279,7 @@
 		(fields_autoplaced yes)
 		(uuid "9a12d628-ef8e-49c7-90fe-4390ef0359c2")
 		(property "Reference" "SW3"
-			(at 134.62 110.49 90)
+			(at 134.62 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3028,7 +3288,7 @@
 			)
 		)
 		(property "Value" "DOWN"
-			(at 134.62 113.03 90)
+			(at 134.62 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,7 +3314,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 133.35 111.76 0)
 			(effects
 				(font
@@ -3243,7 +3503,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 128.27 135.89 0)
 			(effects
 				(font
@@ -3451,7 +3711,7 @@
 		)
 	)
 	(symbol
-		(lib_id "ECE319K:SW_Push")
+		(lib_id "Switch:SW_Push")
 		(at 146.05 111.76 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -3461,7 +3721,7 @@
 		(fields_autoplaced yes)
 		(uuid "f9b19f80-5a95-459a-87b7-c46296325098")
 		(property "Reference" "SW4"
-			(at 147.32 110.49 90)
+			(at 147.32 110.4899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3470,7 +3730,7 @@
 			)
 		)
 		(property "Value" "RGHT"
-			(at 147.32 113.03 90)
+			(at 147.32 113.0299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3496,7 +3756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Push button switch, generic, two pins"
 			(at 146.05 111.76 0)
 			(effects
 				(font

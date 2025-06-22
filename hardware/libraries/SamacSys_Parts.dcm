@@ -60,4 +60,46 @@ K
 F https://www.ckswitches.com/media/1428/os.pdf
 $ENDCMP
 #
+$CMP FH4000074Z
+D Crystals 40.000MHz 8pF 10ppm -30 to +85
+K
+F 
+$ENDCMP
+#
+$CMP 746X101104JP
+D Resistor Networks & Arrays 100Kohms 25V 5%
+K
+F 
+$ENDCMP
+#
+$CMP SMAJ5.0CA
+D Littelfuse SMAJ5.0CA Bi-Directional TVS Diode, 400W peak, 2-Pin DO-214AC
+K
+F http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP SMAJ6.0A
+D Littelfuse SMAJ6.0A, Uni-Directional TVS Diode, 400W, 2-Pin DO-214AC
+K
+F http://www.littelfuse.com/~/media/electronics/datasheets/tvs_diodes/littelfuse_tvs_diode_smaj_datasheet.pdf.pdf
+$ENDCMP
+#
+$CMP CP2102N-A02-GQFN28
+D SILICON LABS - CP2102N-A02-GQFN28 - USB TO UART BRIDGE, -40 TO 85DEG C
+K
+F https://componentsearchengine.com/Datasheets/2/CP2102N-A02-GQFN28.pdf
+$ENDCMP
+#
+$CMP V2F22HM3_A_H
+D Trench MOS Schottky technology  Low profile package  Ideal for automated placement  Low forward voltage drop, low power losses  Meets MSL level 1, per J-STD-020, LF maximum peak of 260 C  Wave and reflow solderable  AEC-Q101 qualified available - Automotive ordering code: base P/NHM3  Compatible to SOD-123W package case outline  Material categorization: for definitions of compliance please see www.vishay.com/doc?99912
+K
+F https://www.vishay.com/docs/87475/v2f22.pdf
+$ENDCMP
+#
+$CMP SS8050-G
+D Bipolar Transistors - BJT NPN TRANSISTOR 1.5A 40V
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-12/229454.pdf
+$ENDCMP
+#
 #End Doc Library

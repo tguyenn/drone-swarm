@@ -253,6 +253,17 @@
 		)
 		(uuid "6e77b507-9fa7-49ba-a734-7979a2049368")
 	)
+	(hierarchical_label "VBUS"
+		(shape input)
+		(at 170.18 81.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "eabd0133-9e8b-4ba4-933f-b22440c3675f")
+	)
 	(symbol
 		(lib_id "SamacSys_Parts:OS102011MS2QS1")
 		(at 161.29 110.49 0)
