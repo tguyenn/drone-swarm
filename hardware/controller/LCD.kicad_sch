@@ -631,7 +631,7 @@
 		)
 	)
 	(bus_alias "I2C_CTP_LED"
-		(members)
+		(members "CTP_RST" "SCL" "CTP_INT" "SDA" "~{OE}")
 	)
 	(bus_alias "SPI_LCD_SD"
 		(members "LCD_RST" "SCK" "MOSI" "SD_CS" "MISO" "LCD_CS")
@@ -1280,7 +1280,7 @@
 		)
 		(uuid "2ddc53ed-e12d-46ea-a352-d64754e281c4")
 	)
-	(label "CTP_SDA"
+	(label "SDA"
 		(at 123.19 129.54 180)
 		(effects
 			(font
@@ -1300,7 +1300,7 @@
 		)
 		(uuid "57c2e352-58ee-4871-866f-d127be895390")
 	)
-	(label "I2C_CTP_LED.CTP_SCL"
+	(label "I2C_CTP_LED.SCL"
 		(at 185.42 124.46 180)
 		(effects
 			(font
@@ -1360,7 +1360,7 @@
 		)
 		(uuid "a34f8f14-b01e-4afc-85f7-53cd411b635d")
 	)
-	(label "CTP_SCL"
+	(label "SCL"
 		(at 123.19 124.46 180)
 		(effects
 			(font
@@ -1390,7 +1390,7 @@
 		)
 		(uuid "d5d1c850-788c-43b9-9f2c-f1f598cb80e7")
 	)
-	(label "I2C_CTP_LED.CTP_SDA"
+	(label "I2C_CTP_LED.SDA"
 		(at 185.42 121.92 180)
 		(effects
 			(font

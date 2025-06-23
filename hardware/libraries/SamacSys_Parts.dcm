@@ -108,4 +108,16 @@ K
 F https://www.mouser.cn/ProductDetail/Bivar/SM0605RGB?qs=pfd5qewlna4PrJ6da7Zedg%3D%3D&_gl=1*172wkc4*_ga*MTQ5NDIzOTU3Ni4xNzIxODg5NTg2*_ga_15W4STQT4T*MTcyMzUyMjQ4OS4yLjEuMTcyMzUyMjg5Mi41NS4wLjA.
 $ENDCMP
 #
+$CMP 4677
+D Adafruit Accessories Generic 64 Mbit Serial Pseudo SRAM - 3.3V 133 MHz
+K
+F https://www.espressif.com/sites/default/files/documentation/esp-psram64_esp-psram64h_datasheet_en.pdf
+$ENDCMP
+#
+$CMP W25Q256JVEIQ
+D 256M-bit Serial Flash Memory with uniform 4KB sectors and Dual/Quad SPI
+K
+F https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q256JVEIQ&type=datasheet
+$ENDCMP
+#
 #End Doc Library
