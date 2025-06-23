@@ -102,4 +102,10 @@ K
 F https://datasheet.datasheetarchive.com/originals/distributors/DKDS-12/229454.pdf
 $ENDCMP
 #
+$CMP SM0605RGB
+D SM0605RGB, Bivar 470 nm, 525 nm, 635 nm 3 RGB LED, 4-Pin 0605 Clear SMD package
+K
+F https://www.mouser.cn/ProductDetail/Bivar/SM0605RGB?qs=pfd5qewlna4PrJ6da7Zedg%3D%3D&_gl=1*172wkc4*_ga*MTQ5NDIzOTU3Ni4xNzIxODg5NTg2*_ga_15W4STQT4T*MTcyMzUyMjQ4OS4yLjEuMTcyMzUyMjg5Mi41NS4wLjA.
+$ENDCMP
+#
 #End Doc Library

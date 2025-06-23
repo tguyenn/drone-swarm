@@ -641,7 +641,7 @@
 		(uuid "61faa457-10ac-4795-bb99-a2bb8ed59043")
 	)
 	(bus_entry
-		(at 179.07 127)
+		(at 190.5 127)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -650,7 +650,7 @@
 		(uuid "0a10c3d7-a897-4a74-89bf-59a48f20a6cc")
 	)
 	(bus_entry
-		(at 179.07 91.44)
+		(at 190.5 91.44)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -659,7 +659,7 @@
 		(uuid "1901edbf-4018-46d1-89a5-7c61c5aba32a")
 	)
 	(bus_entry
-		(at 179.07 124.46)
+		(at 190.5 124.46)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -668,7 +668,7 @@
 		(uuid "19948330-df55-4a5b-830b-f4015a78a50d")
 	)
 	(bus_entry
-		(at 179.07 88.9)
+		(at 190.5 88.9)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -677,7 +677,7 @@
 		(uuid "38e3c93e-d6aa-4b64-b225-2f43b5d0c161")
 	)
 	(bus_entry
-		(at 179.07 101.6)
+		(at 190.5 101.6)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -686,7 +686,7 @@
 		(uuid "442e9a1f-4df3-4216-b20c-a713e3d4467b")
 	)
 	(bus_entry
-		(at 179.07 93.98)
+		(at 190.5 93.98)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -695,7 +695,7 @@
 		(uuid "726f6ee7-3c9d-4b17-aa89-a0596d4e2ec6")
 	)
 	(bus_entry
-		(at 179.07 99.06)
+		(at 190.5 99.06)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -704,7 +704,7 @@
 		(uuid "740827e2-1225-4806-be2b-86afb00c6f83")
 	)
 	(bus_entry
-		(at 179.07 129.54)
+		(at 190.5 129.54)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -713,7 +713,7 @@
 		(uuid "c6a73772-d590-47a4-afd9-41441afd5d17")
 	)
 	(bus_entry
-		(at 179.07 96.52)
+		(at 190.5 96.52)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -722,7 +722,7 @@
 		(uuid "ee396e8a-c830-4ced-b9cc-3277053b1fcf")
 	)
 	(bus_entry
-		(at 179.07 121.92)
+		(at 190.5 121.92)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -732,7 +732,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 86.36) (xy 181.61 91.44)
+			(xy 193.04 86.36) (xy 193.04 91.44)
 		)
 		(stroke
 			(width 0)
@@ -782,7 +782,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 101.6) (xy 181.61 104.14)
+			(xy 193.04 101.6) (xy 193.04 104.14)
 		)
 		(stroke
 			(width 0)
@@ -792,7 +792,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 127) (xy 179.07 127)
+			(xy 185.42 127) (xy 190.5 127)
 		)
 		(stroke
 			(width 0)
@@ -802,7 +802,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 116.84) (xy 181.61 124.46)
+			(xy 193.04 116.84) (xy 193.04 124.46)
 		)
 		(stroke
 			(width 0)
@@ -812,7 +812,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 106.68) (xy 186.69 106.68)
+			(xy 193.04 106.68) (xy 198.12 106.68)
 		)
 		(stroke
 			(width 0)
@@ -832,7 +832,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 124.46) (xy 179.07 124.46)
+			(xy 185.42 124.46) (xy 190.5 124.46)
 		)
 		(stroke
 			(width 0)
@@ -842,7 +842,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 93.98) (xy 181.61 96.52)
+			(xy 193.04 93.98) (xy 193.04 96.52)
 		)
 		(stroke
 			(width 0)
@@ -902,7 +902,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 134.62) (xy 186.69 134.62)
+			(xy 193.04 134.62) (xy 198.12 134.62)
 		)
 		(stroke
 			(width 0)
@@ -922,7 +922,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 129.54) (xy 181.61 132.08)
+			(xy 193.04 129.54) (xy 193.04 132.08)
 		)
 		(stroke
 			(width 0)
@@ -942,7 +942,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 124.46) (xy 181.61 127)
+			(xy 193.04 124.46) (xy 193.04 127)
 		)
 		(stroke
 			(width 0)
@@ -1012,7 +1012,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 96.52) (xy 179.07 96.52)
+			(xy 187.96 96.52) (xy 190.5 96.52)
 		)
 		(stroke
 			(width 0)
@@ -1022,7 +1022,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 132.08) (xy 181.61 134.62)
+			(xy 193.04 132.08) (xy 193.04 134.62)
 		)
 		(stroke
 			(width 0)
@@ -1032,7 +1032,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 101.6) (xy 179.07 101.6)
+			(xy 187.96 101.6) (xy 190.5 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1052,7 +1052,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 91.44) (xy 179.07 91.44)
+			(xy 187.96 91.44) (xy 190.5 91.44)
 		)
 		(stroke
 			(width 0)
@@ -1062,7 +1062,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 106.68) (xy 181.61 104.14)
+			(xy 193.04 106.68) (xy 193.04 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1072,7 +1072,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 91.44) (xy 181.61 93.98)
+			(xy 193.04 91.44) (xy 193.04 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1082,7 +1082,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 99.06) (xy 181.61 101.6)
+			(xy 193.04 99.06) (xy 193.04 101.6)
 		)
 		(stroke
 			(width 0)
@@ -1092,7 +1092,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 129.54) (xy 179.07 129.54)
+			(xy 185.42 129.54) (xy 190.5 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1102,7 +1102,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 127) (xy 181.61 129.54)
+			(xy 193.04 127) (xy 193.04 129.54)
 		)
 		(stroke
 			(width 0)
@@ -1122,7 +1122,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 121.92) (xy 179.07 121.92)
+			(xy 185.42 121.92) (xy 190.5 121.92)
 		)
 		(stroke
 			(width 0)
@@ -1142,7 +1142,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 88.9) (xy 179.07 88.9)
+			(xy 187.96 88.9) (xy 190.5 88.9)
 		)
 		(stroke
 			(width 0)
@@ -1152,7 +1152,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 93.98) (xy 179.07 93.98)
+			(xy 187.96 93.98) (xy 190.5 93.98)
 		)
 		(stroke
 			(width 0)
@@ -1182,7 +1182,7 @@
 	)
 	(bus
 		(pts
-			(xy 181.61 96.52) (xy 181.61 99.06)
+			(xy 193.04 96.52) (xy 193.04 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1192,13 +1192,33 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 99.06) (xy 179.07 99.06)
+			(xy 187.96 99.06) (xy 190.5 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fc1abdcb-719b-49ef-b311-4b3b6dc9873c")
+	)
+	(label "SPI_LCD_CS.LCD_CS"
+		(at 187.96 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "044bac2c-f3a3-4bf3-b03e-e49617051777")
+	)
+	(label "I2C_CTP_LED.CTP_RST"
+		(at 185.42 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06a9636a-3649-4237-97c3-596e78cd9823")
 	)
 	(label "SD_CS"
 		(at 123.19 134.62 180)
@@ -1210,6 +1230,16 @@
 		)
 		(uuid "0a7030c0-3146-4c5e-b0d0-d475d3547303")
 	)
+	(label "SPI_LCD_CS.LCD_RST"
+		(at 187.96 101.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0dd35db5-ecf5-4392-bd79-fe402cc5a958")
+	)
 	(label "LCD_RST"
 		(at 123.19 109.22 180)
 		(effects
@@ -1219,6 +1249,16 @@
 			(justify right bottom)
 		)
 		(uuid "1b1d7e75-6d2f-4544-99a0-30ee2aed1d20")
+	)
+	(label "SPI_LCD_CS.SD_CS"
+		(at 187.96 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1b5005e8-af4b-4515-8c03-e19dcd4a7ef3")
 	)
 	(label "LCD_CS"
 		(at 123.19 106.68 180)
@@ -1230,6 +1270,16 @@
 		)
 		(uuid "2bbb08cc-3531-4b03-ba2e-c9a42380b45c")
 	)
+	(label "I2C_CTP_LED.CTP_INT"
+		(at 185.42 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ddc53ed-e12d-46ea-a352-d64754e281c4")
+	)
 	(label "CTP_SDA"
 		(at 123.19 129.54 180)
 		(effects
@@ -1240,35 +1290,25 @@
 		)
 		(uuid "3553430f-195f-479f-829b-e7cf7765fcf6")
 	)
-	(label "MOSI"
-		(at 176.53 88.9 180)
+	(label "SPI_LCD_CS.MOSI"
+		(at 187.96 88.9 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3d8b8b34-a93a-4f1b-a13d-00f66ea34dd3")
+		(uuid "57c2e352-58ee-4871-866f-d127be895390")
 	)
-	(label "CTP_RST"
-		(at 173.99 127 180)
+	(label "I2C_CTP_LED.CTP_SCL"
+		(at 185.42 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "51aac6df-c69c-4f59-a29f-e655bc42698c")
-	)
-	(label "SCK"
-		(at 176.53 93.98 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5c104cb9-db57-4b2c-b51a-5290379d15fe")
+		(uuid "5fe4582a-3b87-4e8f-9b0c-934dabcabe56")
 	)
 	(label "LCD_RS"
 		(at 123.19 111.76 180)
@@ -1290,26 +1330,6 @@
 		)
 		(uuid "7d52416e-d1d0-4273-8838-1555e9571366")
 	)
-	(label "CTP_SDA"
-		(at 173.99 121.92 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7e8ce60b-105c-4ad6-b7b1-d281a7d902e7")
-	)
-	(label "LCD_RST"
-		(at 176.53 101.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7f857988-7d84-49b7-93a5-dfe0681940c0")
-	)
 	(label "CTP_INT"
 		(at 123.19 132.08 180)
 		(effects
@@ -1319,16 +1339,6 @@
 			(justify right bottom)
 		)
 		(uuid "87fac495-5d3c-4f2e-b03b-1c68fb0ac684")
-	)
-	(label "CTP_SCL"
-		(at 173.99 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8d54dc03-47bf-4a93-9e78-1f38760002c5")
 	)
 	(label "MOSI"
 		(at 123.19 114.3 180)
@@ -1350,16 +1360,6 @@
 		)
 		(uuid "a34f8f14-b01e-4afc-85f7-53cd411b635d")
 	)
-	(label "CTP_INT"
-		(at 173.99 129.54 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a3d73078-5026-4637-bcb1-5caa8b6c8b27")
-	)
 	(label "CTP_SCL"
 		(at 123.19 124.46 180)
 		(effects
@@ -1370,25 +1370,15 @@
 		)
 		(uuid "a70c1cc5-763e-4a42-8da5-b06d8f3ea92a")
 	)
-	(label "MISO"
-		(at 176.53 91.44 180)
+	(label "SPI_LCD_CS.SCK"
+		(at 187.96 93.98 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "bfebf239-7925-4d08-b9d7-036523ef9080")
-	)
-	(label "LCD_CS"
-		(at 176.53 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cb60b063-ee1a-416a-8640-2bcbc466d615")
+		(uuid "cdea00f1-5eb2-4306-9a91-693a16cfee1a")
 	)
 	(label "MISO"
 		(at 123.19 121.92 180)
@@ -1400,19 +1390,29 @@
 		)
 		(uuid "d5d1c850-788c-43b9-9f2c-f1f598cb80e7")
 	)
-	(label "SD_CS"
-		(at 176.53 96.52 180)
+	(label "I2C_CTP_LED.CTP_SDA"
+		(at 185.42 121.92 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "fe3df971-7d81-4561-912b-449d61bf5f28")
+		(uuid "e20d0d35-b267-4243-92ae-f8e13526278f")
+	)
+	(label "SPI_LCD_CS.MISO"
+		(at 187.96 91.44 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fc25e69a-9105-4912-a607-05602efa7f68")
 	)
 	(hierarchical_label "I2C_CTP_LED{I2C_CTP_LED}"
 		(shape bidirectional)
-		(at 186.69 134.62 0)
+		(at 198.12 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1423,7 +1423,7 @@
 	)
 	(hierarchical_label "SPI_LCD_SD{SPI_LCD_SD}"
 		(shape bidirectional)
-		(at 186.69 106.68 0)
+		(at 198.12 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)

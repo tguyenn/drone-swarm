@@ -737,48 +737,6 @@
 		)
 	)
 	(sheet
-		(at 58.42 120.65)
-		(size 33.02 21.59)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "c7989d88-7edb-4da8-b79d-a5a7ec31664b")
-		(property "Sheetname" "SPEAKER"
-			(at 58.42 119.9384 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "SPEAKER.kicad_sch"
-			(at 58.42 142.8246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad"
-					(page "10")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 101.6 35.56)
 		(size 33.02 19.05)
 		(exclude_from_sim no)
