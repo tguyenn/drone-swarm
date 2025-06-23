@@ -14,10 +14,26 @@
 		)
 	)
 	(junction
+		(at 151.13 105.41)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1fd1ddce-5e38-488d-8cf0-397bf10c143c")
+	)
+	(junction
 		(at 96.52 64.77)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6b67dcf0-510f-4be3-8693-478c9c72dee8")
+	)
+	(bus
+		(pts
+			(xy 151.13 105.41) (xy 151.13 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13c4aa47-5f8b-483f-9d96-058cdd00f117")
 	)
 	(wire
 		(pts
@@ -31,16 +47,6 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 96.52) (xy 154.94 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d2f910a-8681-453d-a982-443e8f48d354")
-	)
-	(wire
-		(pts
 			(xy 123.19 80.01) (xy 123.19 86.36)
 		)
 		(stroke
@@ -48,6 +54,36 @@
 			(type default)
 		)
 		(uuid "1eae5834-e926-4c5b-a8cd-b11fd7ccff7a")
+	)
+	(bus
+		(pts
+			(xy 148.59 123.19) (xy 154.94 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ebcaea3-e62a-4dcc-92c3-f2902f998744")
+	)
+	(bus
+		(pts
+			(xy 154.94 100.33) (xy 151.13 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31f1d9d8-cd8e-4968-bab3-eb33f0d3b6e2")
+	)
+	(bus
+		(pts
+			(xy 134.62 107.95) (xy 148.59 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cc8c1fc-3a0b-4359-a625-d8cac06e5353")
 	)
 	(wire
 		(pts
@@ -69,16 +105,6 @@
 		)
 		(uuid "602f1789-7f55-4f33-a7e0-ec6f4cde0a74")
 	)
-	(wire
-		(pts
-			(xy 134.62 93.98) (xy 154.94 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aeefdc7-19a0-478f-9717-34af6870323e")
-	)
 	(bus
 		(pts
 			(xy 91.44 100.33) (xy 101.6 100.33)
@@ -87,7 +113,37 @@
 			(width 0)
 			(type default)
 		)
-		(uuid "c9893b92-2f0f-4625-b66e-664e8f759f85")
+		(uuid "6772ac9b-5dd6-4818-b93f-dbd39c178e41")
+	)
+	(bus
+		(pts
+			(xy 151.13 120.65) (xy 154.94 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7912bfef-2200-442f-95cc-dbf4c71b3f2b")
+	)
+	(bus
+		(pts
+			(xy 148.59 107.95) (xy 148.59 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a397596-518e-464a-ab1f-0d7e665237b2")
+	)
+	(bus
+		(pts
+			(xy 134.62 105.41) (xy 151.13 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb21ab44-97e6-4eae-9624-ba054a45dd8b")
 	)
 	(wire
 		(pts
@@ -118,6 +174,16 @@
 			(type default)
 		)
 		(uuid "cf88c44c-19a8-47a8-88e2-4e14c3adc4b9")
+	)
+	(bus
+		(pts
+			(xy 151.13 100.33) (xy 151.13 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d755c115-567f-4cd2-984c-3e8c469517b1")
 	)
 	(wire
 		(pts
@@ -227,9 +293,9 @@
 				(hide yes)
 			)
 		)
-		(pin "SCL" bidirectional
-			(at 154.94 93.98 180)
-			(uuid "8b61db5d-8bfc-407a-a3ec-c26860714782")
+		(pin "GPIO" input
+			(at 154.94 97.79 180)
+			(uuid "7d48288a-17fa-4400-9559-343efb9898f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -237,9 +303,9 @@
 				(justify left)
 			)
 		)
-		(pin "SDA" bidirectional
-			(at 154.94 96.52 180)
-			(uuid "651d5c87-ac69-48bb-b702-b6676d9ebea9")
+		(pin "I2C_CTP_LED{I2C_CTP_LED}" bidirectional
+			(at 154.94 100.33 180)
+			(uuid "98f959ce-2a15-4a3b-9aa1-a675c8d93b1a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -539,26 +605,6 @@
 				(justify left)
 			)
 		)
-		(pin "SCL" bidirectional
-			(at 134.62 93.98 0)
-			(uuid "ad13a0db-3a1d-4c20-bcb5-38c64726aeb5")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "SDA" bidirectional
-			(at 134.62 96.52 0)
-			(uuid "187eac64-dd7d-488c-80fb-2e01586c5d40")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "RXD" output
 			(at 125.73 86.36 90)
 			(uuid "d276ddb7-5306-4018-a448-1b0140001506")
@@ -592,6 +638,26 @@
 		(pin "DTR" input
 			(at 123.19 86.36 90)
 			(uuid "0dd523c5-92ad-4504-9f02-5ffae5dd2d88")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "I2C_CTP_LED{I2C_CTP_LED}" bidirectional
+			(at 134.62 105.41 0)
+			(uuid "f5577b39-d637-4d3d-9314-2b21a48754de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SPI_LCD_SD{SPI_LCD_SD}" bidirectional
+			(at 134.62 107.95 0)
+			(uuid "909417b1-b658-4104-89af-d73a4788cae1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -642,9 +708,9 @@
 				(hide yes)
 			)
 		)
-		(pin "I2C_LCD" bidirectional
-			(at 154.94 121.92 180)
-			(uuid "9c4e57b8-2c0f-42b5-807e-8ecb89d74e0b")
+		(pin "I2C_CTP_LED{I2C_CTP_LED}" bidirectional
+			(at 154.94 120.65 180)
+			(uuid "c767c3d8-8e25-4147-a7d6-968e8c420cbb")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -652,9 +718,9 @@
 				(justify left)
 			)
 		)
-		(pin "SPI_LCD" bidirectional
-			(at 154.94 125.73 180)
-			(uuid "f74bfdc3-172b-430a-b17d-4e273b2beac2")
+		(pin "SPI_LCD_SD{SPI_LCD_SD}" bidirectional
+			(at 154.94 123.19 180)
+			(uuid "024b8d9b-67f0-4a99-9583-d01be27bc05b")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -666,6 +732,48 @@
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad"
 					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 58.42 120.65)
+		(size 33.02 21.59)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c7989d88-7edb-4da8-b79d-a5a7ec31664b")
+		(property "Sheetname" "SPEAKER"
+			(at 58.42 119.9384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "SPEAKER.kicad_sch"
+			(at 58.42 142.8246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "controller"
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad"
+					(page "10")
 				)
 			)
 		)

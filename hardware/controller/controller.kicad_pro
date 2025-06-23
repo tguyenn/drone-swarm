@@ -692,6 +692,10 @@
     [
       "1db4bee0-4e23-41b0-8f30-8f71981fa175",
       "LEDS"
+    ],
+    [
+      "c7989d88-7edb-4da8-b79d-a5a7ec31664b",
+      "SPEAKER"
     ]
   ],
   "text_variables": {}
