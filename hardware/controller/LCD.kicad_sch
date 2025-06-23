@@ -1220,16 +1220,6 @@
 		)
 		(uuid "06a9636a-3649-4237-97c3-596e78cd9823")
 	)
-	(label "SD_CS"
-		(at 123.19 134.62 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0a7030c0-3146-4c5e-b0d0-d475d3547303")
-	)
 	(label "SPI_LCD_CS.LCD_RST"
 		(at 187.96 101.6 180)
 		(effects
@@ -1240,15 +1230,15 @@
 		)
 		(uuid "0dd35db5-ecf5-4392-bd79-fe402cc5a958")
 	)
-	(label "LCD_RST"
-		(at 123.19 109.22 180)
+	(label "SPI_LCD_CS.LCD_CS"
+		(at 123.19 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "1b1d7e75-6d2f-4544-99a0-30ee2aed1d20")
+		(uuid "127a2feb-9680-4218-a69d-cb062d4210dc")
 	)
 	(label "SPI_LCD_CS.SD_CS"
 		(at 187.96 96.52 180)
@@ -1260,16 +1250,6 @@
 		)
 		(uuid "1b5005e8-af4b-4515-8c03-e19dcd4a7ef3")
 	)
-	(label "LCD_CS"
-		(at 123.19 106.68 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2bbb08cc-3531-4b03-ba2e-c9a42380b45c")
-	)
 	(label "I2C_CTP_LED.CTP_INT"
 		(at 185.42 129.54 180)
 		(effects
@@ -1280,15 +1260,25 @@
 		)
 		(uuid "2ddc53ed-e12d-46ea-a352-d64754e281c4")
 	)
-	(label "SDA"
-		(at 123.19 129.54 180)
+	(label "I2C_CTP_LED.SCL"
+		(at 123.19 124.46 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3553430f-195f-479f-829b-e7cf7765fcf6")
+		(uuid "30c4e8cf-3e2b-47cd-b992-43731788aac1")
+	)
+	(label "SPI_LCD_CS.LCD_RST"
+		(at 123.19 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e7a943e-d4e0-499c-9577-1539f98373fc")
 	)
 	(label "SPI_LCD_CS.MOSI"
 		(at 187.96 88.9 180)
@@ -1310,65 +1300,15 @@
 		)
 		(uuid "5fe4582a-3b87-4e8f-9b0c-934dabcabe56")
 	)
-	(label "LCD_RS"
-		(at 123.19 111.76 180)
+	(label "SPI_LCD_CS.SD_CS"
+		(at 123.19 134.62 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "75ca6b1c-bd64-4eeb-bb7b-1b03663a3f13")
-	)
-	(label "CTP_RST"
-		(at 123.19 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7d52416e-d1d0-4273-8838-1555e9571366")
-	)
-	(label "CTP_INT"
-		(at 123.19 132.08 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "87fac495-5d3c-4f2e-b03b-1c68fb0ac684")
-	)
-	(label "MOSI"
-		(at 123.19 114.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "987b0742-a372-498c-824f-faf894bdaaea")
-	)
-	(label "SCK"
-		(at 123.19 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a34f8f14-b01e-4afc-85f7-53cd411b635d")
-	)
-	(label "SCL"
-		(at 123.19 124.46 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a70c1cc5-763e-4a42-8da5-b06d8f3ea92a")
+		(uuid "c5594955-4ac1-4c82-8ace-d9370513e0c8")
 	)
 	(label "SPI_LCD_CS.SCK"
 		(at 187.96 93.98 180)
@@ -1380,7 +1320,7 @@
 		)
 		(uuid "cdea00f1-5eb2-4306-9a91-693a16cfee1a")
 	)
-	(label "MISO"
+	(label "SPI_LCD_CS.MISO"
 		(at 123.19 121.92 180)
 		(effects
 			(font
@@ -1388,7 +1328,27 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d5d1c850-788c-43b9-9f2c-f1f598cb80e7")
+		(uuid "d6a3ffe1-3341-4771-bec9-6040e45ef445")
+	)
+	(label "SPI_LCD_CS.MOSI"
+		(at 123.19 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dda5382f-99d7-4acd-b8ee-9a8692dadb45")
+	)
+	(label "I2C_CTP_LED.CTP_INT"
+		(at 123.19 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "df271aa2-a80e-4da6-976e-52d1a364d0e7")
 	)
 	(label "I2C_CTP_LED.SDA"
 		(at 185.42 121.92 180)
@@ -1399,6 +1359,46 @@
 			(justify right bottom)
 		)
 		(uuid "e20d0d35-b267-4243-92ae-f8e13526278f")
+	)
+	(label "SPI_LCD_CS.LCD_RS"
+		(at 123.19 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e324326c-19c1-40e7-a516-d809f202defd")
+	)
+	(label "I2C_CTP_LED.SDA"
+		(at 123.19 129.54 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ea1b04f1-3046-4a19-8129-08fa8ff86135")
+	)
+	(label "SPI_LCD_CS.SCK"
+		(at 123.19 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ead87855-d6a9-4c50-bcf2-04c3a9e7400d")
+	)
+	(label "I2C_CTP_LED.CTP_RST"
+		(at 123.19 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f324a680-b89b-4a35-8cc2-4b4472a050be")
 	)
 	(label "SPI_LCD_CS.MISO"
 		(at 187.96 91.44 180)
