@@ -2263,7 +2263,7 @@
 				)
 			)
 		)
-		(property "Value" "22k5"
+		(property "Value" "22k1"
 			(at 93.98 124.968 90)
 			(effects
 				(font

@@ -2838,7 +2838,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(bus_alias "MEMORY"
+	(bus_alias "MEMORY_QSPI"
 		(members "~{CS}" "~{CE}" "SIO0" "SCK" "SIO1" "SIO2" "SIO3")
 	)
 	(rectangle
@@ -2875,7 +2875,7 @@
 	)
 	(text "todo: look into why some of these power pins do not hvae any decouplihg caps"
 		(exclude_from_sim no)
-		(at 213.36 22.86 0)
+		(at 229.87 21.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2893,15 +2893,15 @@
 		)
 		(uuid "aca00087-6334-4bcd-ba2c-e377a5cc8663")
 	)
-	(text "todo: expose jtag port\n"
+	(text "do i need these"
 		(exclude_from_sim no)
-		(at 189.484 14.732 0)
+		(at 178.308 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
-		(uuid "c6a508aa-d8c0-496b-95d3-78949b02b391")
+		(uuid "b6d7d48f-b1f3-4071-8720-db276b6c561f")
 	)
 	(junction
 		(at 190.5 29.21)
@@ -2992,6 +2992,10 @@
 		(uuid "71837195-1217-408e-a817-4a9faa5b0da5")
 	)
 	(no_connect
+		(at 247.65 130.81)
+		(uuid "7c571545-2c01-4327-963a-29f6eeb1b069")
+	)
+	(no_connect
 		(at 247.65 128.27)
 		(uuid "8c5388a5-058e-48e4-b968-2e1b9b8ac3ed")
 	)
@@ -3006,6 +3010,10 @@
 	(no_connect
 		(at 181.61 77.47)
 		(uuid "c6d0aec9-f7d7-4dd7-b84a-4ee58a057a1c")
+	)
+	(no_connect
+		(at 247.65 133.35)
+		(uuid "c7b24302-bcc7-4867-82e1-7ffca36b13d9")
 	)
 	(no_connect
 		(at 181.61 123.19)
@@ -3192,6 +3200,15 @@
 		(uuid "83873abb-93ea-44f3-a4b9-7df59bc0d13a")
 	)
 	(bus_entry
+		(at 43.18 59.69)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841d8c10-0a4e-46da-ba6e-eae466ab50ed")
+	)
+	(bus_entry
 		(at 43.18 130.81)
 		(size 2.54 2.54)
 		(stroke
@@ -3319,6 +3336,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 156.21) (xy 43.18 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "03b450c2-9c83-43ee-91e5-b0f79b0338ba")
+	)
+	(wire
+		(pts
 			(xy 45.72 107.95) (xy 52.07 107.95)
 		)
 		(stroke
@@ -3356,6 +3383,16 @@
 			(type default)
 		)
 		(uuid "0801ca98-d825-460c-8567-10450dac2214")
+	)
+	(wire
+		(pts
+			(xy 45.72 62.23) (xy 52.07 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0891c09d-f689-4510-b705-065ff232c95a")
 	)
 	(wire
 		(pts
@@ -3496,6 +3533,16 @@
 			(type default)
 		)
 		(uuid "26ff93af-97b7-44c5-bff3-392675e530b0")
+	)
+	(wire
+		(pts
+			(xy 43.18 153.67) (xy 45.72 153.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28e68b57-242a-45c5-822e-74b80409d48f")
 	)
 	(bus
 		(pts
@@ -3847,16 +3894,6 @@
 		)
 		(uuid "74035e23-36a6-47d6-bac5-b5ee4671201f")
 	)
-	(wire
-		(pts
-			(xy 187.96 46.99) (xy 207.01 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7458d333-2389-4524-bf20-6a70968ea4c9")
-	)
 	(bus
 		(pts
 			(xy 43.18 130.81) (xy 43.18 133.35)
@@ -4086,6 +4123,16 @@
 			(type default)
 		)
 		(uuid "b3518ad7-0699-4a40-a7c2-e8de15e1ac5b")
+	)
+	(wire
+		(pts
+			(xy 187.96 46.99) (xy 207.01 46.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b4b2b708-4f2f-4f89-8a24-05b82a2ea43e")
 	)
 	(wire
 		(pts
@@ -4357,6 +4404,16 @@
 		)
 		(uuid "f9c4984d-a13c-468a-be2f-aefe2be5f6a7")
 	)
+	(bus
+		(pts
+			(xy 43.18 57.15) (xy 43.18 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ffc3d340-b27d-4080-be61-d8f493fa4c1e")
+	)
 	(label "MEM.SIO2"
 		(at 181.61 118.11 180)
 		(effects
@@ -4566,6 +4623,16 @@
 			(justify right bottom)
 		)
 		(uuid "4017bffd-718d-428d-b578-66a9f56b7fa1")
+	)
+	(label "USB-"
+		(at 45.72 156.21 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "43025e13-3782-4519-90dd-4e249cbf1bc3")
 	)
 	(label "BUT_JOY.JOY1_H"
 		(at 247.65 87.63 0)
@@ -4787,6 +4854,16 @@
 		)
 		(uuid "83abdd3b-ecb3-4ab6-bf96-da74b81f0190")
 	)
+	(label "USB+"
+		(at 247.65 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "84353b04-5e6e-4083-baa1-fcf3484c8d5d")
+	)
 	(label "BUT_JOY.BUT_LEFT"
 		(at 52.07 81.28 0)
 		(effects
@@ -4796,6 +4873,16 @@
 			(justify left bottom)
 		)
 		(uuid "8825b483-c35b-4dc7-bdbb-163ec843f5b2")
+	)
+	(label "SPI_LCD_SD.LCD_RS"
+		(at 181.61 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8bcd6c55-76b1-4ba2-a433-c84e0c3af77d")
 	)
 	(label "BUT_JOY.JOY1_V"
 		(at 247.65 85.09 0)
@@ -4827,6 +4914,16 @@
 		)
 		(uuid "a0c4b0fe-db71-4043-807d-fe9fc120e1b0")
 	)
+	(label "USB+"
+		(at 45.72 153.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ac9ce5f0-31e4-4e9f-9b47-aa587adccb6a")
+	)
 	(label "I2C_CTP_LED.SDA"
 		(at 247.65 115.57 0)
 		(effects
@@ -4846,6 +4943,16 @@
 			(justify left bottom)
 		)
 		(uuid "b17be859-319a-4098-b5cb-6cf589da2124")
+	)
+	(label "SPI_LCD_SD.LCD_RS"
+		(at 52.07 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b19fcac7-de74-4b2d-846e-9c56c2dd99b9")
 	)
 	(label "MEM.SCK"
 		(at 181.61 105.41 180)
@@ -5067,6 +5174,16 @@
 		)
 		(uuid "e8bc0319-e03a-48ff-8bb5-9045b07b44bf")
 	)
+	(label "USB-"
+		(at 247.65 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef8d246d-8938-466b-aa5b-d10e58ef4f57")
+	)
 	(label "BUT_JOY.BUT_RIGHT"
 		(at 52.07 83.82 0)
 		(effects
@@ -5150,7 +5267,18 @@
 		)
 		(uuid "08e78310-254e-4b96-b119-cd37e02eff6f")
 	)
-	(hierarchical_label "MEM{MEMORY}"
+	(hierarchical_label "USB+"
+		(shape bidirectional)
+		(at 43.18 153.67 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "1a6f3680-9314-4364-b8ba-31dccf0c32af")
+	)
+	(hierarchical_label "MEM{MEMORY_QSPI}"
 		(shape bidirectional)
 		(at 43.18 102.87 180)
 		(effects
@@ -5171,6 +5299,17 @@
 			(justify right)
 		)
 		(uuid "2e688ff3-5926-41aa-81aa-be313900e2cc")
+	)
+	(hierarchical_label "USB-"
+		(shape bidirectional)
+		(at 43.18 156.21 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95045cb8-8959-483e-b07e-2a26f3557a42")
 	)
 	(hierarchical_label "SPI_LCD_SD{SPI_LCD_SD}"
 		(shape bidirectional)
@@ -7242,7 +7381,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Right"
+		(property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Left"
 			(at 129.54 55.245 0)
 			(effects
 				(font
@@ -8048,7 +8187,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm"
+		(property "Footprint" "SamacSys_Parts:QFN-56-1EP_7x7mm_P0.4mm_EP5.6x5.6mm"
 			(at 214.63 146.05 0)
 			(effects
 				(font

@@ -2179,7 +2179,7 @@
 		)
 		(uuid "78e5b18a-75a7-4be6-9d14-9c2ad6701a25")
 	)
-	(hierarchical_label "LED GPIO"
+	(hierarchical_label "LED_GPIO"
 		(shape input)
 		(at 44.45 35.56 180)
 		(effects

@@ -30,11 +30,8 @@
 - Power led
 - Multicolor Runtime led
 - External flash for graphics?
-- USBC / LiPo battery charging and power
-    - Physical board switch
+- Power ORring between battery and USBC
 - Support two operational modes:
     - Determine by switch position
     - On (drone control software config and control)
     - Off (allow battery to be charged) 
-- Shitty speaker with DMA capability
-- Gyroscope

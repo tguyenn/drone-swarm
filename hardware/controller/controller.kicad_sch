@@ -25,15 +25,17 @@
 		(color 0 0 0 0)
 		(uuid "8773ac5f-b8bb-4701-b9a4-edad41f5a920")
 	)
-	(wire
-		(pts
-			(xy 91.44 66.04) (xy 93.98 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "13122f05-ed67-4485-9663-96d431512435")
+	(junction
+		(at 97.79 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea0337d2-5325-4d01-ae38-16b385c8bb08")
+	)
+	(junction
+		(at 95.25 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fee720af-1a20-4e05-b27a-b1204c0116d9")
 	)
 	(bus
 		(pts
@@ -47,7 +49,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 71.12) (xy 101.6 71.12)
+			(xy 91.44 71.12) (xy 97.79 71.12)
 		)
 		(stroke
 			(width 0)
@@ -67,13 +69,13 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 66.04) (xy 93.98 48.26)
+			(xy 95.25 92.71) (xy 101.6 92.71)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2761569d-deab-4384-86be-6ffb6aef44fd")
+		(uuid "2642f148-329d-47a4-8c7c-6621b3347e99")
 	)
 	(bus
 		(pts
@@ -127,6 +129,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 73.66) (xy 95.25 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "640b427b-a690-4b93-887d-eb821dac4209")
+	)
+	(wire
+		(pts
 			(xy 134.62 97.79) (xy 154.94 97.79)
 		)
 		(stroke
@@ -134,6 +146,16 @@
 			(type default)
 		)
 		(uuid "6471d7d7-508c-4534-a353-4c4fba105e88")
+	)
+	(wire
+		(pts
+			(xy 97.79 71.12) (xy 101.6 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65edeca3-e9bc-46d3-96b8-d20481ee3da9")
 	)
 	(bus
 		(pts
@@ -185,6 +207,16 @@
 		)
 		(uuid "9a397596-518e-464a-ab1f-0d7e665237b2")
 	)
+	(wire
+		(pts
+			(xy 95.25 73.66) (xy 101.6 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae85357b-ff1b-43dc-b50b-3fb33c2fcaf5")
+	)
 	(bus
 		(pts
 			(xy 134.62 77.47) (xy 139.7 77.47)
@@ -194,6 +226,16 @@
 			(type default)
 		)
 		(uuid "afabeb31-a952-49dd-ad29-44ff1b407f87")
+	)
+	(wire
+		(pts
+			(xy 97.79 71.12) (xy 97.79 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b59d2d2c-deda-4dfa-8902-23cf80505bad")
 	)
 	(bus
 		(pts
@@ -207,7 +249,17 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 73.66) (xy 101.6 73.66)
+			(xy 97.79 90.17) (xy 101.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c696b553-0241-4fbd-9c21-db53322637dd")
+	)
+	(wire
+		(pts
+			(xy 91.44 73.66) (xy 95.25 73.66)
 		)
 		(stroke
 			(width 0)
@@ -244,16 +296,6 @@
 			(type default)
 		)
 		(uuid "daf90980-8576-4c27-845d-d9c84a0c0aa4")
-	)
-	(wire
-		(pts
-			(xy 93.98 48.26) (xy 101.6 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec074d8f-e336-4880-9d79-6d888debc4a7")
 	)
 	(wire
 		(pts
@@ -310,7 +352,7 @@
 				(hide yes)
 			)
 		)
-		(pin "MEM{MEMORY}" bidirectional
+		(pin "MEM{MEMORY_QSPI}" bidirectional
 			(at 134.62 127 0)
 			(uuid "4d5b98da-4a47-4fa8-931d-41a49decad78")
 			(effects
@@ -373,7 +415,7 @@
 				(justify left)
 			)
 		)
-		(pin "LED GPIO" input
+		(pin "LED_GPIO" input
 			(at 154.94 97.79 180)
 			(uuid "7b288b07-ba76-41d5-8678-b7754c8adde1")
 			(effects
@@ -502,16 +544,6 @@
 		(pin "USB-" bidirectional
 			(at 91.44 73.66 0)
 			(uuid "6febe6db-5962-41df-9ed1-846db5670b24")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "USB_CONN" output
-			(at 91.44 66.04 0)
-			(uuid "60acbb54-d1c5-4f77-93c5-b680860d5794")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -685,7 +717,7 @@
 				(justify right)
 			)
 		)
-		(pin "MEM{MEMORY}" bidirectional
+		(pin "MEM{MEMORY_QSPI}" bidirectional
 			(at 134.62 110.49 0)
 			(uuid "a012c722-fb6c-49e5-8a03-9dddc05ac98b")
 			(effects
@@ -703,6 +735,26 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "USB+" bidirectional
+			(at 101.6 90.17 180)
+			(uuid "9b5ef476-80f5-4f1d-b0ea-3161e1a481ca")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB-" bidirectional
+			(at 101.6 92.71 180)
+			(uuid "cdf4c319-a7f9-4c74-b57b-03f58874b3cf")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -814,16 +866,6 @@
 		(pin "USBC_VBUS" input
 			(at 101.6 50.8 180)
 			(uuid "cfdfd2c5-96a7-4083-9c4e-3f7577bcbbe0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "USB_CONN" input
-			(at 101.6 48.26 180)
-			(uuid "d8532685-50af-4282-86af-c5686864990f")
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -988,156 +988,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:SS3150"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SS3150"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SMA"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.microdiode.com/uploadfiles//PDF/SS32-THRU-SS3200-SMA.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "150V 3A Schottky Diode, SMA"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode Schottky"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SMA*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SS3150_0_1"
-				(polyline
-					(pts
-						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SS3150_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -1251,7 +1101,7 @@
 		(uuid "b32c4efc-09e6-4fec-b5c9-8a6427b56886")
 	)
 	(junction
-		(at 144.78 87.63)
+		(at 154.94 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10466d11-1fd7-4922-a112-bbffa4ff7e86")
@@ -1275,7 +1125,7 @@
 		(uuid "a19f42d1-c908-4967-9bfd-d16ab4c5a15a")
 	)
 	(junction
-		(at 172.72 69.85)
+		(at 198.12 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ad2dbd49-cf11-43ba-b13a-5d37f6adcf05")
@@ -1302,16 +1152,6 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 69.85) (xy 200.66 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06af85e2-68d3-43cd-b208-62dc4e7290fd")
-	)
-	(wire
-		(pts
 			(xy 120.65 85.09) (xy 129.54 85.09)
 		)
 		(stroke
@@ -1332,7 +1172,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 73.66) (xy 172.72 69.85)
+			(xy 198.12 73.66) (xy 198.12 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1342,7 +1182,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 69.85) (xy 172.72 69.85)
+			(xy 120.65 69.85) (xy 198.12 69.85)
 		)
 		(stroke
 			(width 0)
@@ -1362,7 +1202,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 87.63) (xy 162.56 87.63)
+			(xy 184.15 87.63) (xy 187.96 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1392,7 +1232,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 87.63) (xy 144.78 87.63)
+			(xy 120.65 87.63) (xy 154.94 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1422,7 +1262,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 87.63) (xy 151.13 87.63)
+			(xy 154.94 87.63) (xy 176.53 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1432,7 +1272,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 87.63) (xy 144.78 90.17)
+			(xy 154.94 87.63) (xy 154.94 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1442,7 +1282,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 81.28) (xy 172.72 97.79)
+			(xy 198.12 81.28) (xy 198.12 97.79)
 		)
 		(stroke
 			(width 0)
@@ -1452,23 +1292,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 69.85) (xy 185.42 69.85)
+			(xy 198.12 69.85) (xy 212.09 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b1a79242-c233-448c-b0b5-b267c59d8b7a")
-	)
-	(wire
-		(pts
-			(xy 172.72 69.85) (xy 172.72 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9a5c4b9-5c31-4477-a6ba-e2cc9798925d")
 	)
 	(wire
 		(pts
@@ -1502,17 +1332,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 55.88) (xy 200.66 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e560e266-9d64-4f32-a0ea-202f4fa75b26")
-	)
-	(wire
-		(pts
-			(xy 158.75 85.09) (xy 162.56 85.09)
+			(xy 184.15 85.09) (xy 187.96 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1542,7 +1362,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 85.09) (xy 151.13 85.09)
+			(xy 129.54 85.09) (xy 176.53 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1569,16 +1389,6 @@
 			(type default)
 		)
 		(uuid "feb13747-73c6-41fd-aedd-50533558d25d")
-	)
-	(label "VBUS"
-		(at 121.92 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "68b5324e-ada0-4e5f-9703-43f97225a61b")
 	)
 	(label "CC2"
 		(at 121.92 77.47 0)
@@ -1622,7 +1432,7 @@
 	)
 	(hierarchical_label "USBC_VBUS"
 		(shape output)
-		(at 200.66 69.85 0)
+		(at 212.09 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1633,7 +1443,7 @@
 	)
 	(hierarchical_label "USB-"
 		(shape bidirectional)
-		(at 162.56 85.09 0)
+		(at 187.96 85.09 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1642,20 +1452,9 @@
 		)
 		(uuid "a13a39ab-9f85-49e9-8578-8170cb7d6d98")
 	)
-	(hierarchical_label "USB_CONN"
-		(shape output)
-		(at 200.66 55.88 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ab3cfd3d-9e30-4978-a276-d0607828f07d")
-	)
 	(hierarchical_label "USB+"
 		(shape bidirectional)
-		(at 162.56 87.63 0)
+		(at 187.96 87.63 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1690,7 +1489,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "SamacSys_Parts:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 109.22 85.09 0)
 			(effects
 				(font
@@ -1785,7 +1584,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "19d0c026-1e18-4c47-9092-83d5384bd3dd")
 		(property "Reference" "D1"
 			(at 132.08 92.7099 90)
@@ -1796,7 +1594,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMAJ5.0CA"
+		(property "Value" "ESD131-B1-W0201"
 			(at 132.08 95.2499 90)
 			(effects
 				(font
@@ -1964,124 +1762,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:SS3150")
-		(at 189.23 69.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "569f2e7e-acb4-4dcf-aa79-2b73d70360d2")
-		(property "Reference" "D4"
-			(at 189.5475 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "V2F22HM3_A_H"
-			(at 189.5475 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 189.23 65.405 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.microdiode.com/uploadfiles//PDF/SS32-THRU-SS3200-SMA.pdf"
-			(at 189.23 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "150V 3A Schottky Diode, SMA"
-			(at 189.23 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "1.08"
-			(at 176.53 -323.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 176.53 -423.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 176.53 -523.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Vishay"
-			(at 176.53 -623.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "V2F22HM3_A/H"
-			(at 176.53 -723.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c1aa61ca-b5b7-4130-aae4-992db23ee2c8")
-		)
-		(pin "1"
-			(uuid "c67c2dbd-356f-497b-87cb-10d745d014b1")
-		)
-		(instances
-			(project ""
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 146.05 76.2 0)
 		(unit 1)
@@ -2149,7 +1829,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD131-B1-W0201")
-		(at 172.72 77.47 90)
+		(at 198.12 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2158,7 +1838,7 @@
 		(fields_autoplaced yes)
 		(uuid "7b3fad1a-4173-4feb-9652-3e085e874f3f")
 		(property "Reference" "D3"
-			(at 175.26 76.1999 90)
+			(at 200.66 76.1999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2166,8 +1846,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMAJ5.0CA"
-			(at 175.26 78.7399 90)
+		(property "Value" "ESD131-B1-W0201"
+			(at 200.66 78.7399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2176,7 +1856,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 172.72 77.47 0)
+			(at 198.12 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2185,7 +1865,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 172.72 77.47 0)
+			(at 198.12 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,7 +1874,7 @@
 			)
 		)
 		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 172.72 77.47 0)
+			(at 198.12 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2203,7 +1883,7 @@
 			)
 		)
 		(property "Height" "2.29"
-			(at 566.37 64.77 0)
+			(at 591.77 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2213,7 +1893,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-SMAJ5.0CA"
-			(at 666.37 64.77 0)
+			(at 691.77 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2223,7 +1903,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ5.0CA?qs=JJML70Qc14u8hb22RFwTwA%3D%3D"
-			(at 766.37 64.77 0)
+			(at 791.77 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2233,7 +1913,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 866.37 64.77 0)
+			(at 891.77 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2243,7 +1923,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SMAJ5.0CA"
-			(at 966.37 64.77 0)
+			(at 991.77 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2016,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 144.78 97.79 0)
+		(at 154.94 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2345,7 +2025,7 @@
 		(fields_autoplaced yes)
 		(uuid "addccbf5-5924-4312-9dad-30cea55f574e")
 		(property "Reference" "#PWR04"
-			(at 144.78 104.14 0)
+			(at 154.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +2034,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 144.78 102.87 0)
+			(at 154.94 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2362,7 +2042,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 144.78 97.79 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2371,7 +2051,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 144.78 97.79 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2380,7 +2060,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 144.78 97.79 0)
+			(at 154.94 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2402,7 +2082,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 97.79 0)
+		(at 198.12 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2411,7 +2091,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae2c241f-5db1-4681-a8d8-d6873b162c5d")
 		(property "Reference" "#PWR05"
-			(at 172.72 104.14 0)
+			(at 198.12 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +2100,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 102.87 0)
+			(at 198.12 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2428,7 +2108,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 97.79 0)
+			(at 198.12 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2437,7 +2117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 97.79 0)
+			(at 198.12 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2446,7 +2126,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 97.79 0)
+			(at 198.12 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2468,7 +2148,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 154.94 87.63 90)
+		(at 180.34 87.63 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2476,7 +2156,7 @@
 		(dnp no)
 		(uuid "b1ac8540-d4c2-4523-984d-91481491eafc")
 		(property "Reference" "R36"
-			(at 154.94 89.916 90)
+			(at 180.34 89.916 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +2164,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 154.94 92.456 90)
+			(at 180.34 92.456 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2492,7 +2172,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 89.408 90)
+			(at 180.34 89.408 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +2181,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 87.63 0)
+			(at 180.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2510,7 +2190,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 154.94 87.63 0)
+			(at 180.34 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,7 +2215,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 154.94 85.09 90)
+		(at 180.34 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2543,7 +2223,7 @@
 		(dnp no)
 		(uuid "c7bace8f-a204-49ad-9507-a80d882ded74")
 		(property "Reference" "R35"
-			(at 154.94 80.264 90)
+			(at 180.34 80.264 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2551,7 +2231,7 @@
 			)
 		)
 		(property "Value" "R"
-			(at 154.94 82.804 90)
+			(at 180.34 82.804 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2559,7 +2239,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 154.94 86.868 90)
+			(at 180.34 86.868 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2568,7 +2248,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 154.94 85.09 0)
+			(at 180.34 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2577,7 +2257,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 154.94 85.09 0)
+			(at 180.34 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +2282,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD131-B1-W0201")
-		(at 144.78 93.98 90)
+		(at 154.94 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2611,7 +2291,7 @@
 		(fields_autoplaced yes)
 		(uuid "e374df9e-a749-4a0b-a2c4-49f19114e1d7")
 		(property "Reference" "D2"
-			(at 147.32 92.7099 90)
+			(at 157.48 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2619,8 +2299,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "SMAJ5.0CA"
-			(at 147.32 95.2499 90)
+		(property "Value" "ESD131-B1-W0201"
+			(at 157.48 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2629,7 +2309,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 144.78 93.98 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2638,7 +2318,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 144.78 93.98 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2647,7 +2327,7 @@
 			)
 		)
 		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 144.78 93.98 0)
+			(at 154.94 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2656,7 +2336,7 @@
 			)
 		)
 		(property "Height" "2.29"
-			(at 538.43 81.28 0)
+			(at 548.59 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2666,7 +2346,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-SMAJ5.0CA"
-			(at 638.43 81.28 0)
+			(at 648.59 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2676,7 +2356,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ5.0CA?qs=JJML70Qc14u8hb22RFwTwA%3D%3D"
-			(at 738.43 81.28 0)
+			(at 748.59 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2686,7 +2366,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 838.43 81.28 0)
+			(at 848.59 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2696,7 +2376,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SMAJ5.0CA"
-			(at 938.43 81.28 0)
+			(at 948.59 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
