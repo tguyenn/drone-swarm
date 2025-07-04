@@ -793,7 +793,7 @@
 		(uuid "840f7ab4-06fc-46d3-97d6-247addbc5a61")
 	)
 	(bus_entry
-		(at 38.1 48.26)
+		(at 66.04 72.39)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -802,7 +802,7 @@
 		(uuid "0b858499-a475-4d0e-97d9-cff0f25f5a72")
 	)
 	(bus_entry
-		(at 38.1 33.02)
+		(at 66.04 57.15)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -811,7 +811,7 @@
 		(uuid "60bf8f5c-1e7c-44b4-942e-0bc74fed74fc")
 	)
 	(bus_entry
-		(at 38.1 40.64)
+		(at 66.04 64.77)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -820,7 +820,7 @@
 		(uuid "982b90a6-2a3b-478e-a908-6bedb435138b")
 	)
 	(bus_entry
-		(at 38.1 35.56)
+		(at 66.04 59.69)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -829,7 +829,7 @@
 		(uuid "b845b73c-eaf6-435e-8087-510b0085d00e")
 	)
 	(bus_entry
-		(at 38.1 43.18)
+		(at 66.04 67.31)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -838,7 +838,7 @@
 		(uuid "ce7f02d4-4384-4bc2-aac5-6a201b926ce2")
 	)
 	(bus_entry
-		(at 38.1 45.72)
+		(at 66.04 69.85)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -847,7 +847,7 @@
 		(uuid "e9e684f4-afba-422e-a74a-0bb51608b725")
 	)
 	(bus_entry
-		(at 38.1 35.56)
+		(at 66.04 59.69)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -856,7 +856,7 @@
 		(uuid "faadced6-603f-492c-bfb3-d7666692611e")
 	)
 	(bus_entry
-		(at 38.1 38.1)
+		(at 66.04 62.23)
 		(size 2.54 2.54)
 		(stroke
 			(width 0)
@@ -866,7 +866,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 35.56) (xy 46.99 35.56)
+			(xy 68.58 59.69) (xy 74.93 59.69)
 		)
 		(stroke
 			(width 0)
@@ -876,7 +876,7 @@
 	)
 	(bus
 		(pts
-			(xy 38.1 33.02) (xy 38.1 35.56)
+			(xy 66.04 57.15) (xy 66.04 59.69)
 		)
 		(stroke
 			(width 0)
@@ -886,7 +886,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 40.64) (xy 46.99 40.64)
+			(xy 68.58 64.77) (xy 74.93 64.77)
 		)
 		(stroke
 			(width 0)
@@ -896,7 +896,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 38.1) (xy 46.99 38.1)
+			(xy 68.58 62.23) (xy 74.93 62.23)
 		)
 		(stroke
 			(width 0)
@@ -906,7 +906,7 @@
 	)
 	(bus
 		(pts
-			(xy 38.1 35.56) (xy 38.1 38.1)
+			(xy 66.04 59.69) (xy 66.04 62.23)
 		)
 		(stroke
 			(width 0)
@@ -916,7 +916,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 43.18) (xy 46.99 43.18)
+			(xy 68.58 67.31) (xy 74.93 67.31)
 		)
 		(stroke
 			(width 0)
@@ -926,7 +926,7 @@
 	)
 	(bus
 		(pts
-			(xy 38.1 45.72) (xy 38.1 48.26)
+			(xy 66.04 69.85) (xy 66.04 72.39)
 		)
 		(stroke
 			(width 0)
@@ -936,7 +936,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 48.26) (xy 46.99 48.26)
+			(xy 68.58 72.39) (xy 74.93 72.39)
 		)
 		(stroke
 			(width 0)
@@ -946,7 +946,7 @@
 	)
 	(bus
 		(pts
-			(xy 38.1 43.18) (xy 38.1 45.72)
+			(xy 66.04 67.31) (xy 66.04 69.85)
 		)
 		(stroke
 			(width 0)
@@ -956,7 +956,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 50.8) (xy 46.99 50.8)
+			(xy 68.58 74.93) (xy 74.93 74.93)
 		)
 		(stroke
 			(width 0)
@@ -966,7 +966,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 45.72) (xy 46.99 45.72)
+			(xy 68.58 69.85) (xy 74.93 69.85)
 		)
 		(stroke
 			(width 0)
@@ -976,7 +976,7 @@
 	)
 	(bus
 		(pts
-			(xy 38.1 40.64) (xy 38.1 43.18)
+			(xy 66.04 64.77) (xy 66.04 67.31)
 		)
 		(stroke
 			(width 0)
@@ -986,7 +986,7 @@
 	)
 	(bus
 		(pts
-			(xy 38.1 38.1) (xy 38.1 40.64)
+			(xy 66.04 62.23) (xy 66.04 64.77)
 		)
 		(stroke
 			(width 0)
@@ -1025,7 +1025,7 @@
 		(uuid "417c0c16-65a2-4e6c-bc16-4ffe47e2b9b0")
 	)
 	(label "MEM.SIO3"
-		(at 46.99 35.56 0)
+		(at 74.93 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1035,7 +1035,7 @@
 		(uuid "4870b5d0-6a48-4b7f-aa43-919e257d4f5d")
 	)
 	(label "MEM.SIO0"
-		(at 46.99 43.18 0)
+		(at 74.93 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1064,8 +1064,8 @@
 		)
 		(uuid "7060662a-ba38-4f96-b0d0-f3b847377cc8")
 	)
-	(label "MEM.MEMSPICLK"
-		(at 46.99 50.8 0)
+	(label "MEM.SCK"
+		(at 74.93 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1085,7 +1085,7 @@
 		(uuid "82217e31-451c-4a62-a9e6-ed1ebf68e235")
 	)
 	(label "MEM.~{CS}"
-		(at 46.99 48.26 0)
+		(at 74.93 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1095,7 +1095,7 @@
 		(uuid "87623643-8626-4eab-9ffe-77772a6af932")
 	)
 	(label "MEM.SIO1"
-		(at 46.99 40.64 0)
+		(at 74.93 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1134,7 +1134,7 @@
 		)
 		(uuid "ce8d87fa-c018-4b3a-a3ef-8ae16b75dbed")
 	)
-	(label "MEM.SPICLK"
+	(label "MEM.SCK"
 		(at 160.02 73.66 0)
 		(effects
 			(font
@@ -1145,7 +1145,7 @@
 		(uuid "e9220190-c29d-4741-84bc-bbbf8a441f50")
 	)
 	(label "MEM.~{CE}"
-		(at 46.99 45.72 0)
+		(at 74.93 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1164,7 +1164,7 @@
 		)
 		(uuid "ee74d2ae-3811-444f-8ccc-2ae9687430bf")
 	)
-	(label "MEM.SPICLK"
+	(label "MEM.SCK"
 		(at 160.02 95.25 0)
 		(effects
 			(font
@@ -1175,7 +1175,7 @@
 		(uuid "efcc08cc-aa41-4940-8c9d-d37632260967")
 	)
 	(label "MEM.SIO2"
-		(at 46.99 38.1 0)
+		(at 74.93 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1186,7 +1186,7 @@
 	)
 	(hierarchical_label "MEM{MEMORY}"
 		(shape bidirectional)
-		(at 38.1 33.02 180)
+		(at 66.04 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1353,7 +1353,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SON127P800X600X80-9N-D"
+		(property "Footprint" "SamacSys_Parts:SON127P800X600X80-9N-D"
 			(at 156.21 185.09 0)
 			(effects
 				(font
@@ -1478,7 +1478,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "894307a6-054b-4937-b5e8-6cbb5c158e92")
-		(property "Reference" "J5"
+		(property "Reference" "IC7"
 			(at 139.7 60.96 0)
 			(effects
 				(font
@@ -1494,7 +1494,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X175-8N"
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
 			(at 156.21 163.5 0)
 			(effects
 				(font
@@ -1600,7 +1600,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "J5")
+					(reference "IC7")
 					(unit 1)
 				)
 			)

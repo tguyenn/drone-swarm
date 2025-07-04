@@ -37,3 +37,4 @@
     - On (drone control software config and control)
     - Off (allow battery to be charged) 
 - Shitty speaker with DMA capability
+- Gyroscope

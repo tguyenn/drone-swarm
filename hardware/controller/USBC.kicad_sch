@@ -1240,8 +1240,18 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "todo: do NOT forget the pull up resistor on the data line!!!"
+		(exclude_from_sim no)
+		(at 162.052 125.984 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b32c4efc-09e6-4fec-b5c9-8a6427b56886")
+	)
 	(junction
-		(at 158.75 87.63)
+		(at 144.78 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "10466d11-1fd7-4922-a112-bbffa4ff7e86")
@@ -1253,7 +1263,7 @@
 		(uuid "17f24c01-d637-4169-81dc-cad214dd5dff")
 	)
 	(junction
-		(at 143.51 85.09)
+		(at 129.54 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96090fbd-aed2-4ae2-bce6-68d9667b15b7")
@@ -1302,7 +1312,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 85.09) (xy 143.51 85.09)
+			(xy 120.65 85.09) (xy 129.54 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1352,6 +1362,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 87.63) (xy 162.56 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429de8c2-7fbc-4f7a-98f1-25096fa483ff")
+	)
+	(wire
+		(pts
 			(xy 143.51 74.93) (xy 143.51 76.2)
 		)
 		(stroke
@@ -1372,7 +1392,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 87.63) (xy 158.75 87.63)
+			(xy 120.65 87.63) (xy 144.78 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1392,26 +1412,6 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 87.63) (xy 162.56 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "541f4438-6c15-4065-91ed-c26a3d1331c8")
-	)
-	(wire
-		(pts
-			(xy 143.51 85.09) (xy 162.56 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5574428d-c21a-4d08-8b3d-9a68bb6fa4e7")
-	)
-	(wire
-		(pts
 			(xy 120.65 82.55) (xy 120.65 85.09)
 		)
 		(stroke
@@ -1422,17 +1422,17 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 77.47) (xy 120.65 78.74)
+			(xy 144.78 87.63) (xy 151.13 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6780fc3d-7cd4-45d4-afc4-913fecf7cd5f")
+		(uuid "62172820-de49-4780-92b6-da56099e2691")
 	)
 	(wire
 		(pts
-			(xy 158.75 87.63) (xy 158.75 90.17)
+			(xy 144.78 87.63) (xy 144.78 90.17)
 		)
 		(stroke
 			(width 0)
@@ -1462,6 +1462,16 @@
 	)
 	(wire
 		(pts
+			(xy 172.72 69.85) (xy 172.72 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b9a5c4b9-5c31-4477-a6ba-e2cc9798925d")
+	)
+	(wire
+		(pts
 			(xy 120.65 74.93) (xy 125.73 74.93)
 		)
 		(stroke
@@ -1482,13 +1492,33 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 85.09) (xy 143.51 90.17)
+			(xy 129.54 85.09) (xy 129.54 90.17)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e0837e2f-7367-4e69-9b6b-eb3d03d103f0")
+	)
+	(wire
+		(pts
+			(xy 172.72 55.88) (xy 200.66 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e560e266-9d64-4f32-a0ea-202f4fa75b26")
+	)
+	(wire
+		(pts
+			(xy 158.75 85.09) (xy 162.56 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6c9e22b-8618-4c55-b9b3-a1a25cd0a8fb")
 	)
 	(wire
 		(pts
@@ -1502,13 +1532,23 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 76.2) (xy 143.51 78.74)
+			(xy 143.51 76.2) (xy 143.51 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "edd86c9d-3410-47cb-8e8d-188439a0d42a")
+	)
+	(wire
+		(pts
+			(xy 129.54 85.09) (xy 151.13 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f618a551-3d91-440c-a798-1a28d1e66ede")
 	)
 	(wire
 		(pts
@@ -1522,7 +1562,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 78.74) (xy 135.89 78.74)
+			(xy 120.65 77.47) (xy 135.89 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1541,7 +1581,7 @@
 		(uuid "68b5324e-ada0-4e5f-9703-43f97225a61b")
 	)
 	(label "CC2"
-		(at 121.92 78.74 0)
+		(at 121.92 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1580,7 +1620,7 @@
 		)
 		(uuid "c0ce0acf-99bf-4d1c-8ae0-5349ff24dd81")
 	)
-	(hierarchical_label "VBUS"
+	(hierarchical_label "USBC_VBUS"
 		(shape output)
 		(at 200.66 69.85 0)
 		(effects
@@ -1592,7 +1632,7 @@
 		(uuid "83050dbd-8daf-4f47-ae75-129a19e3a3e0")
 	)
 	(hierarchical_label "USB-"
-		(shape output)
+		(shape bidirectional)
 		(at 162.56 85.09 0)
 		(effects
 			(font
@@ -1602,8 +1642,19 @@
 		)
 		(uuid "a13a39ab-9f85-49e9-8578-8170cb7d6d98")
 	)
-	(hierarchical_label "USB+"
+	(hierarchical_label "USB_CONN"
 		(shape output)
+		(at 200.66 55.88 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ab3cfd3d-9e30-4978-a276-d0607828f07d")
+	)
+	(hierarchical_label "USB+"
+		(shape bidirectional)
 		(at 162.56 87.63 0)
 		(effects
 			(font
@@ -1728,7 +1779,7 @@
 	)
 	(symbol
 		(lib_id "Diode:ESD131-B1-W0201")
-		(at 143.51 93.98 90)
+		(at 129.54 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1737,7 +1788,7 @@
 		(fields_autoplaced yes)
 		(uuid "19d0c026-1e18-4c47-9092-83d5384bd3dd")
 		(property "Reference" "D1"
-			(at 146.05 92.7099 90)
+			(at 132.08 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1746,7 +1797,7 @@
 			)
 		)
 		(property "Value" "SMAJ5.0CA"
-			(at 146.05 95.2499 90)
+			(at 132.08 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1755,7 +1806,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 143.51 93.98 0)
+			(at 129.54 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1764,7 +1815,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 143.51 93.98 0)
+			(at 129.54 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1773,7 +1824,7 @@
 			)
 		)
 		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 143.51 93.98 0)
+			(at 129.54 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1782,7 +1833,7 @@
 			)
 		)
 		(property "Height" "2.29"
-			(at 537.16 81.28 0)
+			(at 523.19 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1792,7 +1843,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-SMAJ5.0CA"
-			(at 637.16 81.28 0)
+			(at 623.19 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1802,7 +1853,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ5.0CA?qs=JJML70Qc14u8hb22RFwTwA%3D%3D"
-			(at 737.16 81.28 0)
+			(at 723.19 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1812,7 +1863,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 837.16 81.28 0)
+			(at 823.19 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1822,7 +1873,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SMAJ5.0CA"
-			(at 937.16 81.28 0)
+			(at 923.19 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2277,7 @@
 		(dnp no)
 		(uuid "84f38818-26f0-41cd-bdcc-1d272d382df1")
 		(property "Reference" "R1"
-			(at 127.508 72.898 90)
+			(at 129.794 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2234,7 +2285,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 131.826 72.898 90)
+			(at 129.54 74.93 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2285,7 +2336,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 97.79 0)
+		(at 144.78 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2294,7 +2345,7 @@
 		(fields_autoplaced yes)
 		(uuid "addccbf5-5924-4312-9dad-30cea55f574e")
 		(property "Reference" "#PWR04"
-			(at 158.75 104.14 0)
+			(at 144.78 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2303,7 +2354,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 102.87 0)
+			(at 144.78 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2311,7 +2362,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 97.79 0)
+			(at 144.78 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2320,7 +2371,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 97.79 0)
+			(at 144.78 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2329,7 +2380,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 97.79 0)
+			(at 144.78 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2416,8 +2467,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 154.94 87.63 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1ac8540-d4c2-4523-984d-91481491eafc")
+		(property "Reference" "R36"
+			(at 154.94 89.916 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 154.94 92.456 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 89.408 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "34a3373f-71b7-43d1-b4d1-f4f8437128eb")
+		)
+		(pin "1"
+			(uuid "803fff3e-8eec-4578-a54c-60170eeb2731")
+		)
+		(instances
+			(project "controller"
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
+					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 154.94 85.09 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7bace8f-a204-49ad-9507-a80d882ded74")
+		(property "Reference" "R35"
+			(at 154.94 80.264 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 154.94 82.804 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 154.94 86.868 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 154.94 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b032d66-bbf3-4ad0-8236-3e80556b092c")
+		)
+		(pin "1"
+			(uuid "f64a86b1-d901-49be-9827-ce0e204605e4")
+		)
+		(instances
+			(project ""
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
+					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:ESD131-B1-W0201")
-		(at 158.75 93.98 90)
+		(at 144.78 93.98 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2426,7 +2611,7 @@
 		(fields_autoplaced yes)
 		(uuid "e374df9e-a749-4a0b-a2c4-49f19114e1d7")
 		(property "Reference" "D2"
-			(at 161.29 92.7099 90)
+			(at 147.32 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2435,7 +2620,7 @@
 			)
 		)
 		(property "Value" "SMAJ5.0CA"
-			(at 161.29 95.2499 90)
+			(at 147.32 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2444,7 +2629,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:Infineon_SG-WLL-2-3_0.58x0.28_P0.36mm"
-			(at 158.75 93.98 0)
+			(at 144.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,7 +2638,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-ESD131-B1-W0201-DataSheet-v02_00-EN.pdf?fileId=5546d4625cc9456a015ce94850964889"
-			(at 158.75 93.98 0)
+			(at 144.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2462,7 +2647,7 @@
 			)
 		)
 		(property "Description" "Bidirectional ESD protection diode, ±5.5Vrwm, 0.23pF, SG-WLL-2-3"
-			(at 158.75 93.98 0)
+			(at 144.78 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2471,7 +2656,7 @@
 			)
 		)
 		(property "Height" "2.29"
-			(at 552.4 81.28 0)
+			(at 538.43 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2481,7 +2666,7 @@
 			)
 		)
 		(property "Mouser Part Number" "576-SMAJ5.0CA"
-			(at 652.4 81.28 0)
+			(at 638.43 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,7 +2676,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMAJ5.0CA?qs=JJML70Qc14u8hb22RFwTwA%3D%3D"
-			(at 752.4 81.28 0)
+			(at 738.43 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +2686,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "LITTELFUSE"
-			(at 852.4 81.28 0)
+			(at 838.43 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2511,7 +2696,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SMAJ5.0CA"
-			(at 952.4 81.28 0)
+			(at 938.43 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2537,7 +2722,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 139.7 78.74 90)
+		(at 139.7 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2545,7 +2730,7 @@
 		(dnp no)
 		(uuid "f8e73236-4c8c-4d3f-8e2b-5f9ab28fe404")
 		(property "Reference" "R2"
-			(at 136.398 76.708 90)
+			(at 139.7 75.438 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2553,7 +2738,7 @@
 			)
 		)
 		(property "Value" "5k1"
-			(at 140.716 76.708 90)
+			(at 139.954 77.47 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2561,7 +2746,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 139.7 80.518 90)
+			(at 139.7 79.248 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +2755,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 78.74 0)
+			(at 139.7 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +2764,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 139.7 78.74 0)
+			(at 139.7 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2604,7 +2789,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 143.51 97.79 0)
+		(at 129.54 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2613,7 +2798,7 @@
 		(fields_autoplaced yes)
 		(uuid "faf744a1-0716-4e54-87c0-e91d30908b6b")
 		(property "Reference" "#PWR02"
-			(at 143.51 104.14 0)
+			(at 129.54 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2622,7 +2807,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 143.51 102.87 0)
+			(at 129.54 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,7 +2815,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 97.79 0)
+			(at 129.54 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2639,7 +2824,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 97.79 0)
+			(at 129.54 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2648,7 +2833,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 143.51 97.79 0)
+			(at 129.54 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)

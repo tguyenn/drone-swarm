@@ -1133,6 +1133,9 @@
 			(embedded_fonts no)
 		)
 	)
+	(bus_alias "UART"
+		(members "RTS" "DTR" "RXD" "TXD")
+	)
 	(junction
 		(at 104.14 105.41)
 		(diameter 0)
@@ -1156,12 +1159,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b3a764b-a0ce-4dae-a84d-c85b6e239306")
-	)
-	(junction
-		(at 124.46 128.27)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8822dab6-4936-437e-a242-7c5ef4c720fb")
 	)
 	(junction
 		(at 87.63 113.03)
@@ -1235,6 +1232,62 @@
 		(at 147.32 106.68)
 		(uuid "e792a5dc-0bbd-4dfe-88dc-35738b02310b")
 	)
+	(bus_entry
+		(at 36.83 48.26)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0591aa33-d8f4-4e34-b48e-918a7278db39")
+	)
+	(bus_entry
+		(at 36.83 43.18)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a450255f-253c-42c8-a113-1726cc38ccfd")
+	)
+	(bus_entry
+		(at 36.83 45.72)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebbbc0c5-b390-45be-99eb-0d50bdd8cacf")
+	)
+	(bus_entry
+		(at 36.83 50.8)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ed58f50c-c4c7-432d-9dc2-cea3467d0b4f")
+	)
+	(wire
+		(pts
+			(xy 39.37 48.26) (xy 45.72 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04b9fa83-c2f9-4243-8b96-997bda70071d")
+	)
+	(bus
+		(pts
+			(xy 36.83 45.72) (xy 36.83 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05a765e8-c6c9-4c3d-b341-f7913fd1db11")
+	)
 	(wire
 		(pts
 			(xy 99.06 99.06) (xy 104.14 99.06)
@@ -1254,16 +1307,6 @@
 			(type default)
 		)
 		(uuid "0d624759-377c-4f65-bc82-87198a645d18")
-	)
-	(wire
-		(pts
-			(xy 124.46 128.27) (xy 124.46 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0dcbfd72-5eb0-48e0-b5f8-4d898a6439af")
 	)
 	(wire
 		(pts
@@ -1307,6 +1350,16 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 62.23) (xy 36.83 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27e5a99d-0322-4d7e-a052-8f8d0b62be27")
+	)
+	(wire
+		(pts
 			(xy 134.62 121.92) (xy 134.62 130.81)
 		)
 		(stroke
@@ -1314,6 +1367,16 @@
 			(type default)
 		)
 		(uuid "2858f218-49c7-40df-a8c2-b8becb3a2781")
+	)
+	(bus
+		(pts
+			(xy 36.83 43.18) (xy 36.83 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29644536-16b1-464f-b8d4-39e743cbdb24")
 	)
 	(wire
 		(pts
@@ -1387,6 +1450,36 @@
 	)
 	(wire
 		(pts
+			(xy 39.37 53.34) (xy 45.72 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4d1d13dc-ea2b-4d19-882e-80b0cd518312")
+	)
+	(bus
+		(pts
+			(xy 36.83 50.8) (xy 36.83 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f146e7-b220-4f30-b7a8-e0fba3fcb5c1")
+	)
+	(wire
+		(pts
+			(xy 36.83 59.69) (xy 39.37 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c6108b3-691c-4e43-b37b-fe9d9ce1cb21")
+	)
+	(wire
+		(pts
 			(xy 133.35 130.81) (xy 134.62 130.81)
 		)
 		(stroke
@@ -1397,6 +1490,16 @@
 	)
 	(wire
 		(pts
+			(xy 36.83 67.31) (xy 39.37 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83191547-4470-4832-92b3-5677539680a9")
+	)
+	(wire
+		(pts
 			(xy 132.08 121.92) (xy 132.08 130.81)
 		)
 		(stroke
@@ -1404,6 +1507,16 @@
 			(type default)
 		)
 		(uuid "835e44fc-5534-4881-820d-61012caab043")
+	)
+	(wire
+		(pts
+			(xy 39.37 50.8) (xy 45.72 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "893f20c3-dc49-419d-a45e-51f42fb7feae")
 	)
 	(wire
 		(pts
@@ -1424,6 +1537,16 @@
 			(type default)
 		)
 		(uuid "93a3726d-2c34-47ca-9cb2-54356fe8adea")
+	)
+	(wire
+		(pts
+			(xy 39.37 45.72) (xy 45.72 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aaf4ab62-40f1-4095-bf4d-a28d807d007f")
 	)
 	(wire
 		(pts
@@ -1495,6 +1618,16 @@
 		)
 		(uuid "ed3ad7bc-2606-4ee1-aaf5-30473d27bedb")
 	)
+	(bus
+		(pts
+			(xy 36.83 48.26) (xy 36.83 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eee497c4-495d-450d-8084-1a9dfd09455b")
+	)
 	(wire
 		(pts
 			(xy 85.09 90.17) (xy 85.09 88.9)
@@ -1504,6 +1637,16 @@
 			(type default)
 		)
 		(uuid "f58213e3-34c2-4d0a-8004-5c001ce26bbf")
+	)
+	(bus
+		(pts
+			(xy 36.83 40.64) (xy 36.83 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb7972f6-7c4c-44e4-9f45-41c6c185d18d")
 	)
 	(wire
 		(pts
@@ -1515,31 +1658,149 @@
 		)
 		(uuid "fccc5b37-d1aa-45f8-bc69-0f59883a2f09")
 	)
-	(hierarchical_label "TXD"
-		(shape input)
+	(label "UART.DTR"
+		(at 45.72 48.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1cdd45e9-db91-4a1f-b83c-ec2a9ae531da")
+	)
+	(label "UART.TXD"
 		(at 99.06 83.82 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "0cf8f7e7-ad39-4d15-9478-e3f06d2b3206")
+		(uuid "30058fbc-6d53-4ab3-b51a-51e08126f981")
 	)
-	(hierarchical_label "DTR"
-		(shape output)
+	(label "USBC_VBUS"
+		(at 86.36 127 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4782ac88-c8fb-4344-b7f5-b783b6386c4d")
+	)
+	(label "USB+"
+		(at 39.37 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4fa4cc5e-bda0-4009-b554-cb758317dd33")
+	)
+	(label "UART.RTS"
+		(at 99.06 78.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "601956ad-11a9-4356-a31a-ae7bd4e54906")
+	)
+	(label "UART.TXD"
+		(at 45.72 53.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "823f54b6-1881-412e-8ba7-5a025a5c9150")
+	)
+	(label "UART.RTS"
+		(at 45.72 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "86275a2f-282e-4633-8bb3-769d1e28c2cc")
+	)
+	(label "USBC_VBUS"
+		(at 39.37 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c4c531e-7be2-42cd-b456-a33db2893e0b")
+	)
+	(label "USB-"
+		(at 99.06 99.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92a62622-2fb1-4e4d-92f6-ee0b26609a2e")
+	)
+	(label "USB+"
+		(at 99.06 96.52 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "93df9e9a-e12d-4bea-8db4-38b5ed286c0b")
+	)
+	(label "UART.DTR"
 		(at 99.06 76.2 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify right bottom)
 		)
-		(uuid "106e4734-fbbb-4678-9e74-f6e8346769c7")
+		(uuid "b69ec2bf-346e-4fa2-afea-1cf95cd406ce")
+	)
+	(label "UART.RXD"
+		(at 45.72 50.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc8a52df-688b-4d4b-a5fc-9bb494846e4a")
+	)
+	(label "UART.RXD"
+		(at 99.06 81.28 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f5bb9523-381e-4e34-85ae-989e83f5b479")
+	)
+	(label "USB-"
+		(at 39.37 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f78c5b07-a040-4d45-a3f4-2e2b1c438cda")
 	)
 	(hierarchical_label "USB-"
-		(shape input)
-		(at 99.06 99.06 180)
+		(shape bidirectional)
+		(at 36.83 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1548,31 +1809,9 @@
 		)
 		(uuid "17fb3b60-653d-4b4b-ac1f-c763923b5779")
 	)
-	(hierarchical_label "RTS"
-		(shape output)
-		(at 99.06 78.74 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1f2bec00-f62a-4600-9293-12f911d80b43")
-	)
-	(hierarchical_label "VBUS"
-		(shape input)
-		(at 86.36 127 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "757844bd-924e-4ead-bff0-443ea3e3e404")
-	)
 	(hierarchical_label "USB+"
-		(shape input)
-		(at 99.06 96.52 180)
+		(shape bidirectional)
+		(at 36.83 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1581,16 +1820,27 @@
 		)
 		(uuid "ae4762cc-de65-438e-97ca-17fdf64184bc")
 	)
-	(hierarchical_label "RXD"
+	(hierarchical_label "USBC_VBUS"
 		(shape input)
-		(at 99.06 81.28 180)
+		(at 36.83 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "bb91ec75-413a-49eb-802c-090b0e814109")
+		(uuid "d3433883-5f5a-4308-a527-d0ee912474dc")
+	)
+	(hierarchical_label "UART{UART}"
+		(shape bidirectional)
+		(at 36.83 40.64 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f9208555-238c-4047-9265-4b3f1b757461")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -1686,7 +1936,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN50P500X500X80-29N-D"
+		(property "Footprint" "SamacSys_Parts:QFN50P500X500X80-29N-D"
 			(at 143.51 171.12 0)
 			(effects
 				(font
@@ -2484,7 +2734,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k"
 			(at 86.36 86.36 0)
 			(effects
 				(font

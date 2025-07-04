@@ -120,4 +120,10 @@ K
 F https://www.winbond.com/hq/search-resource-file.jsp?partNo=W25Q256JVEIQ&type=datasheet
 $ENDCMP
 #
+$CMP TPS63000IDRCRQ1
+D Switching Voltage Regulators Auto Cat 96% Buck- Boost Converter
+K
+F https://www.ti.com/lit/gpn/tps63000-q1?HQS=ti-null-null-sf-df-pf-sep-wwe&DCM=yes
+$ENDCMP
+#
 #End Doc Library
