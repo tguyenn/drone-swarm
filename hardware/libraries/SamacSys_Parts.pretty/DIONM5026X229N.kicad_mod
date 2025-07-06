@@ -23,7 +23,7 @@
   (fp_line (start -2.52 1.298) (end 2.52 1.298) (layer F.SilkS) (width 0.2))
   (pad 1 smd rect (at -2.05 0 90) (size 1.55 2.2) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 2.05 0 90) (size 1.55 2.2) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\tobya\\OneDrive\\Desktop\\drone_swarm\\hardware\\libraries\\SamacSys_Parts.3dshapes\\SMAJ5.0CA.stp"
+  (model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/SMAJ5.0CA.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -24,7 +24,7 @@
   (fp_line (start -1.4 0.9) (end 1.4 0.9) (layer F.SilkS) (width 0.2))
   (pad 1 smd rect (at -1.6 0 0) (size 1.12 1.22) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.6 0 0) (size 1.12 1.22) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\tobya\\OneDrive\\Desktop\\drone_swarm\\hardware\\libraries\\SamacSys_Parts.3dshapes\\V2F22HM3_A_H.stp"
+  (model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/V2F22HM3_A_H.stp"
     (at (xyz -0.075984249903461 0.030314959878997 -2.6984252328948))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

@@ -5,3 +5,5 @@ Controller
 - Gyroscope
 - USBC / LiPo battery charging and power
     - Physical board switch
+- current measurement
+- 

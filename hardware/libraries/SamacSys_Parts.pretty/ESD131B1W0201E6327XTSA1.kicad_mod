@@ -25,7 +25,7 @@
   (fp_arc (start 0 0.85) (end 0.000 0.9) (angle -180) (layer F.SilkS) (width 0.1))
   (pad 1 smd rect (at 0.000 0.185 90) (size 0.220 0.300) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.000 -0.185 90) (size 0.220 0.300) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\tobya\\OneDrive\\Desktop\\drone_swarm\\hardware\\libraries\\SamacSys_Parts.3dshapes\\ESD131B1W0201E6327XTSA1.stp"
+  (model "C:\\Users\\tobya\\Desktop\\drone_swarm\\hardware\\libraries\\SamacSys_Parts.3dshapes\\ESD131B1W0201E6327XTSA1.stp"
     (at (xyz 0 0 0.0062992124576268))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -90))

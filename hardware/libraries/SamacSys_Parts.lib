@@ -765,4 +765,355 @@ P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model LQM2HPN2R2MJHL
+#/1402534/1704548/2.50/2/2/Inductor
+DEF LQM2HPN2R2MJHL L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "LQM2HPN2R2MJHL" 650 150 50 H V L CNN
+F2 "LQM2HPZ3R3MJ0B" 650 50 50 H I L CNN
+F3 "https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0044.pdf" 650 -50 50 H I L CNN
+F4 "LQM2HPN_JH Series Inductor 2.2uH +/-20% 1008 (2520)" 650 -150 50 H I L CNN "Description"
+F5 "1.2" 650 -250 50 H I L CNN "Height"
+F6 "81-LQM2HPN2R2MJHL" 650 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/LQM2HPN2R2MJHL?qs=F2r4PX9PQ59kERihkPBpEA%3D%3D" 650 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Murata Electronics" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "LQM2HPN2R2MJHL" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model NRS3015T2R2MNGHV
+#/1580961/1704548/2.50/2/4/Inductor
+DEF NRS3015T2R2MNGHV L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "NRS3015T2R2MNGHV" 650 150 50 H V L CNN
+F2 "NRS3015T2R2MNGHV" 650 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/NRS3015T2R2MNGHV.pdf" 650 -50 50 H I L CNN
+F4 "NRS3015T2R2MNGHV" 650 -150 50 H I L CNN "Description"
+F5 "1.5" 650 -250 50 H I L CNN "Height"
+F6 "963-NRS3015T2R2MNGHV" 650 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/NRS3015T2R2MNGHV?qs=DpxmIIQLg%252BP8UFyXVw61Xw%3D%3D" 650 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TAIYO YUDEN" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "NRS3015T2R2MNGHV" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TPD4E05U06DQAR
+#/690408/1704548/2.50/10/4/Diode
+DEF TPD4E05U06DQAR D 0 30 Y Y 1 F N
+F0 "D" 1050 300 50 H V L CNN
+F1 "TPD4E05U06DQAR" 1050 200 50 H V L CNN
+F2 "DQA(R-PUSON-N10)" 1050 100 50 H I L CNN
+F3 "http://www.ti.com/lit/gpn/tpd4e05u06" 1050 0 50 H I L CNN
+F4 "4-Channel Ultra-Low-Capacitance IEC ESD Protection Diode" 1050 -100 50 H I L CNN "Description"
+F5 "" 1050 -200 50 H I L CNN "Height"
+F6 "595-TPD4E05U06DQAR" 1050 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPD4E05U06DQAR?qs=%2FCrDlo5IrVPi4woOvWz0qA%3D%3D" 1050 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Texas Instruments" 1050 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TPD4E05U06DQAR" 1050 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X D1+ 1 0 0 200 R 50 50 0 0 P
+X D1- 2 0 -100 200 R 50 50 0 0 P
+X GND_1 3 0 -200 200 R 50 50 0 0 P
+X D2+ 4 0 -300 200 R 50 50 0 0 P
+X D2- 5 0 -400 200 R 50 50 0 0 P
+X NC_1 6 1200 -400 200 L 50 50 0 0 P
+X NC_2 7 1200 -300 200 L 50 50 0 0 P
+X GND_2 8 1200 -200 200 L 50 50 0 0 P
+X NC_3 9 1200 -100 200 L 50 50 0 0 P
+X NC_4 10 1200 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model PESD5V0X1BCSFYL
+#/902284/1704548/2.50/2/2/Diode ESD (Bi-directional)
+DEF PESD5V0X1BCSFYL D 0 30 Y Y 1 F N
+F0 "D" 600 350 50 H V L BNN
+F1 "PESD5V0X1BCSFYL" 600 250 50 H V L BNN
+F2 "PMEG3005AESFYL" 600 150 50 H I L BNN
+F3 "https://assets.nexperia.com/documents/data-sheet/PESD5V0X1BCSF.pdf" 600 50 50 H I L BNN
+F4 "PESD5V0X1BCSF - Ultra low capacitance bidirectional ESD protection diode" 600 -50 50 H I L BNN "Description"
+F5 "" 600 -150 50 H I L BNN "Height"
+F6 "771-PESD5V0X1BCSFYL" 600 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD5V0X1BCSFYL?qs=bel5lzaZNxSGTsNvXlzlFg%3D%3D" 600 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "Nexperia" 600 -450 50 H I L BNN "Manufacturer_Name"
+F9 "PESD5V0X1BCSFYL" 600 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+P 4 0 1 6 400 0 200 -100 200 100 400 0 N
+P 4 0 1 6 400 0 600 -100 600 100 400 0 N
+P 2 0 1 6 400 -180 400 180 N
+P 2 0 1 6 440 200 400 180 N
+P 2 0 1 6 400 -180 360 -200 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model GRT0335C1H100GA02D
+#/19574238/1704548/2.50/2/2/Capacitor
+DEF GRT0335C1H100GA02D C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "GRT0335C1H100GA02D" 350 150 50 H V L CNN
+F2 "GRT033" 350 50 50 H I L CNN
+F3 "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRT0335C1H100GA02-01A.pdf" 350 -50 50 H I L CNN
+F4 "AEC-Q200 Compliant Chip Multilayer Ceramic Capacitors for Automotive (Infortainment/Confort) & Industrial Equipment, 0201" 350 -150 50 H I L CNN "Description"
+F5 "0.33" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Murata Electronics" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "GRT0335C1H100GA02D" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model MAJCH168BB7104KTEA01
+#/19293622/1704548/2.50/2/2/Capacitor
+DEF MAJCH168BB7104KTEA01 C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "MAJCH168BB7104KTEA01" 350 150 50 H V L CNN
+F2 "MAJx16" 350 50 50 H I L CNN
+F3 "https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=MAJCH168BB7104KTEA01" 350 -50 50 H I L CNN
+F4 "MULTILAYER CERAMIC CAPACITORS[Multilayer Ceramic Capacitors (High dielectric type) for Automotive Powertrain and Safety (Cu external electrode products)]" 350 -150 50 H I L CNN "Description"
+F5 "0.8" 350 -250 50 H I L CNN "Height"
+F6 "963-MAJCH168BB7104KT" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/MAJCH168BB7104KTEA01?qs=ZcfC38r4PovaTBrG0IdezQ%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TAIYO YUDEN" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "MAJCH168BB7104KTEA01" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 0805X105K160CT
+#/779487/1704548/2.50/2/3/Capacitor
+DEF 0805X105K160CT C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "0805X105K160CT" 350 150 50 H V L CNN
+F2 "CAPC2012X135N" 350 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/2/0805X105K160CT.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1.0uF +-10% 16V" 350 -150 50 H I L CNN "Description"
+F5 "1.35" 350 -250 50 H I L CNN "Height"
+F6 "791-0805X105K160CT" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Walsin/0805X105K160CT?qs=wUXugUrL1qxMXFrDyyDE9A%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Walsin Technology Corporation" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "0805X105K160CT" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model TL1030AF500AQJ
+#/19556417/1704548/2.50/4/2/Switch
+DEF TL1030AF500AQJ S 0 30 Y Y 1 F N
+F0 "S" 650 300 50 H V L CNN
+F1 "TL1030AF500AQJ" 650 200 50 H V L CNN
+F2 "TL1030AF500AQJ" 650 100 50 H I L CNN
+F3 "https://configured-product-images.s3.amazonaws.com/2D/specs/TL1030AF500AQJ.pdf" 650 0 50 H I L CNN
+F4 "TACT, 50mA, 12VDC SPST-NO, Off-(On) Surface Mount" 650 -100 50 H I L CNN "Description"
+F5 "1.95" 650 -200 50 H I L CNN "Height"
+F6 "612-TL1030AF500AQJ" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/E-Switch/TL1030AF500AQJ?qs=VVKQmw408U8suyvYOKaEsA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "E-Switch" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "TL1030AF500AQJ" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 800 0 200 L 50 50 0 0 P
+X 4 4 800 -100 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model RC1206FR-131KL
+#/16225696/1704548/2.50/2/3/Resistor
+DEF RC1206FR-131KL R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "RC1206FR-131KL" 550 150 50 H V L CNN
+F2 "RESC3116X65N" 550 50 50 H I L CNN
+F3 "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_11.pdf" 550 -50 50 H I L CNN
+F4 "1 kOhms +/-1% 0.25W, 1/4W Chip Resistor 1206 (3216 Metric) Moisture Resistant Thick Film" 550 -150 50 H I L CNN "Description"
+F5 "0.65" 550 -250 50 H I L CNN "Height"
+F6 "603-RC1206FR-131KL" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/YAGEO/RC1206FR-131KL?qs=rU22MploB9rS4RgXdhWWpg%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "YAGEO" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "RC1206FR-131KL" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model EXB-V8V151JV
+#/1418711/1704548/2.50/8/3/Resistor Network (8-Pin)
+DEF EXB-V8V151JV RN 0 30 Y Y 1 F N
+F0 "RN" 1020 -100 50 H V L CNN
+F1 "EXB-V8V151JV" 1020 -200 50 H V L CNN
+F2 "EXBV8V151JV" 1020 -300 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 1020 -400 50 H I L CNN
+F4 "150 Ohm +/-5% 62.5mW Power Per Element Isolated 4 Resistor Network/Array +/-200ppm/C 1206 (3216 Metric), Concave, Long Side Terminals" 1020 -500 50 H I L CNN "Description"
+F5 "0.7" 1020 -600 50 H I L CNN "Height"
+F6 "667-EXB-V8V151JV" 1020 -700 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panasonic/EXB-V8V151JV?qs=uA7cY%2Fh6FfXfs0jVMGT1zw%3D%3D" 1020 -800 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 1020 -900 50 H I L CNN "Manufacturer_Name"
+F9 "EXB-V8V151JV" 1020 -1000 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 300 -600 200 U 50 50 0 0 P
+X ~ 2 500 -600 200 U 50 50 0 0 P
+X ~ 3 700 -600 200 U 50 50 0 0 P
+X ~ 4 900 -600 200 U 50 50 0 0 P
+X ~ 5 900 300 200 D 50 50 0 0 P
+X ~ 6 700 300 200 D 50 50 0 0 P
+X ~ 7 500 300 200 D 50 50 0 0 P
+X ~ 8 300 300 200 D 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+P 5 0 1 6 250 -50 250 -250 350 -250 350 -50 250 -50 N
+P 5 0 1 6 450 -50 450 -250 550 -250 550 -50 450 -50 N
+P 2 0 1 6 300 -50 300 100 N
+P 2 0 1 6 300 -250 300 -400 N
+P 2 0 1 6 500 -250 500 -400 N
+P 2 0 1 6 500 -50 500 100 N
+P 2 0 1 6 700 -50 700 100 N
+P 5 0 1 6 650 -50 650 -250 750 -250 750 -50 650 -50 N
+P 2 0 1 6 700 -250 700 -400 N
+P 2 0 1 6 900 -50 900 100 N
+P 5 0 1 6 850 -50 850 -250 950 -250 950 -50 850 -50 N
+P 2 0 1 6 900 -250 900 -400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model EXB-U38101JV
+#/1235099/1704548/2.50/8/2/Resistor Network (8-Pin)
+DEF EXB-U38101JV RN 0 30 Y Y 1 F N
+F0 "RN" 1020 -100 50 H V L CNN
+F1 "EXB-U38101JV" 1020 -200 50 H V L CNN
+F2 "EXBU38" 1020 -300 50 H I L CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C20.pdf" 1020 -400 50 H I L CNN
+F4 "Series/Type: Anti-Sulfurated Chip Resistor Array, Power Rating (W): 0.063, Chip Size (LxW) (mm): 3.2 X 1.6, Resistance Values (): 100, Resistance Tolerance (%): 5, Terminal Pitch (mm): 0.8, Type of Circuit: Isolated Circuit, Number of Elements (piece): 4, T.C.R (10/K): +/-200, Number of Terminals (piece): 8" 1020 -500 50 H I L CNN "Description"
+F5 "" 1020 -600 50 H I L CNN "Height"
+F6 "667-EXB-U38101JV" 1020 -700 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panasonic/EXB-U38101JV?qs=Z3CaLxJiOJJ7wE5VDXJYWA%3D%3D" 1020 -800 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 1020 -900 50 H I L CNN "Manufacturer_Name"
+F9 "EXB-U38101JV" 1020 -1000 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 300 -600 200 U 50 50 0 0 P
+X ~ 2 500 -600 200 U 50 50 0 0 P
+X ~ 3 700 -600 200 U 50 50 0 0 P
+X ~ 4 900 -600 200 U 50 50 0 0 P
+X ~ 5 900 300 200 D 50 50 0 0 P
+X ~ 6 700 300 200 D 50 50 0 0 P
+X ~ 7 500 300 200 D 50 50 0 0 P
+X ~ 8 300 300 200 D 50 50 0 0 P
+P 5 0 1 6 200 100 1000 100 1000 -400 200 -400 200 100 N
+P 5 0 1 6 250 -50 250 -250 350 -250 350 -50 250 -50 N
+P 5 0 1 6 450 -50 450 -250 550 -250 550 -50 450 -50 N
+P 2 0 1 6 300 -50 300 100 N
+P 2 0 1 6 300 -250 300 -400 N
+P 2 0 1 6 500 -250 500 -400 N
+P 2 0 1 6 500 -50 500 100 N
+P 2 0 1 6 700 -50 700 100 N
+P 5 0 1 6 650 -50 650 -250 750 -250 750 -50 650 -50 N
+P 2 0 1 6 700 -250 700 -400 N
+P 2 0 1 6 900 -50 900 100 N
+P 5 0 1 6 850 -50 850 -250 950 -250 950 -50 850 -50 N
+P 2 0 1 6 900 -250 900 -400 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model GRM155R60J106ME18D
+#/20248217/1704548/2.50/2/2/Capacitor
+DEF GRM155R60J106ME18D C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "GRM155R60J106ME18D" 350 150 50 H V L CNN
+F2 "CAPC1005X70N" 350 50 50 H I L CNN
+F3 "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf" 350 -50 50 H I L CNN
+F4 "Chip Capacitor value 106" 350 -150 50 H I L CNN "Description"
+F5 "0.7" 350 -250 50 H I L CNN "Height"
+F6 "" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Murata Electronics" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "GRM155R60J106ME18D" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model C1608X7T1A106M080AC
+#/20168396/1704548/2.50/2/5/Capacitor
+DEF C1608X7T1A106M080AC C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "C1608X7T1A106M080AC" 350 150 50 H V L CNN
+F2 "CAPC1608X80N" 350 50 50 H I L CNN
+F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_midvoltage_en.pdf" 350 -50 50 H I L CNN
+F4 "Multilayer Ceramic Capacitors MLCC - SMD/SMT Commercial Grade,MLCC,0603,X7T,10V,10uF,+/-20%,0.8mm" 350 -150 50 H I L CNN "Description"
+F5 "0.8" 350 -250 50 H I L CNN "Height"
+F6 "810-C1608X7T1A106M08" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/TDK/C1608X7T1A106M080AC?qs=Vi0JKjFBtYk5DbkZB9qYvg%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "TDK" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "C1608X7T1A106M080AC" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CRCW06030000Z0EA
+#/251507/1704548/2.50/2/3/Resistor
+DEF CRCW06030000Z0EA R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "CRCW06030000Z0EA" 550 150 50 H V L CNN
+F2 "RESC1608X50N" 550 50 50 H I L CNN
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 550 -50 50 H I L CNN
+F4 "VISHAY - CRCW06030000Z0EA - RESISTOR, 0R, 0.1W, JUMPER, 0603, SMD" 550 -150 50 H I L CNN "Description"
+F5 "0.5" 550 -250 50 H I L CNN "Height"
+F6 "71-CRCW0603-0-E3" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06030000Z0EA?qs=uFJqmf%2F3rbbVtxvMdbYUaQ%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CRCW06030000Z0EA" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
 #End Library
