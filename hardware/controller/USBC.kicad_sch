@@ -702,7 +702,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:D_TVS_Filled"
+		(symbol "Device:D_Zener"
 			(pin_numbers
 				(hide yes)
 			)
@@ -721,7 +721,7 @@
 					)
 				)
 			)
-			(property "Value" "D_TVS_Filled"
+			(property "Value" "D_Zener"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -747,7 +747,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
+			(property "Description" "Zener diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -756,7 +756,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "diode TVS thyrector"
+			(property "ki_keywords" "diode"
 				(at 0 0 0)
 				(effects
 					(font
@@ -774,22 +774,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_TVS_Filled_0_1"
+			(symbol "D_Zener_0_1"
 				(polyline
 					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
 					)
 					(stroke
 						(width 0.254)
@@ -813,22 +801,22 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
 					)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 			)
-			(symbol "D_TVS_Filled_1_1"
+			(symbol "D_Zener_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
-					(name "A1"
+					(name "K"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -846,7 +834,7 @@
 				(pin passive line
 					(at 3.81 0 180)
 					(length 2.54)
-					(name "A2"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1473,7 +1461,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06dee56c-102c-4807-93b8-3c02b8b5118f")
-		(property "Reference" "J2"
+		(property "Reference" "J301"
 			(at 105.41 62.23 0)
 			(effects
 				(font
@@ -1570,128 +1558,7 @@
 		(instances
 			(project ""
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
-					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 129.54 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "19d0c026-1e18-4c47-9092-83d5384bd3dd")
-		(property "Reference" "D3"
-			(at 135.636 90.932 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "PESD5V0X1BCSFYL"
-			(at 150.622 93.472 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "PMEG3005AESFYL"
-			(at 223.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 323.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 129.54 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.16"
-			(at 523.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-PESD5V0X1BCSFYL"
-			(at 623.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD5V0X1BCSFYL?qs=bel5lzaZNxSGTsNvXlzlFg%3D%3D"
-			(at 723.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 823.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PESD5V0X1BCSFYL"
-			(at 923.19 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d002ff03-3275-4637-b226-6fe2869a6935")
-		)
-		(pin "1"
-			(uuid "f584533f-c023-44f6-b658-0e9c4a4f4b98")
-		)
-		(instances
-			(project ""
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
-					(reference "D3")
+					(reference "J301")
 					(unit 1)
 				)
 			)
@@ -1707,7 +1574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4be41e76-c677-40df-9a46-7c225ccc852d")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR0301"
 			(at 97.79 120.65 0)
 			(effects
 				(font
@@ -1757,7 +1624,7 @@
 		(instances
 			(project ""
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
-					(reference "#PWR022")
+					(reference "#PWR0301")
 					(unit 1)
 				)
 			)
@@ -1773,7 +1640,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6fcc5d6b-6e3d-433c-8002-ba508de58cac")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR0303"
 			(at 146.05 82.55 0)
 			(effects
 				(font
@@ -1823,52 +1690,42 @@
 		(instances
 			(project ""
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
-					(reference "#PWR024")
+					(reference "#PWR0303")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 198.12 77.47 90)
+		(lib_id "Device:D_Zener")
+		(at 163.83 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7b3fad1a-4173-4feb-9652-3e085e874f3f")
-		(property "Reference" "D5"
-			(at 200.66 76.1999 90)
+		(uuid "76456a50-b2fe-4e99-9e8b-710a8ee3d902")
+		(property "Reference" "D302"
+			(at 166.37 92.7099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "PESD5V0X1BCSFYL"
-			(at 200.66 78.7399 90)
+		(property "Value" "SMBJ5.0A"
+			(at 166.37 95.2499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PMEG3005AESFYL"
-			(at 291.77 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 391.77 62.23 0)
+		(property "Footprint" "SamacSys_Parts:DIOM5436X261N"
+			(at 70.18 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1877,17 +1734,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 198.12 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.16"
-			(at 591.77 62.23 0)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/240/Littelfuse_TVS_Diode_SMBJ_Datasheet.pdf-1108540.pdf"
+			(at -29.82 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1896,8 +1744,17 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "771-PESD5V0X1BCSFYL"
-			(at 691.77 62.23 0)
+		(property "Description" "Littelfuse SMBJ5.0A, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+			(at 163.83 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.61"
+			(at -229.82 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1906,8 +1763,8 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD5V0X1BCSFYL?qs=bel5lzaZNxSGTsNvXlzlFg%3D%3D"
-			(at 791.77 62.23 0)
+		(property "Mouser Part Number" "576-SMBJ5.0A"
+			(at -329.82 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1916,8 +1773,8 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 891.77 62.23 0)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ5.0A?qs=JJML70Qc14t9tktzNr1oMQ%3D%3D"
+			(at -429.82 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,8 +1783,18 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "PESD5V0X1BCSFYL"
-			(at 991.77 62.23 0)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at -529.82 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMBJ5.0A"
+			(at -629.82 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1937,15 +1804,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "b62da6bc-2ae8-4986-b265-ca71b0aeda22")
+			(uuid "81a8aacc-a846-4acb-8e04-2e87f7b16b04")
 		)
 		(pin "1"
-			(uuid "c2b96538-1869-46a8-8442-8f1792b9b9da")
+			(uuid "ac7290b9-b04f-4456-9c98-c6c2af734d77")
 		)
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
-					(reference "D5")
+					(reference "D302")
 					(unit 1)
 				)
 			)
@@ -1960,7 +1827,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "84f38818-26f0-41cd-bdcc-1d272d382df1")
-		(property "Reference" "R9"
+		(property "Reference" "R301"
 			(at 129.794 72.898 90)
 			(effects
 				(font
@@ -1976,16 +1843,27 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 129.54 76.708 90)
+		(property "Footprint" "SamacSys_Parts:RESC1608X50N"
+			(at 225.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 325.73 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD D11/CRCW0603 100 5K1 1% ET6 e3"
 			(at 129.54 74.93 0)
 			(effects
 				(font
@@ -1994,12 +1872,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 129.54 74.93 0)
+		(property "Height" "0.5"
+			(at 525.73 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06035K10FKEC"
+			(at 625.73 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06035K10FKEC?qs=%252B6g0mu59x7Ipr%2FpCuMmwaw%3D%3D"
+			(at 725.73 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 825.73 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06035K10FKEC"
+			(at 925.73 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -2012,7 +1931,129 @@
 		(instances
 			(project ""
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
-					(reference "R9")
+					(reference "R301")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 198.12 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab4f60de-d348-458f-a8d1-b51e1fab1b46")
+		(property "Reference" "D303"
+			(at 200.66 76.1999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ5.0A"
+			(at 200.66 78.7399 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:DIOM5436X261N"
+			(at 104.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/240/Littelfuse_TVS_Diode_SMBJ_Datasheet.pdf-1108540.pdf"
+			(at 4.47 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littelfuse SMBJ5.0A, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+			(at 198.12 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.61"
+			(at -195.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-SMBJ5.0A"
+			(at -295.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ5.0A?qs=JJML70Qc14t9tktzNr1oMQ%3D%3D"
+			(at -395.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at -495.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMBJ5.0A"
+			(at -595.53 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7956dc18-84ec-4434-9846-28dc904232ce")
+		)
+		(pin "1"
+			(uuid "c1a3d650-edb7-4f52-ab1d-c7b573c09853")
+		)
+		(instances
+			(project "controller"
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
+					(reference "D303")
 					(unit 1)
 				)
 			)
@@ -2028,7 +2069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "addccbf5-5924-4312-9dad-30cea55f574e")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0304"
 			(at 163.83 104.14 0)
 			(effects
 				(font
@@ -2078,7 +2119,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
-					(reference "#PWR025")
+					(reference "#PWR0304")
 					(unit 1)
 				)
 			)
@@ -2094,7 +2135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae2c241f-5db1-4681-a8d8-d6873b162c5d")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR0305"
 			(at 198.12 104.14 0)
 			(effects
 				(font
@@ -2144,7 +2185,7 @@
 		(instances
 			(project ""
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
-					(reference "#PWR026")
+					(reference "#PWR0305")
 					(unit 1)
 				)
 			)
@@ -2159,7 +2200,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b1ac8540-d4c2-4523-984d-91481491eafc")
-		(property "Reference" "R12"
+		(property "Reference" "R304"
 			(at 180.34 89.916 90)
 			(effects
 				(font
@@ -2175,7 +2216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" "SamacSys_Parts:RESC1608X50N"
 			(at 276.53 73.66 0)
 			(effects
 				(font
@@ -2263,7 +2304,129 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
-					(reference "R12")
+					(reference "R304")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Zener")
+		(at 129.54 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bb1d7199-2c97-49e0-867e-092c51174fa4")
+		(property "Reference" "D301"
+			(at 132.08 92.7099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMBJ5.0A"
+			(at 132.08 95.2499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "SamacSys_Parts:DIOM5436X261N"
+			(at 35.89 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/240/Littelfuse_TVS_Diode_SMBJ_Datasheet.pdf-1108540.pdf"
+			(at -64.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Description" "Littelfuse SMBJ5.0A, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+			(at 129.54 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "2.61"
+			(at -264.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "576-SMBJ5.0A"
+			(at -364.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ5.0A?qs=JJML70Qc14t9tktzNr1oMQ%3D%3D"
+			(at -464.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "LITTELFUSE"
+			(at -564.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SMBJ5.0A"
+			(at -664.11 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "86cb68e5-47f3-4d5c-a9ba-de52bf0825f1")
+		)
+		(pin "1"
+			(uuid "ca6d00a0-de9b-4668-8941-df33beb7cab2")
+		)
+		(instances
+			(project "controller"
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
+					(reference "D301")
 					(unit 1)
 				)
 			)
@@ -2278,7 +2441,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c7bace8f-a204-49ad-9507-a80d882ded74")
-		(property "Reference" "R11"
+		(property "Reference" "R303"
 			(at 180.34 83.058 90)
 			(effects
 				(font
@@ -2294,7 +2457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC1608X50N"
+		(property "Footprint" "SamacSys_Parts:RESC1608X50N"
 			(at 276.53 71.12 0)
 			(effects
 				(font
@@ -2382,129 +2545,7 @@
 		(instances
 			(project ""
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_TVS_Filled")
-		(at 163.83 93.98 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e374df9e-a749-4a0b-a2c4-49f19114e1d7")
-		(property "Reference" "D4"
-			(at 166.37 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "PESD5V0X1BCSFYL"
-			(at 166.37 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "PMEG3005AESFYL"
-			(at 257.48 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 357.48 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Description" "Bidirectional transient-voltage-suppression diode, filled shape"
-			(at 163.83 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" "0.16"
-			(at 557.48 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "771-PESD5V0X1BCSFYL"
-			(at 657.48 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Nexperia/PESD5V0X1BCSFYL?qs=bel5lzaZNxSGTsNvXlzlFg%3D%3D"
-			(at 757.48 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Nexperia"
-			(at 857.48 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "PESD5V0X1BCSFYL"
-			(at 957.48 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3ddfe18c-2b6a-416a-9746-378ad9ab0ec2")
-		)
-		(pin "1"
-			(uuid "1fa0a59b-1d01-4d74-9993-f456cbb77935")
-		)
-		(instances
-			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
-					(reference "D4")
+					(reference "R303")
 					(unit 1)
 				)
 			)
@@ -2519,7 +2560,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f8e73236-4c8c-4d3f-8e2b-5f9ab28fe404")
-		(property "Reference" "R10"
+		(property "Reference" "R302"
 			(at 139.7 75.438 90)
 			(effects
 				(font
@@ -2535,16 +2576,27 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 139.7 79.248 90)
+		(property "Footprint" "SamacSys_Parts:RESC1608X50N"
+			(at 235.89 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+			(at 335.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Thick Film Resistors - SMD D11/CRCW0603 100 5K1 1% ET6 e3"
 			(at 139.7 77.47 0)
 			(effects
 				(font
@@ -2553,12 +2605,53 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 139.7 77.47 0)
+		(property "Height" "0.5"
+			(at 535.89 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "71-CRCW06035K10FKEC"
+			(at 635.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06035K10FKEC?qs=%252B6g0mu59x7Ipr%2FpCuMmwaw%3D%3D"
+			(at 735.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Vishay"
+			(at 835.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "CRCW06035K10FKEC"
+			(at 935.89 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -2571,7 +2664,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
-					(reference "R10")
+					(reference "R302")
 					(unit 1)
 				)
 			)
@@ -2587,7 +2680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "faf744a1-0716-4e54-87c0-e91d30908b6b")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR0302"
 			(at 129.54 104.14 0)
 			(effects
 				(font
@@ -2637,7 +2730,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/26d17bc2-e2ae-44e6-8fc3-d458d6e51b4a"
-					(reference "#PWR023")
+					(reference "#PWR0302")
 					(unit 1)
 				)
 			)

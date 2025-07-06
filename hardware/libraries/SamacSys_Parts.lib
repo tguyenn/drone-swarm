@@ -1116,4 +1116,198 @@ P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model 1769
+#/272461/1704548/2.50/4/4/Connector
+DEF 1769 J 0 30 Y Y 1 F N
+F0 "J" 650 300 50 H V L CNN
+F1 "1769" 650 200 50 H V L CNN
+F2 "1769" 650 100 50 H I L CNN
+F3 "https://cdn-shop.adafruit.com/datasheets/17311.pdf" 650 0 50 H I L CNN
+F4 "Adafruit Accessories JST-PH 2-pin SMT Right Angle Connect" 650 -100 50 H I L CNN "Description"
+F5 "5.5" 650 -200 50 H I L CNN "Height"
+F6 "485-1769" 650 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Adafruit/1769?qs=GURawfaeGuBbgoGtf2XstA%3D%3D" 650 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Adafruit" 650 -500 50 H I L CNN "Manufacturer_Name"
+F9 "1769" 650 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 800 0 200 L 50 50 0 0 P
+X 2 2 800 -100 200 L 50 50 0 0 P
+X 3 3 0 0 200 R 50 50 0 0 P
+X 4 4 0 -100 200 R 50 50 0 0 P
+P 5 0 1 6 200 100 600 100 600 -200 200 -200 200 100 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SMBJ5.0A
+#/555480/1704548/2.50/2/3/TVS Diode (Uni-directional)
+DEF SMBJ5.0A D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "SMBJ5.0A" 400 250 50 H V L BNN
+F2 "DIOM5436X261N" 400 150 50 H I L BNN
+F3 "https://www.mouser.co.uk/datasheet/2/240/Littelfuse_TVS_Diode_SMBJ_Datasheet.pdf-1108540.pdf" 400 50 50 H I L BNN
+F4 "Littelfuse SMBJ5.0A, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA" 400 -50 50 H I L BNN "Description"
+F5 "2.61" 400 -150 50 H I L BNN "Height"
+F6 "576-SMBJ5.0A" 400 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ5.0A?qs=JJML70Qc14t9tktzNr1oMQ%3D%3D" 400 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 400 -450 50 H I L BNN "Manufacturer_Name"
+F9 "SMBJ5.0A" 400 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 B
+X ~ 2 600 0 200 L 50 50 0 0 B
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 -80 240 -100 N
+P 2 0 1 6 200 -80 200 80 N
+P 2 0 1 6 160 100 200 80 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model ERJ-P08J101V
+#/338520/1704548/2.50/2/2/Resistor
+DEF ERJ-P08J101V R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ERJ-P08J101V" 550 150 50 H V L CNN
+F2 "ERJP08_(1206)" 550 50 50 H I L CNN
+F3 "http://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf" 550 -50 50 H I L CNN
+F4 "Thick Film Resistors - SMD 1206 100ohms 0.66W 5% AEC-Q200" 550 -150 50 H I L CNN "Description"
+F5 "0.7" 550 -250 50 H I L CNN "Height"
+F6 "667-ERJ-P08J101V" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-P08J101V?qs=1VWA5LkbEapwjh56YeyL%252Bw%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Panasonic" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ERJ-P08J101V" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CRCW06035K10FKEC
+#/16053522/1704548/2.50/2/5/Resistor
+DEF CRCW06035K10FKEC R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "CRCW06035K10FKEC" 550 150 50 H V L CNN
+F2 "RESC1608X50N" 550 50 50 H I L CNN
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 550 -50 50 H I L CNN
+F4 "Thick Film Resistors - SMD D11/CRCW0603 100 5K1 1% ET6 e3" 550 -150 50 H I L CNN "Description"
+F5 "0.5" 550 -250 50 H I L CNN "Height"
+F6 "71-CRCW06035K10FKEC" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06035K10FKEC?qs=%252B6g0mu59x7Ipr%2FpCuMmwaw%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Vishay" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CRCW06035K10FKEC" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model CR0603-FX-4752ELF
+#/1968449/1704548/2.50/2/5/Resistor
+DEF CR0603-FX-4752ELF R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "CR0603-FX-4752ELF" 550 150 50 H V L CNN
+F2 "RESC1608X55N" 550 50 50 H I L CNN
+F3 "https://www.bourns.com/pdfs/chpreztr.pdf" 550 -50 50 H I L CNN
+F4 "BOURNS - CR0603-FX-4752ELF - RES, 47K5, 1%, 0603, THICK FILM" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "652-CR0603FX-4752ELF" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Bourns/CR0603-FX-4752ELF?qs=CCIlxZRRv7hsbWXGq3hzLw%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Bourns" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "CR0603-FX-4752ELF" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model KTR03EZPJ204
+#/10167253/1704548/2.50/2/5/Resistor
+DEF KTR03EZPJ204 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "KTR03EZPJ204" 550 150 50 H V L CNN
+F2 "RESC1608X55N" 550 50 50 H I L CNN
+F3 "http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr.pdf" 550 -50 50 H I L CNN
+F4 "Thick Film Resistors - SMD 0603 200Kohm 5% High Voltage" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "755-KTR03EZPJ204" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/KTR03EZPJ204/?qs=Z4wLSx0Y7o6%252BvYvmMYyPcw%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "ROHM Semiconductor" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "KTR03EZPJ204" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 08053A100JAT2A
+#/580217/1704548/2.50/2/0/Capacitor
+DEF 08053A100JAT2A C 0 30 Y Y 1 F N
+F0 "C" 350 250 50 H V L CNN
+F1 "08053A100JAT2A" 350 150 50 H V L CNN
+F2 "CAPC2013X94N" 350 50 50 H I L CNN
+F3 "" 350 -50 50 H I L CNN
+F4 "Capacitor 0805 10PF +/-5% 25V" 350 -150 50 H I L CNN "Description"
+F5 "" 350 -250 50 H I L CNN "Height"
+F6 "581-08053A100JAT2A" 350 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/AVX/08053A100JAT2A?qs=bb%252B1MDm7h6JkIaQOVYAaFQ%3D%3D" 350 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Kyocera AVX" 350 -550 50 H I L CNN "Manufacturer_Name"
+F9 "08053A100JAT2A" 350 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 500 0 200 L 50 50 0 0 P
+P 2 0 1 6 220 100 220 -100 N
+P 2 0 1 6 280 100 280 -100 N
+P 2 0 1 6 200 0 220 0 N
+P 2 0 1 6 280 0 300 0 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model AIMC-0402HQ-3N0B-T
+#/17352405/1704548/2.50/2/2/Inductor
+DEF AIMC-0402HQ-3N0B-T L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "AIMC-0402HQ-3N0B-T" 650 150 50 H V L CNN
+F2 "INDC1006X65N" 650 50 50 H I L CNN
+F3 "https://abracon.com/Magnetics/new/AIMC-0402.pdf" 650 -50 50 H I L CNN
+F4 "3 nH Shielded Multilayer Inductor 700 mA 90mOhm Max 0402 (1005 Metric)" 650 -150 50 H I L CNN "Description"
+F5 "0.65" 650 -250 50 H I L CNN "Height"
+F6 "" 650 -350 50 H I L CNN "Mouser Part Number"
+F7 "" 650 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "ABRACON" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "AIMC-0402HQ-3N0B-T" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model 744761020A
+#/608517/1704548/2.50/2/0/Inductor
+DEF 744761020A L 0 30 Y Y 1 F N
+F0 "L" 650 250 50 H V L CNN
+F1 "744761020A" 650 150 50 H V L CNN
+F2 "WE-KI_0603A30" 650 50 50 H I L CNN
+F3 "" 650 -50 50 H I L CNN
+F4 "SMD Wire Wound Ceramic Inductor WE-KI" 650 -150 50 H I L CNN "Description"
+F5 "" 650 -250 50 H I L CNN "Height"
+F6 "710-744761020A" 650 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Wurth-Elektronik/744761020A?qs=4NsIomN5447gaVy4Zj80IQ%3D%3D" 650 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "Wurth Elektronik" 650 -550 50 H I L CNN "Manufacturer_Name"
+F9 "744761020A" 650 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 800 0 200 L 50 50 0 0 P
+A 250 -2 50 1777 -23 0 1 6 N 300 0 200 0
+A 350 -2 50 1777 -23 0 1 6 N 400 0 300 0
+A 450 -2 50 1777 -23 0 1 6 N 500 0 400 0
+A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
+ENDDRAW
+ENDDEF
+#
 #End Library

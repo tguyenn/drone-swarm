@@ -240,4 +240,58 @@ K
 F http://www.vishay.com/docs/20035/dcrcwe3.pdf
 $ENDCMP
 #
+$CMP 1769
+D Adafruit Accessories JST-PH 2-pin SMT Right Angle Connect
+K
+F https://cdn-shop.adafruit.com/datasheets/17311.pdf
+$ENDCMP
+#
+$CMP SMBJ5.0A
+D Littelfuse SMBJ5.0A, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA
+K
+F https://www.mouser.co.uk/datasheet/2/240/Littelfuse_TVS_Diode_SMBJ_Datasheet.pdf-1108540.pdf
+$ENDCMP
+#
+$CMP ERJ-P08J101V
+D Thick Film Resistors - SMD 1206 100ohms 0.66W 5% AEC-Q200
+K
+F http://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf
+$ENDCMP
+#
+$CMP CRCW06035K10FKEC
+D Thick Film Resistors - SMD D11/CRCW0603 100 5K1 1% ET6 e3
+K
+F http://www.vishay.com/docs/20035/dcrcwe3.pdf
+$ENDCMP
+#
+$CMP CR0603-FX-4752ELF
+D BOURNS - CR0603-FX-4752ELF - RES, 47K5, 1%, 0603, THICK FILM
+K
+F https://www.bourns.com/pdfs/chpreztr.pdf
+$ENDCMP
+#
+$CMP KTR03EZPJ204
+D Thick Film Resistors - SMD 0603 200Kohm 5% High Voltage
+K
+F http://rohmfs.rohm.com/en/products/databook/datasheet/passive/resistor/chip_resistor/ktr.pdf
+$ENDCMP
+#
+$CMP 08053A100JAT2A
+D Capacitor 0805 10PF +/-5% 25V
+K
+F 
+$ENDCMP
+#
+$CMP AIMC-0402HQ-3N0B-T
+D 3 nH Shielded Multilayer Inductor 700 mA 90mOhm Max 0402 (1005 Metric)
+K
+F https://abracon.com/Magnetics/new/AIMC-0402.pdf
+$ENDCMP
+#
+$CMP 744761020A
+D SMD Wire Wound Ceramic Inductor WE-KI
+K
+F 
+$ENDCMP
+#
 #End Doc Library
