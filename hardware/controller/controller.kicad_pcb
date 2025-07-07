@@ -3233,7 +3233,7 @@
 			(net 43 "/ESP32/BUT_JOY.BUT_RIGHT")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "c18d9e45-1b60-43f8-ab0d-9063e1039d60")
+			(uuid "801c9d72-f650-47de-be67-b3e036acd174")
 		)
 		(pad "2" thru_hole circle
 			(at 0 4.5 90)
@@ -3255,7 +3255,7 @@
 			(net 17 "+3V3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "7e4ef618-2299-45fb-8941-7cb6c3eca624")
+			(uuid "00220247-c232-44f1-8375-9593aac3b049")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.wrl"
@@ -7148,7 +7148,7 @@
 			(net 42 "/ESP32/BUT_JOY.BUT_DOWN")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "dc16adda-ca65-4b44-8d6d-552218c3cf8b")
+			(uuid "7b42d4ae-d788-40ef-8d59-9545c5379b5a")
 		)
 		(pad "2" thru_hole circle
 			(at 0 4.5 180)
@@ -7170,7 +7170,7 @@
 			(net 17 "+3V3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "53846c8a-b468-4cb4-942b-472eb993c07d")
+			(uuid "b824faa0-7817-4138-a30c-ff14eccb61de")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.wrl"
@@ -8873,7 +8873,7 @@
 			(net 40 "/ESP32/BUT_JOY.BUT_UP")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "1e5dd950-8597-47fe-a14d-4d1e694db753")
+			(uuid "b31b907c-a178-4624-ae78-00f849c78a58")
 		)
 		(pad "2" thru_hole circle
 			(at 0 4.5 180)
@@ -8895,7 +8895,7 @@
 			(net 17 "+3V3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "50074fd7-65b8-405a-b678-398d31bd0f73")
+			(uuid "3e8a71a7-abee-4268-9fdd-30722628c201")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.wrl"
@@ -12406,7 +12406,7 @@
 			(net 15 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "e4c530fe-953b-4544-8cb1-571cdc85b346")
+			(uuid "3b6d179d-2007-48a1-877b-3f2d9133ce81")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 -3.105 180)
@@ -12418,7 +12418,7 @@
 			(net 15 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "e4c530fe-953b-4544-8cb1-571cdc85b346")
+			(uuid "533d6360-3fc9-46da-b418-9553b23dfa17")
 		)
 		(pad "S1" thru_hole oval
 			(at 4.32 1.075 180)
@@ -12430,7 +12430,7 @@
 			(net 15 "GND")
 			(pinfunction "SHIELD")
 			(pintype "passive")
-			(uuid "e4c530fe-953b-4544-8cb1-571cdc85b346")
+			(uuid "2c8960c2-8836-4f8d-a7c0-b2a5d19f7480")
 		)
 		(embedded_fonts no)
 		(model "${KICAD9_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal.step"
@@ -13629,7 +13629,7 @@
 			(net 15 "GND")
 			(pinfunction "BUT_0")
 			(pintype "passive")
-			(uuid "21940ed1-74f6-4e3b-8810-248b7281503e")
+			(uuid "5714ce9d-5c12-45f4-bc02-27c65413088d")
 		)
 		(pad "6" thru_hole circle
 			(at -5.545 3.225 180)
@@ -13651,7 +13651,7 @@
 			(net 15 "GND")
 			(pinfunction "BUT_1")
 			(pintype "passive")
-			(uuid "719e17ba-607d-4d27-9071-fdeda3c4fef2")
+			(uuid "0c16e20e-cc43-4615-a5ac-2da25ec0ecf0")
 		)
 		(pad "A1" thru_hole rect
 			(at 0 0 180)
@@ -16982,7 +16982,7 @@
 			(net 15 "GND")
 			(pinfunction "BUT_0")
 			(pintype "passive")
-			(uuid "b62771a7-9f4f-4dab-b970-9284e16dbb47")
+			(uuid "f3180d86-b2ad-4a66-9e2b-d1ef57344b10")
 		)
 		(pad "6" thru_hole circle
 			(at -5.545 3.225 180)
@@ -17004,7 +17004,7 @@
 			(net 15 "GND")
 			(pinfunction "BUT_1")
 			(pintype "passive")
-			(uuid "01ca8faa-9d5f-49fa-ac5b-fb0962f18317")
+			(uuid "7c983877-723c-4900-858e-bcf6b889b936")
 		)
 		(pad "A1" thru_hole rect
 			(at 0 0 180)
@@ -21701,7 +21701,7 @@
 			(net 44 "/ESP32/BUT_JOY.BUT_BOOT")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "78e0fa1e-2318-4e01-8e82-35f313af6ddd")
+			(uuid "36be859e-b887-455c-b5a2-2bdc0a836ade")
 		)
 		(pad "2" smd rect
 			(at 1.675 -0.725 270)
@@ -21719,7 +21719,7 @@
 			(net 17 "+3V3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "71ed95a4-90bf-42ef-9d72-5100c1df483a")
+			(uuid "adf448cf-70f2-4fc7-9ab5-df13e7144a0b")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/TL1030AF500AQJ.stp"
@@ -24429,7 +24429,7 @@
 			(net 45 "/ESP32/BUT_JOY.BUT_RESET")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "d0d4c223-f87b-44f8-9456-5d7786d7f7bb")
+			(uuid "88399fe4-10de-4c03-9599-c37fd44b7744")
 		)
 		(pad "2" smd rect
 			(at 1.675 -0.725 270)
@@ -24447,7 +24447,7 @@
 			(net 17 "+3V3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "6c675b09-8e05-4820-af68-dc0a466df740")
+			(uuid "ea0f9a7c-2b50-46be-8c67-32363e684982")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/TL1030AF500AQJ.stp"
@@ -29109,7 +29109,7 @@
 			(net 41 "/ESP32/BUT_JOY.BUT_LEFT")
 			(pinfunction "1")
 			(pintype "passive")
-			(uuid "cdafceb1-32a0-4ba1-acbf-57f9e37399fd")
+			(uuid "4711886b-f275-4d8d-a373-d6697b82aa0e")
 		)
 		(pad "2" thru_hole circle
 			(at 0 4.5 90)
@@ -29131,7 +29131,7 @@
 			(net 17 "+3V3")
 			(pinfunction "2")
 			(pintype "passive")
-			(uuid "339c9914-3807-4b3b-a01f-0fcf01063c91")
+			(uuid "4903727c-925a-4e58-9aaa-c7c99e75454a")
 		)
 		(embedded_fonts no)
 		(model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_PUSH_6mm.wrl"
