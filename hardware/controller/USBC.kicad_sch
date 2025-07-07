@@ -1088,6 +1088,16 @@
 		)
 		(uuid "b32c4efc-09e6-4fec-b5c9-8a6427b56886")
 	)
+	(text "todo: find smaller resistors that have pads to fit right into\nthe USB data tracks"
+		(exclude_from_sim no)
+		(at 178.054 79.502 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f80d075c-5581-4dd5-8e5b-918d7cc9bfd4")
+	)
 	(junction
 		(at 143.51 76.2)
 		(diameter 0)

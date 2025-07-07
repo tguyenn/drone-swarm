@@ -8,6 +8,7 @@
 	(property "Reference" "REF**"
 		(at -4.55 -6.41 0)
 		(layer "F.SilkS")
+		(hide yes)
 		(uuid "1a2dae49-bd0a-4fc5-9c20-8ec3dbb46a28")
 		(effects
 			(font
@@ -19,6 +20,7 @@
 	(property "Value" "Texas_SWRA117D_2.4GHz_Left"
 		(at -3.95 1.21 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "88e7e9f9-922b-4493-abae-f4b2c2f5f45d")
 		(effects
 			(font

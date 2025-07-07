@@ -636,6 +636,16 @@
 	(bus_alias "SPI_LCD_SD"
 		(members "LCD_RST" "SCK" "MOSI" "SD_CS" "MISO" "LCD_CS" "LCD_RS")
 	)
+	(text "todo: check if i need to downgrade thew size of this chonker"
+		(exclude_from_sim no)
+		(at 141.224 39.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2252e505-636f-43e6-945b-79709d0fd02f")
+	)
 	(no_connect
 		(at 138.43 97.79)
 		(uuid "61faa457-10ac-4795-bb99-a2bb8ed59043")
