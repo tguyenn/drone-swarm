@@ -20,6 +20,7 @@
 	(property "Value" "MountingHole_4.3mm_M4_ISO14580_Pad"
 		(at 0 4.5 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "252aaef3-edbd-4158-a132-915cf9bb194b")
 		(effects
 			(font

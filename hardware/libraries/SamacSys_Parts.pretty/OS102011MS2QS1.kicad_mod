@@ -33,7 +33,7 @@
   (pad 3 thru_hole circle (at 4.000 -0) (size 1.300 1.300) (drill 0.8) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at -2.100 -0) (size 2.250 2.250) (drill 1.5) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 6.100 -0) (size 2.250 2.250) (drill 1.5) (layers *.Cu *.Mask))
-  (model "C:\\Users\\tobya\\Desktop\\drone_swarm\\hardware\\libraries\\SamacSys_Parts.3dshapes\\OS102011MS2QS1.stp"
+  (model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/OS102011MS2QS1.stp"
     (at (xyz 0.082283461187768 0.0019685039663409 0.013385826912452))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 -180))

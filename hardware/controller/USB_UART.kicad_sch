@@ -1136,6 +1136,18 @@
 	(bus_alias "UART"
 		(members "RTS" "DTR" "RXD" "TXD")
 	)
+	(rectangle
+		(start 19.685 34.29)
+		(end 59.055 73.66)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a7bd8334-7066-4ae9-80d3-d40fb1111cee)
+	)
 	(text "Note: this is not actually necessary for ESP32-S3\nsince it has native USB support\n\nI am including it anyways just for fun"
 		(exclude_from_sim no)
 		(at 118.618 50.546 0)
@@ -1145,6 +1157,16 @@
 			)
 		)
 		(uuid "1d3d5b2d-1743-448b-bef4-8f5ec89256bc")
+	)
+	(text "Hierarchical Pins"
+		(exclude_from_sim no)
+		(at 27.94 32.893 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "334a9048-84b9-4ab7-8fb9-f3589b46d507")
 	)
 	(junction
 		(at 102.87 100.33)

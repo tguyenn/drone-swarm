@@ -230,7 +230,7 @@
 		(uuid "7f6156b5-88eb-4ab4-bb24-27ade2c0dabc")
 	)
 	(embedded_fonts no)
-	(model "C:\\Users\\tobya\\Desktop\\drone_swarm\\hardware\\libraries\\SamacSys_Parts.3dshapes\\TL1030AF500AQJ.stp"
+	(model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/TL1030AF500AQJ.stp"
 		(offset
 			(xyz 0 0 0.3300000082)
 		)

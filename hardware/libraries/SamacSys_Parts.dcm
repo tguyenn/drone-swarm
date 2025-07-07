@@ -294,4 +294,28 @@ K
 F 
 $ENDCMP
 #
+$CMP ESR03EZPF1000
+D Thick Film Resistors - SMD 0603 100ohm 1% Anti Surge AEC-Q200
+K
+F https://componentsearchengine.com//ESR03EZPF1000.pdf
+$ENDCMP
+#
+$CMP SMCJ5.0A
+D ESD Suppressors / TVS Diodes 1.5kW 5V 5% Uni-Directional
+K
+F https://componentsearchengine.com/Datasheets/2/SMCJ5.0A.pdf
+$ENDCMP
+#
+$CMP SMF5.0A_R1_00001
+D ESD Suppressors / TVS Diodes 200W,Transient Voltage Suppressors,SOD-123FL,5V,UNI
+K
+F https://www.mouser.in/datasheet/2/1057/SMF5.0A_SERIES-1868418.pdf
+$ENDCMP
+#
+$CMP KTR18EZPF27R0
+D Thick Film Resistors - SMD 1206 27ohm 1% High VoltageAEC-Q200
+K
+F https://componentsearchengine.com/Datasheets/1/KTR18EZPF27R0.pdf
+$ENDCMP
+#
 #End Doc Library

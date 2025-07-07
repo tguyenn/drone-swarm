@@ -22,7 +22,7 @@
   (fp_line (start 0 -0.3) (end 0 0.3) (layer F.SilkS) (width 0.2))
   (pad 1 smd rect (at -0.8 0 0) (size 0.54 0.94) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.8 0 0) (size 0.54 0.94) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\tobya\\Desktop\\drone_swarm\\hardware\\libraries\\SamacSys_Parts.3dshapes\\C1608X7T1A106M080AC.stp"
+  (model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/C1608X7T1A106M080AC.stp"
     (at (xyz 0 0 0.015748031730727))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 -90))

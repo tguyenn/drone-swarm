@@ -1310,4 +1310,90 @@ A 550 -2 50 1777 -23 0 1 6 N 600 0 500 0
 ENDDRAW
 ENDDEF
 #
+#SamacSys ECAD Model ESR03EZPF1000
+#/1208064/1704548/2.50/2/3/Resistor
+DEF ESR03EZPF1000 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "ESR03EZPF1000" 550 150 50 H V L CNN
+F2 "RESC1608X55N" 550 50 50 H I L CNN
+F3 "https://componentsearchengine.com//ESR03EZPF1000.pdf" 550 -50 50 H I L CNN
+F4 "Thick Film Resistors - SMD 0603 100ohm 1% Anti Surge AEC-Q200" 550 -150 50 H I L CNN "Description"
+F5 "0.55" 550 -250 50 H I L CNN "Height"
+F6 "755-ESR03EZPF1000" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/ESR03EZPF1000?qs=493kPxzlxfJdLkJZpX4ByA%3D%3D" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "ROHM Semiconductor" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "ESR03EZPF1000" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SMCJ5.0A
+#/548839/1704548/2.50/2/3/TVS Diode (Uni-directional)
+DEF SMCJ5.0A D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "SMCJ5.0A" 400 250 50 H V L BNN
+F2 "SMCJ50A" 400 150 50 H I L BNN
+F3 "https://componentsearchengine.com/Datasheets/2/SMCJ5.0A.pdf" 400 50 50 H I L BNN
+F4 "ESD Suppressors / TVS Diodes 1.5kW 5V 5% Uni-Directional" 400 -50 50 H I L BNN "Description"
+F5 "2.62" 400 -150 50 H I L BNN "Height"
+F6 "576-SMCJ5.0A" 400 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMCJ5.0A?qs=HR2RnyOI4E4RumofpgUEcw%3D%3D" 400 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "LITTELFUSE" 400 -450 50 H I L BNN "Manufacturer_Name"
+F9 "SMCJ5.0A" 400 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 -80 240 -100 N
+P 2 0 1 6 200 -80 200 80 N
+P 2 0 1 6 160 100 200 80 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model SMF5.0A_R1_00001
+#/13513548/1704548/2.50/2/3/TVS Diode (Uni-directional)
+DEF SMF5.0A_R1_00001 D 0 30 Y Y 1 F N
+F0 "D" 400 350 50 H V L BNN
+F1 "SMF5.0A_R1_00001" 400 250 50 H V L BNN
+F2 "SMF50A_R1_00001" 400 150 50 H I L BNN
+F3 "https://www.mouser.in/datasheet/2/1057/SMF5.0A_SERIES-1868418.pdf" 400 50 50 H I L BNN
+F4 "ESD Suppressors / TVS Diodes 200W,Transient Voltage Suppressors,SOD-123FL,5V,UNI" 400 -50 50 H I L BNN "Description"
+F5 "1.1" 400 -150 50 H I L BNN "Height"
+F6 "241-SMF5.0A_R1_00001" 400 -250 50 H I L BNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Panjit/SMF5.0A_R1_00001?qs=sPbYRqrBIVlx%2FHVv%252BUyL%252BQ%3D%3D" 400 -350 50 H I L BNN "Mouser Price/Stock"
+F8 "PANJIT" 400 -450 50 H I L BNN "Manufacturer_Name"
+F9 "SMF5.0A_R1_00001" 400 -550 50 H I L BNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 600 0 200 L 50 50 0 0 P
+P 4 0 1 6 200 0 400 100 400 -100 200 0 N
+P 2 0 1 6 200 -80 240 -100 N
+P 2 0 1 6 200 -80 200 80 N
+P 2 0 1 6 160 100 200 80 N
+ENDDRAW
+ENDDEF
+#
+#SamacSys ECAD Model KTR18EZPF27R0
+#/11345025/1704548/2.50/2/5/Resistor
+DEF KTR18EZPF27R0 R 0 30 Y Y 1 F N
+F0 "R" 550 250 50 H V L CNN
+F1 "KTR18EZPF27R0" 550 150 50 H V L CNN
+F2 "RESC3216X65N" 550 50 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/KTR18EZPF27R0.pdf" 550 -50 50 H I L CNN
+F4 "Thick Film Resistors - SMD 1206 27ohm 1% High VoltageAEC-Q200" 550 -150 50 H I L CNN "Description"
+F5 "0.65" 550 -250 50 H I L CNN "Height"
+F6 "755-KTR18EZPF27R0" 550 -350 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.com/Search/Refine.aspx?Keyword=755-KTR18EZPF27R0" 550 -450 50 H I L CNN "Mouser Price/Stock"
+F8 "ROHM Semiconductor" 550 -550 50 H I L CNN "Manufacturer_Name"
+F9 "KTR18EZPF27R0" 550 -650 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 200 R 50 50 0 0 P
+X ~ 2 700 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 50 500 50 500 -50 200 -50 200 50 N
+ENDDRAW
+ENDDEF
+#
 #End Library

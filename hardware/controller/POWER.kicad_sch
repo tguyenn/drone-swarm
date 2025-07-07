@@ -2011,6 +2011,18 @@
 		(uuid 40aacb8f-42c5-48bd-a555-8a70f44d5310)
 	)
 	(rectangle
+		(start 17.145 23.495)
+		(end 46.99 40.005)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b029d525-43c0-43eb-a7f8-896a8de53a04)
+	)
+	(rectangle
 		(start 166.116 52.324)
 		(end 199.136 78.486)
 		(stroke
@@ -2062,6 +2074,16 @@
 		)
 		(uuid "eb653c6a-7f00-4328-9bc0-8392f051e1a3")
 	)
+	(text "Hierarchical Pins"
+		(exclude_from_sim no)
+		(at 25.4 22.098 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ebaea176-5ecf-43dd-8918-5c50b6784f0b")
+	)
 	(junction
 		(at 181.61 72.39)
 		(diameter 0)
@@ -2069,16 +2091,16 @@
 		(uuid "034224d0-0a58-451f-8f1d-0a9394694a38")
 	)
 	(junction
+		(at 186.69 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0a04bf41-3c85-443f-9707-01e32ae85e11")
+	)
+	(junction
 		(at 214.63 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0a6d0ddd-a886-48b6-bc9f-4aff717f135e")
-	)
-	(junction
-		(at 50.8 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0e8bf613-eaba-4ebc-a31e-d4958d712c08")
 	)
 	(junction
 		(at 128.27 110.49)
@@ -2109,12 +2131,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d9e53dc-785b-410d-8937-f3daa245813f")
-	)
-	(junction
-		(at 186.69 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "2f468e80-f8f6-4276-8322-a6e7e2a86710")
 	)
 	(junction
 		(at 133.35 110.49)
@@ -2163,6 +2179,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72be22f5-836d-495a-8bfb-862408ae15e7")
+	)
+	(junction
+		(at 50.8 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7464ee2c-32db-4b98-ab61-91d41e7a8df8")
 	)
 	(junction
 		(at 88.9 110.49)
@@ -2254,13 +2276,13 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 110.49) (xy 76.2 110.49)
+			(xy 186.69 110.49) (xy 195.58 110.49)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0c221dce-1363-42ea-bce5-f2e31dc7701a")
+		(uuid "06760154-b09f-4350-ad5b-60cc00deec86")
 	)
 	(wire
 		(pts
@@ -2354,7 +2376,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 31.75) (xy 30.48 31.75)
+			(xy 22.86 35.56) (xy 31.75 35.56)
 		)
 		(stroke
 			(width 0)
@@ -2494,6 +2516,16 @@
 	)
 	(wire
 		(pts
+			(xy 50.8 110.49) (xy 76.2 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e61376-a61e-4bfa-a098-53a21e4a5f15")
+	)
+	(wire
+		(pts
 			(xy 236.22 114.3) (xy 231.14 114.3)
 		)
 		(stroke
@@ -2554,7 +2586,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 29.21) (xy 30.48 29.21)
+			(xy 22.86 33.02) (xy 31.75 33.02)
 		)
 		(stroke
 			(width 0)
@@ -2744,16 +2776,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 151.13) (xy 250.19 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b5133cdd-4b43-42dc-b7d5-f0b2e62f3732")
-	)
-	(wire
-		(pts
 			(xy 173.99 110.49) (xy 186.69 110.49)
 		)
 		(stroke
@@ -2771,16 +2793,6 @@
 			(type default)
 		)
 		(uuid "b8017feb-67b1-4ba9-8e60-910a01353786")
-	)
-	(wire
-		(pts
-			(xy 186.69 110.49) (xy 195.58 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9375e4e-bf43-418b-abd8-9c7623028263")
 	)
 	(wire
 		(pts
@@ -2804,7 +2816,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 25.4) (xy 30.48 25.4)
+			(xy 43.18 29.21) (xy 31.75 29.21)
 		)
 		(stroke
 			(width 0)
@@ -2943,7 +2955,7 @@
 		(uuid "fc17b68d-66e3-444f-9f58-4296201f1b6b")
 	)
 	(label "BAT_ST"
-		(at 21.59 31.75 0)
+		(at 22.86 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2963,7 +2975,7 @@
 		(uuid "231cde0e-d01b-4559-8f51-692044aeb7c9")
 	)
 	(label "USBC_VBUS"
-		(at 41.91 25.4 180)
+		(at 43.18 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2983,7 +2995,7 @@
 		(uuid "6f2bdfc2-650b-4494-a1eb-a78ba385feef")
 	)
 	(label "USBC_ST"
-		(at 21.59 29.21 0)
+		(at 22.86 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3024,7 +3036,7 @@
 	)
 	(hierarchical_label "USBC_VBUS"
 		(shape input)
-		(at 30.48 25.4 180)
+		(at 31.75 29.21 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3035,7 +3047,7 @@
 	)
 	(hierarchical_label "BAT_ST"
 		(shape output)
-		(at 30.48 31.75 0)
+		(at 31.75 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3046,7 +3058,7 @@
 	)
 	(hierarchical_label "USBC_ST"
 		(shape output)
-		(at 30.48 29.21 0)
+		(at 31.75 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3472,7 +3484,7 @@
 	)
 	(symbol
 		(lib_id "power:GNDPWR")
-		(at 250.19 151.13 0)
+		(at 252.73 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3481,7 +3493,7 @@
 		(fields_autoplaced yes)
 		(uuid "1736abce-035e-4d3f-9c65-acd11c8a9fd0")
 		(property "Reference" "#PWR0217"
-			(at 250.19 156.21 0)
+			(at 252.73 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3490,7 +3502,7 @@
 			)
 		)
 		(property "Value" "GNDPWR"
-			(at 250.063 154.94 0)
+			(at 252.603 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3498,7 +3510,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 250.19 152.4 0)
+			(at 252.73 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3507,7 +3519,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 250.19 152.4 0)
+			(at 252.73 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3516,7 +3528,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 250.19 151.13 0)
+			(at 252.73 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3564,7 +3576,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:ERJP08__1206_"
+		(property "Footprint" "RESC1608X55N"
 			(at 200.66 210.49 0)
 			(effects
 				(font
@@ -3574,7 +3586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDO0000/AOA0000C331.pdf"
+		(property "Datasheet" "https://componentsearchengine.com//ESR03EZPF1000.pdf"
 			(at 200.66 310.49 0)
 			(effects
 				(font
@@ -3584,7 +3596,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 1206 100ohms 0.66W 5% AEC-Q200"
+		(property "Description" "Thick Film Resistors - SMD 0603 100ohm 1% Anti Surge AEC-Q200"
 			(at 186.69 114.3 0)
 			(effects
 				(font
@@ -3593,7 +3605,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.7"
+		(property "Height" "0.55"
 			(at 200.66 510.49 0)
 			(effects
 				(font
@@ -3603,7 +3615,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "667-ERJ-P08J101V"
+		(property "Mouser Part Number" "755-ESR03EZPF1000"
 			(at 200.66 610.49 0)
 			(effects
 				(font
@@ -3613,7 +3625,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/ERJ-P08J101V?qs=1VWA5LkbEapwjh56YeyL%252Bw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/ESR03EZPF1000?qs=493kPxzlxfJdLkJZpX4ByA%3D%3D"
 			(at 200.66 710.49 0)
 			(effects
 				(font
@@ -3623,7 +3635,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Panasonic"
+		(property "Manufacturer_Name" "ROHM Semiconductor"
 			(at 200.66 810.49 0)
 			(effects
 				(font
@@ -3633,7 +3645,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "ERJ-P08J101V"
+		(property "Manufacturer_Part_Number" "ESR03EZPF1000"
 			(at 200.66 910.49 0)
 			(effects
 				(font
@@ -5003,7 +5015,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMBJ5.0A"
+		(property "Value" "SMF5.0A_R1_00001"
 			(at 53.34 115.5699 90)
 			(effects
 				(font
@@ -5012,7 +5024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:DIOM5436X261N"
+		(property "Footprint" "SMF50A_R1_00001"
 			(at -42.85 124.46 0)
 			(effects
 				(font
@@ -5022,7 +5034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/240/Littelfuse_TVS_Diode_SMBJ_Datasheet.pdf-1108540.pdf"
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/1057/SMF5.0A_SERIES-1868418.pdf"
 			(at -142.85 124.46 0)
 			(effects
 				(font
@@ -5032,7 +5044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Littelfuse SMBJ5.0A, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+		(property "Description" "ESD Suppressors / TVS Diodes 200W,Transient Voltage Suppressors,SOD-123FL,5V,UNI"
 			(at 50.8 114.3 0)
 			(effects
 				(font
@@ -5041,7 +5053,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "2.61"
+		(property "Height" "1.1"
 			(at -342.85 124.46 0)
 			(effects
 				(font
@@ -5051,7 +5063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "576-SMBJ5.0A"
+		(property "Mouser Part Number" "241-SMF5.0A_R1_00001"
 			(at -442.85 124.46 0)
 			(effects
 				(font
@@ -5061,7 +5073,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ5.0A?qs=JJML70Qc14t9tktzNr1oMQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/SMF5.0A_R1_00001?qs=sPbYRqrBIVlx%2FHVv%252BUyL%252BQ%3D%3D"
 			(at -542.85 124.46 0)
 			(effects
 				(font
@@ -5071,7 +5083,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "LITTELFUSE"
+		(property "Manufacturer_Name" "PANJIT"
 			(at -642.85 124.46 0)
 			(effects
 				(font
@@ -5081,7 +5093,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SMBJ5.0A"
+		(property "Manufacturer_Part_Number" "SMF5.0A_R1_00001"
 			(at -742.85 124.46 0)
 			(effects
 				(font
@@ -6379,7 +6391,7 @@
 			)
 		)
 		(property "Value" "TPS63000IDRCRQ1"
-			(at 207.518 100.076 0)
+			(at 210.058 100.076 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -1078,7 +1078,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "todo: do NOT forget the pull up resistor on the data line!!!"
+	(text "todo: do NOT forget the pull up resistor on the data line!!! ??"
 		(exclude_from_sim no)
 		(at 162.052 125.984 0)
 		(effects
@@ -1715,7 +1715,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMBJ5.0A"
+		(property "Value" "SMF5.0A_R1_00001"
 			(at 166.37 95.2499 90)
 			(effects
 				(font
@@ -1724,7 +1724,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:DIOM5436X261N"
+		(property "Footprint" "SMF50A_R1_00001"
 			(at 70.18 104.14 0)
 			(effects
 				(font
@@ -1734,7 +1734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/240/Littelfuse_TVS_Diode_SMBJ_Datasheet.pdf-1108540.pdf"
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/1057/SMF5.0A_SERIES-1868418.pdf"
 			(at -29.82 104.14 0)
 			(effects
 				(font
@@ -1744,7 +1744,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Littelfuse SMBJ5.0A, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+		(property "Description" "ESD Suppressors / TVS Diodes 200W,Transient Voltage Suppressors,SOD-123FL,5V,UNI"
 			(at 163.83 93.98 0)
 			(effects
 				(font
@@ -1753,7 +1753,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "2.61"
+		(property "Height" "1.1"
 			(at -229.82 104.14 0)
 			(effects
 				(font
@@ -1763,7 +1763,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "576-SMBJ5.0A"
+		(property "Mouser Part Number" "241-SMF5.0A_R1_00001"
 			(at -329.82 104.14 0)
 			(effects
 				(font
@@ -1773,7 +1773,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ5.0A?qs=JJML70Qc14t9tktzNr1oMQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/SMF5.0A_R1_00001?qs=sPbYRqrBIVlx%2FHVv%252BUyL%252BQ%3D%3D"
 			(at -429.82 104.14 0)
 			(effects
 				(font
@@ -1783,7 +1783,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "LITTELFUSE"
+		(property "Manufacturer_Name" "PANJIT"
 			(at -529.82 104.14 0)
 			(effects
 				(font
@@ -1793,7 +1793,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SMBJ5.0A"
+		(property "Manufacturer_Part_Number" "SMF5.0A_R1_00001"
 			(at -629.82 104.14 0)
 			(effects
 				(font
@@ -1956,7 +1956,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMBJ5.0A"
+		(property "Value" "SMF5.0A_R1_00001"
 			(at 200.66 78.7399 90)
 			(effects
 				(font
@@ -1965,7 +1965,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:DIOM5436X261N"
+		(property "Footprint" "SMF50A_R1_00001"
 			(at 104.47 87.63 0)
 			(effects
 				(font
@@ -1975,7 +1975,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/240/Littelfuse_TVS_Diode_SMBJ_Datasheet.pdf-1108540.pdf"
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/1057/SMF5.0A_SERIES-1868418.pdf"
 			(at 4.47 87.63 0)
 			(effects
 				(font
@@ -1985,7 +1985,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Littelfuse SMBJ5.0A, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+		(property "Description" "ESD Suppressors / TVS Diodes 200W,Transient Voltage Suppressors,SOD-123FL,5V,UNI"
 			(at 198.12 77.47 0)
 			(effects
 				(font
@@ -1994,7 +1994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "2.61"
+		(property "Height" "1.1"
 			(at -195.53 87.63 0)
 			(effects
 				(font
@@ -2004,7 +2004,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "576-SMBJ5.0A"
+		(property "Mouser Part Number" "241-SMF5.0A_R1_00001"
 			(at -295.53 87.63 0)
 			(effects
 				(font
@@ -2014,7 +2014,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ5.0A?qs=JJML70Qc14t9tktzNr1oMQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/SMF5.0A_R1_00001?qs=sPbYRqrBIVlx%2FHVv%252BUyL%252BQ%3D%3D"
 			(at -395.53 87.63 0)
 			(effects
 				(font
@@ -2024,7 +2024,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "LITTELFUSE"
+		(property "Manufacturer_Name" "PANJIT"
 			(at -495.53 87.63 0)
 			(effects
 				(font
@@ -2034,7 +2034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SMBJ5.0A"
+		(property "Manufacturer_Part_Number" "SMF5.0A_R1_00001"
 			(at -595.53 87.63 0)
 			(effects
 				(font
@@ -2208,7 +2208,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "27"
 			(at 180.34 87.63 90)
 			(effects
 				(font
@@ -2216,7 +2216,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RESC1608X50N"
+		(property "Footprint" "RESC3216X65N"
 			(at 276.53 73.66 0)
 			(effects
 				(font
@@ -2226,7 +2226,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/KTR18EZPF27R0.pdf"
 			(at 376.53 73.66 0)
 			(effects
 				(font
@@ -2236,7 +2236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "VISHAY - CRCW06030000Z0EA - RESISTOR, 0R, 0.1W, JUMPER, 0603, SMD"
+		(property "Description" "Thick Film Resistors - SMD 1206 27ohm 1% High VoltageAEC-Q200"
 			(at 180.34 87.63 0)
 			(effects
 				(font
@@ -2245,7 +2245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
+		(property "Height" "0.65"
 			(at 576.53 73.66 0)
 			(effects
 				(font
@@ -2255,7 +2255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0603-0-E3"
+		(property "Mouser Part Number" "755-KTR18EZPF27R0"
 			(at 676.53 73.66 0)
 			(effects
 				(font
@@ -2265,7 +2265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06030000Z0EA?qs=uFJqmf%2F3rbbVtxvMdbYUaQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=755-KTR18EZPF27R0"
 			(at 776.53 73.66 0)
 			(effects
 				(font
@@ -2275,7 +2275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "ROHM Semiconductor"
 			(at 876.53 73.66 0)
 			(effects
 				(font
@@ -2285,7 +2285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW06030000Z0EA"
+		(property "Manufacturer_Part_Number" "KTR18EZPF27R0"
 			(at 976.53 73.66 0)
 			(effects
 				(font
@@ -2329,7 +2329,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SMBJ5.0A"
+		(property "Value" "SMF5.0A_R1_00001"
 			(at 132.08 95.2499 90)
 			(effects
 				(font
@@ -2338,7 +2338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:DIOM5436X261N"
+		(property "Footprint" "SMF50A_R1_00001"
 			(at 35.89 104.14 0)
 			(effects
 				(font
@@ -2348,7 +2348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/240/Littelfuse_TVS_Diode_SMBJ_Datasheet.pdf-1108540.pdf"
+		(property "Datasheet" "https://www.mouser.in/datasheet/2/1057/SMF5.0A_SERIES-1868418.pdf"
 			(at -64.11 104.14 0)
 			(effects
 				(font
@@ -2358,7 +2358,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Littelfuse SMBJ5.0A, Uni-Directional TVS Diode, 600W, 2-Pin DO-214AA"
+		(property "Description" "ESD Suppressors / TVS Diodes 200W,Transient Voltage Suppressors,SOD-123FL,5V,UNI"
 			(at 129.54 93.98 0)
 			(effects
 				(font
@@ -2367,7 +2367,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "2.61"
+		(property "Height" "1.1"
 			(at -264.11 104.14 0)
 			(effects
 				(font
@@ -2377,7 +2377,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "576-SMBJ5.0A"
+		(property "Mouser Part Number" "241-SMF5.0A_R1_00001"
 			(at -364.11 104.14 0)
 			(effects
 				(font
@@ -2387,7 +2387,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Littelfuse/SMBJ5.0A?qs=JJML70Qc14t9tktzNr1oMQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panjit/SMF5.0A_R1_00001?qs=sPbYRqrBIVlx%2FHVv%252BUyL%252BQ%3D%3D"
 			(at -464.11 104.14 0)
 			(effects
 				(font
@@ -2397,7 +2397,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "LITTELFUSE"
+		(property "Manufacturer_Name" "PANJIT"
 			(at -564.11 104.14 0)
 			(effects
 				(font
@@ -2407,7 +2407,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "SMBJ5.0A"
+		(property "Manufacturer_Part_Number" "SMF5.0A_R1_00001"
 			(at -664.11 104.14 0)
 			(effects
 				(font
@@ -2449,7 +2449,7 @@
 				)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "27"
 			(at 180.34 85.09 90)
 			(effects
 				(font
@@ -2457,7 +2457,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RESC1608X50N"
+		(property "Footprint" "RESC3216X65N"
 			(at 276.53 71.12 0)
 			(effects
 				(font
@@ -2467,7 +2467,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.vishay.com/docs/20035/dcrcwe3.pdf"
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/KTR18EZPF27R0.pdf"
 			(at 376.53 71.12 0)
 			(effects
 				(font
@@ -2477,7 +2477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "VISHAY - CRCW06030000Z0EA - RESISTOR, 0R, 0.1W, JUMPER, 0603, SMD"
+		(property "Description" "Thick Film Resistors - SMD 1206 27ohm 1% High VoltageAEC-Q200"
 			(at 180.34 85.09 0)
 			(effects
 				(font
@@ -2486,7 +2486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.5"
+		(property "Height" "0.65"
 			(at 576.53 71.12 0)
 			(effects
 				(font
@@ -2496,7 +2496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "71-CRCW0603-0-E3"
+		(property "Mouser Part Number" "755-KTR18EZPF27R0"
 			(at 676.53 71.12 0)
 			(effects
 				(font
@@ -2506,7 +2506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Vishay-Dale/CRCW06030000Z0EA?qs=uFJqmf%2F3rbbVtxvMdbYUaQ%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=755-KTR18EZPF27R0"
 			(at 776.53 71.12 0)
 			(effects
 				(font
@@ -2516,7 +2516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Vishay"
+		(property "Manufacturer_Name" "ROHM Semiconductor"
 			(at 876.53 71.12 0)
 			(effects
 				(font
@@ -2526,7 +2526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "CRCW06030000Z0EA"
+		(property "Manufacturer_Part_Number" "KTR18EZPF27R0"
 			(at 976.53 71.12 0)
 			(effects
 				(font
