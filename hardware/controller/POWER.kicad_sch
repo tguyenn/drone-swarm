@@ -1099,6 +1099,118 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "SamacSys_Parts:NetTie"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "NT"
+				(at -0.508 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie"
+				(at -0.508 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NetTie_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 1.27 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_Parts:TPS63000IDRCRQ1"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1321,7 +1433,7 @@
 					)
 				)
 				(pin passive line
-					(at 11.43 -27.94 90)
+					(at 13.97 -27.94 90)
 					(length 5.08)
 					(name "PGND_1"
 						(effects
@@ -1339,7 +1451,7 @@
 					)
 				)
 				(pin passive line
-					(at 13.97 -27.94 90)
+					(at 16.51 -27.94 90)
 					(length 5.08)
 					(name "PGND_2"
 						(effects
@@ -1357,7 +1469,7 @@
 					)
 				)
 				(pin passive line
-					(at 16.51 -27.94 90)
+					(at 19.05 -27.94 90)
 					(length 5.08)
 					(name "PGND_3"
 						(effects
@@ -1375,7 +1487,7 @@
 					)
 				)
 				(pin passive line
-					(at 19.05 -27.94 90)
+					(at 21.59 -27.94 90)
 					(length 5.08)
 					(name "PGND_4"
 						(effects
@@ -1393,7 +1505,7 @@
 					)
 				)
 				(pin passive line
-					(at 21.59 -27.94 90)
+					(at 24.13 -27.94 90)
 					(length 5.08)
 					(name "PGND_5"
 						(effects
@@ -1411,7 +1523,7 @@
 					)
 				)
 				(pin passive line
-					(at 24.13 -27.94 90)
+					(at 26.67 -27.94 90)
 					(length 5.08)
 					(name "PGND_6"
 						(effects
@@ -2064,16 +2176,6 @@
 		)
 		(uuid "591a8e3c-aa2e-4819-893a-26c9ad4156a1")
 	)
-	(text "Connect control ground to \ncommon ground near GND pin"
-		(exclude_from_sim no)
-		(at 247.396 148.336 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "eb653c6a-7f00-4328-9bc0-8392f051e1a3")
-	)
 	(text "Hierarchical Pins"
 		(exclude_from_sim no)
 		(at 25.4 22.098 0)
@@ -2133,6 +2235,12 @@
 		(uuid "1d9e53dc-785b-410d-8937-f3daa245813f")
 	)
 	(junction
+		(at 219.71 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31725f1a-7008-41f5-aa3a-2055ac100dd9")
+	)
+	(junction
 		(at 133.35 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2149,6 +2257,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "51df5598-ccdb-4431-b370-a605abe5d003")
+	)
+	(junction
+		(at 209.55 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5285675b-4904-42fa-9f05-c476af58e1c8")
+	)
+	(junction
+		(at 204.47 146.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "58ec1313-f79c-4fae-a6fd-26f8bf973c9a")
 	)
 	(junction
 		(at 246.38 114.3)
@@ -2197,12 +2317,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "93725fc1-88c0-4c82-ba21-10b6ea07e3e4")
-	)
-	(junction
-		(at 209.55 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9686f0f3-8c2f-464e-92d1-3af7150052e7")
 	)
 	(junction
 		(at 250.19 124.46)
@@ -2266,16 +2380,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 146.05) (xy 207.01 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0600ae19-5a72-4dd4-bf36-39e51d3aa8f2")
-	)
-	(wire
-		(pts
 			(xy 186.69 110.49) (xy 195.58 110.49)
 		)
 		(stroke
@@ -2326,7 +2430,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 142.24) (xy 204.47 149.86)
+			(xy 204.47 142.24) (xy 204.47 146.05)
 		)
 		(stroke
 			(width 0)
@@ -2596,16 +2700,6 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 146.05) (xy 209.55 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7de5ac0b-4baa-4773-8cc3-7c28c9bd7615")
-	)
-	(wire
-		(pts
 			(xy 88.9 110.49) (xy 91.44 110.49)
 		)
 		(stroke
@@ -2623,6 +2717,16 @@
 			(type default)
 		)
 		(uuid "8c007d84-8272-4163-bc31-d0ab9952a305")
+	)
+	(wire
+		(pts
+			(xy 208.28 146.05) (xy 209.55 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "958657c7-79aa-4f69-930b-b89d569923ae")
 	)
 	(wire
 		(pts
@@ -2766,6 +2870,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 146.05) (xy 219.71 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1bfec9e-e3ba-4a51-ae1c-839f1414faa0")
+	)
+	(wire
+		(pts
 			(xy 133.35 110.49) (xy 139.7 110.49)
 		)
 		(stroke
@@ -2886,6 +3000,16 @@
 	)
 	(wire
 		(pts
+			(xy 222.25 142.24) (xy 222.25 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da71c680-310a-4510-adfa-23f05a93c2b6")
+	)
+	(wire
+		(pts
 			(xy 173.99 114.3) (xy 173.99 110.49)
 		)
 		(stroke
@@ -2913,6 +3037,16 @@
 			(type default)
 		)
 		(uuid "eacba194-961a-4f3b-90e3-63d024f2105c")
+	)
+	(wire
+		(pts
+			(xy 204.47 146.05) (xy 204.47 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec957c09-4dee-4a99-bd21-d528feaa9fb2")
 	)
 	(wire
 		(pts
@@ -3483,72 +3617,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GNDPWR")
-		(at 252.73 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1736abce-035e-4d3f-9c65-acd11c8a9fd0")
-		(property "Reference" "#PWR0217"
-			(at 252.73 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GNDPWR"
-			(at 252.603 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 152.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
-			(at 252.73 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "33bed623-6fda-4431-b7c9-a1b94146e840")
-		)
-		(instances
-			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/e70789ad-230b-4d46-b635-87f45083e468"
-					(reference "#PWR0217")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 186.69 114.3 0)
 		(unit 1)
@@ -3576,7 +3644,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
+		(property "Footprint" "SamacSys_Parts:RESC1608X55N"
 			(at 200.66 210.49 0)
 			(effects
 				(font
@@ -5024,7 +5092,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMF50A_R1_00001"
+		(property "Footprint" "SamacSys_Parts:SMF50A_R1_00001"
 			(at -42.85 124.46 0)
 			(effects
 				(font
@@ -5113,72 +5181,6 @@
 			(project ""
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/e70789ad-230b-4d46-b635-87f45083e468"
 					(reference "D201")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 241.3 151.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a96a31d4-1377-48ac-8463-b7b8fc83f446")
-		(property "Reference" "#PWR0215"
-			(at 241.3 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 241.3 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 241.3 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 241.3 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 241.3 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "97dec54c-4db6-4e4d-b8a5-0f92d9c7e2ce")
-		)
-		(instances
-			(project "controller"
-				(path "/869bea87-c885-4ead-826b-3f34ceacafad/e70789ad-230b-4d46-b635-87f45083e468"
-					(reference "#PWR0215")
 					(unit 1)
 				)
 			)
@@ -6026,6 +6028,73 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:NetTie")
+		(at 207.01 146.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(uuid "e825a65a-973a-40e9-9ca9-0775b78870ce")
+		(property "Reference" "NT201"
+			(at 197.358 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie"
+			(at 197.358 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad0.5mm"
+			(at 207.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 207.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 207.01 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "79594774-386f-4f40-8dd8-41f453fdc03c")
+		)
+		(pin "2"
+			(uuid "525b09e0-aa43-4d19-b197-fe20220e74c8")
+		)
+		(instances
+			(project ""
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad/e70789ad-230b-4d46-b635-87f45083e468"
+					(reference "NT201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 213.36 95.25 90)
 		(unit 1)
@@ -6399,7 +6468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:TPS63000IDRCRQ1"
+		(property "Footprint" "TPS63000IDRCRQ1"
 			(at 227.33 199.06 0)
 			(effects
 				(font

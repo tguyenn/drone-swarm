@@ -2542,7 +2542,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RESC2012X60N"
+		(property "Footprint" "RESC2012X60N"
 			(at 121.92 262.56 0)
 			(effects
 				(font
@@ -2552,7 +2552,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/ASC0805-10KFT5.pdf"
 			(at 121.92 362.56 0)
 			(effects
 				(font
@@ -2562,7 +2562,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "WELWYN - ASC0805-10KFT5 - RESISTOR, ANTI SULPHUR, 10K, 0.125W, 1%"
 			(at 107.95 166.37 0)
 			(effects
 				(font
@@ -3806,7 +3806,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RESC2012X60N"
+		(property "Footprint" "RESC2012X60N"
 			(at 162.56 262.56 0)
 			(effects
 				(font
@@ -3816,7 +3816,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/ASC0805-10KFT5.pdf"
 			(at 162.56 362.56 0)
 			(effects
 				(font
@@ -3826,7 +3826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "WELWYN - ASC0805-10KFT5 - RESISTOR, ANTI SULPHUR, 10K, 0.125W, 1%"
 			(at 148.59 166.37 0)
 			(effects
 				(font
@@ -3928,7 +3928,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RESC2012X60N"
+		(property "Footprint" "RESC2012X60N"
 			(at 182.88 166.04 0)
 			(effects
 				(font
@@ -3938,7 +3938,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/ASC0805-10KFT5.pdf"
 			(at 182.88 266.04 0)
 			(effects
 				(font
@@ -3948,7 +3948,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "WELWYN - ASC0805-10KFT5 - RESISTOR, ANTI SULPHUR, 10K, 0.125W, 1%"
 			(at 168.91 69.85 0)
 			(effects
 				(font
@@ -4186,7 +4186,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RESC2012X60N"
+		(property "Footprint" "RESC2012X60N"
 			(at 100.33 261.29 0)
 			(effects
 				(font
@@ -4196,7 +4196,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/ASC0805-10KFT5.pdf"
 			(at 100.33 361.29 0)
 			(effects
 				(font
@@ -4206,7 +4206,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "WELWYN - ASC0805-10KFT5 - RESISTOR, ANTI SULPHUR, 10K, 0.125W, 1%"
 			(at 86.36 165.1 0)
 			(effects
 				(font
@@ -4702,7 +4702,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RESC2012X60N"
+		(property "Footprint" "RESC2012X60N"
 			(at 142.24 262.56 0)
 			(effects
 				(font
@@ -4712,7 +4712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/ASC0805-10KFT5.pdf"
 			(at 142.24 362.56 0)
 			(effects
 				(font
@@ -4722,7 +4722,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "WELWYN - ASC0805-10KFT5 - RESISTOR, ANTI SULPHUR, 10K, 0.125W, 1%"
 			(at 128.27 166.37 0)
 			(effects
 				(font
@@ -5024,7 +5024,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RESC2012X60N"
+		(property "Footprint" "RESC2012X60N"
 			(at 207.01 166.04 0)
 			(effects
 				(font
@@ -5034,7 +5034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/ASC0805-10KFT5.pdf"
 			(at 207.01 266.04 0)
 			(effects
 				(font
@@ -5044,7 +5044,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "WELWYN - ASC0805-10KFT5 - RESISTOR, ANTI SULPHUR, 10K, 0.125W, 1%"
 			(at 193.04 69.85 0)
 			(effects
 				(font

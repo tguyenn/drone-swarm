@@ -1,35 +1,233 @@
-(module "SMF50A_R1_00001" (layer F.Cu)
-  (descr "SMF5.0A_R1_00001-2")
-  (tags "TVS Diode (Uni-directional)")
-  (attr smd)
-  (fp_text reference D** (at 0.000 -0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 -0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "SMF50A_R1_00001" (at 0.000 -0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.4 0.9) (end 1.4 0.9) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.4 0.9) (end 1.4 -0.9) (layer F.Fab) (width 0.1))
-  (fp_line (start 1.4 -0.9) (end -1.4 -0.9) (layer F.Fab) (width 0.1))
-  (fp_line (start -1.4 -0.9) (end -1.4 0.9) (layer F.Fab) (width 0.1))
-  (fp_line (start -3.125 -1.9) (end 3.125 -1.9) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 3.125 -1.9) (end 3.125 1.9) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 3.125 1.9) (end -3.125 1.9) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -3.125 1.9) (end -3.125 -1.9) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -0.8 -0.9) (end 0.8 -0.9) (layer F.SilkS) (width 0.2))
-  (fp_line (start -0.8 0.9) (end 0.8 0.9) (layer F.SilkS) (width 0.2))
-  (fp_line (start -2.6 -0) (end -2.6 -0) (layer F.SilkS) (width 0.1))
-  (fp_line (start -2.7 -0) (end -2.7 -0) (layer F.SilkS) (width 0.1))
-  (fp_arc (start -2.65 -0) (end -2.600 -0) (angle -180) (layer F.SilkS) (width 0.1))
-  (fp_arc (start -2.65 -0) (end -2.700 -0) (angle -180) (layer F.SilkS) (width 0.1))
-  (pad 1 smd rect (at -1.550 -0 0) (size 1.150 1.220) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.550 -0 0) (size 1.150 1.220) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\tobya\\OneDrive\\Desktop\\drone_swarm\\hardware\\libraries\\SamacSys_Parts.3dshapes\\SMF5.0A_R1_00001.stp"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "SMF50A_R1_00001"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMF5.0A_R1_00001-2")
+	(tags "TVS Diode (Uni-directional)")
+	(property "Reference" "D**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "5a90f444-62f7-4762-a930-f53c3979ab69")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "SMF50A_R1_00001"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "92a48800-687c-4b12-9697-c8c02319b40a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "87bea811-2da8-4e03-9b40-76773e39f75f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3f3c2164-2041-4c15-a8cd-b298a9180aa3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.6 0)
+		(end -2.6 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1071a131-ac94-4328-8237-3685c1f9e221")
+	)
+	(fp_line
+		(start -2.225 -1)
+		(end -2.225 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "212e73e6-250d-4450-bee6-912974cfa175")
+	)
+	(fp_line
+		(start -0.8 -0.9)
+		(end 0.8 -0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2845bd5-d632-4cf0-b8ca-765a8807473a")
+	)
+	(fp_line
+		(start -0.8 0.9)
+		(end 0.8 0.9)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e7a9ce2a-ee7b-47c8-8044-5b95f59e534b")
+	)
+	(fp_arc
+		(start -2.225 -1)
+		(mid -2.175 -1.05)
+		(end -2.125 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5fcf328b-bb30-4981-9d44-c8e950c78587")
+	)
+	(fp_arc
+		(start -2.125 -1)
+		(mid -2.175 -0.95)
+		(end -2.225 -1)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "72a2ce22-147b-48c7-92c3-aeacede7d74f")
+	)
+	(fp_line
+		(start -2.5 -1.5)
+		(end 2.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "603c2e1d-2dc0-4147-adf8-73031c486005")
+	)
+	(fp_line
+		(start -2.5 1.5)
+		(end -2.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "81641e0c-cb40-4420-8646-fee2c68bd151")
+	)
+	(fp_line
+		(start 2.5 -1.5)
+		(end 2.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c7bca73e-3ce0-40ce-815c-ff2eba57100f")
+	)
+	(fp_line
+		(start 2.5 1.5)
+		(end -2.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "2049cdea-c419-4185-959b-bdfdda355bf0")
+	)
+	(fp_line
+		(start -1.4 -0.9)
+		(end -1.4 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6f7ac76c-e85f-4673-89d3-04fe72d4779b")
+	)
+	(fp_line
+		(start -1.4 0.9)
+		(end 1.4 0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a094fb22-8f16-4cf4-a884-41f92a2200d6")
+	)
+	(fp_line
+		(start 1.4 -0.9)
+		(end -1.4 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "3ded6cbf-60ed-4b27-971d-adad1b92ef98")
+	)
+	(fp_line
+		(start 1.4 0.9)
+		(end 1.4 -0.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ea75c096-3122-47b6-b125-6fc82f863769")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "f052e6da-21d5-4974-9687-79ae0463150b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.55 0)
+		(size 1.15 1.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ce13d9b8-0504-40bd-b14f-e0c71cb6ab0c")
+	)
+	(pad "2" smd rect
+		(at 1.55 0)
+		(size 1.15 1.22)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "daa3a0ef-bead-4b35-82c4-6371d8451832")
+	)
+	(embedded_fonts no)
+	(model "C:\\Users\\tobya\\OneDrive\\Desktop\\drone_swarm\\hardware\\libraries\\SamacSys_Parts.3dshapes\\SMF5.0A_R1_00001.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

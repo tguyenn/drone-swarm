@@ -318,4 +318,10 @@ K
 F https://componentsearchengine.com/Datasheets/1/KTR18EZPF27R0.pdf
 $ENDCMP
 #
+$CMP CRCW040227R0JNTD
+D Thick Film Resistors - SMD 1/16watt 27ohms 5%
+K
+F https://componentsearchengine.com/Datasheets/1/CRCW040227R0JNTD.pdf
+$ENDCMP
+#
 #End Doc Library

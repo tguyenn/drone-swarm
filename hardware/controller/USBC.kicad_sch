@@ -1398,7 +1398,7 @@
 		)
 		(uuid "734b3e0e-f5e6-49d6-9360-4180e0e05fb1")
 	)
-	(label "USB+"
+	(label "D+"
 		(at 121.92 87.63 0)
 		(effects
 			(font
@@ -1418,7 +1418,7 @@
 		)
 		(uuid "929e41bf-4d34-4a07-afdf-3ff610376bac")
 	)
-	(label "USB-"
+	(label "D-"
 		(at 121.92 85.09 0)
 		(effects
 			(font
@@ -1734,7 +1734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMF50A_R1_00001"
+		(property "Footprint" "SamacSys_Parts:SMF50A_R1_00001"
 			(at 70.18 104.14 0)
 			(effects
 				(font
@@ -1975,7 +1975,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMF50A_R1_00001"
+		(property "Footprint" "SamacSys_Parts:SMF50A_R1_00001"
 			(at 104.47 87.63 0)
 			(effects
 				(font
@@ -2226,7 +2226,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC3216X65N"
+		(property "Footprint" "SamacSys_Parts:RESC1005X40N"
 			(at 276.53 73.66 0)
 			(effects
 				(font
@@ -2236,7 +2236,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/KTR18EZPF27R0.pdf"
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/CRCW040227R0JNTD.pdf"
 			(at 376.53 73.66 0)
 			(effects
 				(font
@@ -2246,7 +2246,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 1206 27ohm 1% High VoltageAEC-Q200"
+		(property "Description" "Thick Film Resistors - SMD 1/16watt 27ohms 5%"
 			(at 180.34 87.63 0)
 			(effects
 				(font
@@ -2255,7 +2255,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.65"
+		(property "Height" "0.4"
 			(at 576.53 73.66 0)
 			(effects
 				(font
@@ -2265,7 +2265,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "755-KTR18EZPF27R0"
+		(property "Mouser Part Number" "71-CRCW0402J-27"
 			(at 676.53 73.66 0)
 			(effects
 				(font
@@ -2275,7 +2275,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=755-KTR18EZPF27R0"
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW0402J-27"
 			(at 776.53 73.66 0)
 			(effects
 				(font
@@ -2285,7 +2285,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
+		(property "Manufacturer_Name" "Vishay"
 			(at 876.53 73.66 0)
 			(effects
 				(font
@@ -2295,7 +2295,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "KTR18EZPF27R0"
+		(property "Manufacturer_Part_Number" "CRCW040227R0JNTD"
 			(at 976.53 73.66 0)
 			(effects
 				(font
@@ -2348,7 +2348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SMF50A_R1_00001"
+		(property "Footprint" "SamacSys_Parts:SMF50A_R1_00001"
 			(at 35.89 104.14 0)
 			(effects
 				(font
@@ -2467,7 +2467,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RESC3216X65N"
+		(property "Footprint" "SamacSys_Parts:RESC1005X40N"
 			(at 276.53 71.12 0)
 			(effects
 				(font
@@ -2477,7 +2477,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/KTR18EZPF27R0.pdf"
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/1/CRCW040227R0JNTD.pdf"
 			(at 376.53 71.12 0)
 			(effects
 				(font
@@ -2487,7 +2487,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Thick Film Resistors - SMD 1206 27ohm 1% High VoltageAEC-Q200"
+		(property "Description" "Thick Film Resistors - SMD 1/16watt 27ohms 5%"
 			(at 180.34 85.09 0)
 			(effects
 				(font
@@ -2496,7 +2496,7 @@
 				(hide yes)
 			)
 		)
-		(property "Height" "0.65"
+		(property "Height" "0.4"
 			(at 576.53 71.12 0)
 			(effects
 				(font
@@ -2506,7 +2506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "755-KTR18EZPF27R0"
+		(property "Mouser Part Number" "71-CRCW0402J-27"
 			(at 676.53 71.12 0)
 			(effects
 				(font
@@ -2516,7 +2516,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=755-KTR18EZPF27R0"
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW0402J-27"
 			(at 776.53 71.12 0)
 			(effects
 				(font
@@ -2526,7 +2526,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "ROHM Semiconductor"
+		(property "Manufacturer_Name" "Vishay"
 			(at 876.53 71.12 0)
 			(effects
 				(font
@@ -2536,7 +2536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "KTR18EZPF27R0"
+		(property "Manufacturer_Part_Number" "CRCW040227R0JNTD"
 			(at 976.53 71.12 0)
 			(effects
 				(font

@@ -6281,7 +6281,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RESC2012X60N"
+		(property "Footprint" "RESC2012X60N"
 			(at 219.38 140.97 0)
 			(effects
 				(font
@@ -6291,7 +6291,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/ASC0805-10KFT5.pdf"
 			(at 319.38 140.97 0)
 			(effects
 				(font
@@ -6301,7 +6301,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "WELWYN - ASC0805-10KFT5 - RESISTOR, ANTI SULPHUR, 10K, 0.125W, 1%"
 			(at 123.19 154.94 0)
 			(effects
 				(font
@@ -7873,7 +7873,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:RESC2012X60N"
+		(property "Footprint" "RESC2012X60N"
 			(at 219.38 162.56 0)
 			(effects
 				(font
@@ -7883,7 +7883,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://componentsearchengine.com/Datasheets/2/ASC0805-10KFT5.pdf"
 			(at 319.38 162.56 0)
 			(effects
 				(font
@@ -7893,7 +7893,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "WELWYN - ASC0805-10KFT5 - RESISTOR, ANTI SULPHUR, 10K, 0.125W, 1%"
 			(at 123.19 176.53 0)
 			(effects
 				(font
@@ -8346,15 +8346,15 @@
 	(symbol
 		(lib_id "Device:Antenna_Chip")
 		(at 138.43 60.96 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9882ac9d-7928-4c38-8416-66f28f2a0412")
 		(property "Reference" "AE601"
-			(at 143.51 57.1499 0)
+			(at 133.35 57.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8363,7 +8363,7 @@
 			)
 		)
 		(property "Value" "Antenna_Chip"
-			(at 143.51 59.6899 0)
+			(at 133.35 59.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8372,7 +8372,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:Texas_SWRA117D_2.4GHz_Left"
-			(at 135.89 56.515 0)
+			(at 140.97 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8381,7 +8381,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 135.89 56.515 0)
+			(at 140.97 56.515 0)
 			(effects
 				(font
 					(size 1.27 1.27)

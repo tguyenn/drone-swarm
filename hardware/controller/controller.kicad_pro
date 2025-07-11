@@ -56,6 +56,11 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
+        },
+        {
+          "gap": 0.2032,
+          "via_gap": 0.0,
+          "width": 0.1554
         }
       ],
       "drc_exclusions": [],
@@ -188,6 +193,7 @@
       ],
       "track_widths": [
         0.0,
+        0.1565,
         0.2,
         0.3,
         0.5
@@ -242,7 +248,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "multiple_net_names|2501900|1346200|dd5f9ece-de08-4bf3-83dd-ef7327570f61|bafd7ca8-6cc8-4f71-859c-5d965d1005c6|/869bea87-c885-4ead-826b-3f34ceacafad/e70789ad-230b-4d46-b635-87f45083e468|/869bea87-c885-4ead-826b-3f34ceacafad/e70789ad-230b-4d46-b635-87f45083e468|/869bea87-c885-4ead-826b-3f34ceacafad/e70789ad-230b-4d46-b635-87f45083e468",
+        "GNDPWR and common GND nets to be connected near common GND pin on buck boost converter"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -488,6 +499,20 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.2032,
+        "diff_pair_width": 0.2032,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "DP",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1554,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -495,7 +520,24 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "DP",
+        "pattern": "/USBC/D-"
+      },
+      {
+        "netclass": "DP",
+        "pattern": "/USBC/D+"
+      },
+      {
+        "netclass": "DP",
+        "pattern": "/ESP32/USB-"
+      },
+      {
+        "netclass": "DP",
+        "pattern": "/ESP32/USB+"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
