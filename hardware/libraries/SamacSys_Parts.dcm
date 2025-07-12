@@ -324,4 +324,10 @@ K
 F https://componentsearchengine.com/Datasheets/1/CRCW040227R0JNTD.pdf
 $ENDCMP
 #
+$CMP 5001
+D KEYSTONE - 5001 - TEST POINT, CONNECTOR, BLACK
+K
+F http://www.keyelco.com/product-pdf.cfm?p=1310
+$ENDCMP
+#
 #End Doc Library

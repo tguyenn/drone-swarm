@@ -21,7 +21,7 @@
   (fp_line (start -0.5 0.25) (end -0.5 -0.25) (layer F.Fab) (width 0.1))
   (pad 1 smd rect (at -0.55 0 90) (size 0.6 0.75) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.55 0 90) (size 0.6 0.75) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\tobya\\OneDrive\\Desktop\\drone_swarm\\hardware\\libraries\\SamacSys_Parts.3dshapes\\CRCW040227R0JNTD.stp"
+  (model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/CRCW040227R0JNTD.stp"
     (at (xyz 0.019685039370079 0.0098425196850394 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

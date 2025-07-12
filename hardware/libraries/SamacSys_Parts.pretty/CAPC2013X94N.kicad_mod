@@ -13,7 +13,7 @@
   )
   (pad 1 smd rect (at -0.8128 0 0) (size 0.9144 1.4478) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.8128 0 0) (size 0.9144 1.4478) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\tobya\\OneDrive\\Desktop\\drone_swarm\\hardware\\libraries\\SamacSys_Parts.3dshapes\\08053A100JAT2A.stp"
+  (model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/08053A100JAT2A.stp"
     (at (xyz 0 0 0.018503936960941))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

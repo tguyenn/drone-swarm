@@ -1504,7 +1504,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1e1a815f-65de-428c-9f3a-7404b0a7c027")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0801"
 			(at 119.38 96.52 0)
 			(effects
 				(font
@@ -1554,7 +1554,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "#PWR0163")
+					(reference "#PWR0801")
 					(unit 1)
 				)
 			)
@@ -1570,7 +1570,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e229a58-7cdd-47fb-8fe7-458d0c2c5387")
-		(property "Reference" "C120"
+		(property "Reference" "C802"
 			(at 168.91 115.5699 0)
 			(effects
 				(font
@@ -1676,7 +1676,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "C120")
+					(reference "C802")
 					(unit 1)
 				)
 			)
@@ -1692,7 +1692,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7567b71c-e0cb-48d8-ab1a-764c239b1d65")
-		(property "Reference" "IC104"
+		(property "Reference" "IC802"
 			(at 139.7 118.11 0)
 			(effects
 				(font
@@ -1817,7 +1817,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "IC104")
+					(reference "IC802")
 					(unit 1)
 				)
 			)
@@ -1832,7 +1832,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "7d0ac61c-4f54-4d77-99dd-01fee206dd64")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0806"
 			(at 176.53 78.74 0)
 			(effects
 				(font
@@ -1882,7 +1882,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "#PWR0168")
+					(reference "#PWR0806")
 					(unit 1)
 				)
 			)
@@ -1898,7 +1898,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7fa519c9-4e9d-44b0-b872-de940db82b35")
-		(property "Reference" "C121"
+		(property "Reference" "C803"
 			(at 180.34 67.3099 0)
 			(effects
 				(font
@@ -2004,7 +2004,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "C121")
+					(reference "C803")
 					(unit 1)
 				)
 			)
@@ -2020,7 +2020,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "894307a6-054b-4937-b5e8-6cbb5c158e92")
-		(property "Reference" "IC103"
+		(property "Reference" "IC801"
 			(at 139.7 74.93 0)
 			(effects
 				(font
@@ -2142,7 +2142,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "IC103")
+					(reference "IC801")
 					(unit 1)
 				)
 			)
@@ -2157,7 +2157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "96c1d40a-4446-4a30-a6fe-a9c038bab91a")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0804"
 			(at 165.1 78.74 0)
 			(effects
 				(font
@@ -2207,7 +2207,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "#PWR0166")
+					(reference "#PWR0804")
 					(unit 1)
 				)
 			)
@@ -2223,7 +2223,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a0a6568f-592b-456c-87f6-4dbf1186bb4b")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0803"
 			(at 139.7 152.4 0)
 			(effects
 				(font
@@ -2273,7 +2273,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "#PWR0165")
+					(reference "#PWR0803")
 					(unit 1)
 				)
 			)
@@ -2288,7 +2288,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b7400f71-85e9-4167-97d1-0b02aadf3e5e")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0807"
 			(at 176.53 127 0)
 			(effects
 				(font
@@ -2338,7 +2338,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "#PWR0169")
+					(reference "#PWR0807")
 					(unit 1)
 				)
 			)
@@ -2353,7 +2353,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "baf43b7a-e442-4563-840f-944201baf062")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0805"
 			(at 165.1 127 0)
 			(effects
 				(font
@@ -2403,7 +2403,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "#PWR0167")
+					(reference "#PWR0805")
 					(unit 1)
 				)
 			)
@@ -2418,7 +2418,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cde8302c-9290-4912-baa0-aab360144455")
-		(property "Reference" "TP127"
+		(property "Reference" "TP802"
 			(at 117.094 118.11 0)
 			(effects
 				(font
@@ -2436,30 +2436,102 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 123.19 125.73 0)
+		(property "Footprint" "5000"
+			(at 134.62 220.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 123.19 125.73 0)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1310"
+			(at 134.62 320.65 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "KEYSTONE - 5001 - TEST POINT, CONNECTOR, BLACK"
 			(at 118.11 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 134.62 520.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 134.62 620.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "5001"
+			(at 134.62 720.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-5001"
+			(at 134.62 820.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5001?qs=q0tsjPZWdm%2FW0vdr%2FwowKg%3D%3D"
+			(at 134.62 920.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "5001"
+			(at 134.62 1020.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/5001/keystone-electronics?utm_currency=USD&region=europe"
+			(at 134.62 1120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -2469,7 +2541,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "TP127")
+					(reference "TP802")
 					(unit 1)
 				)
 			)
@@ -2485,7 +2557,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cfe502fc-08dd-4e5a-98cd-cbe0a48b0c07")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0802"
 			(at 119.38 139.7 0)
 			(effects
 				(font
@@ -2535,7 +2607,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "#PWR0164")
+					(reference "#PWR0802")
 					(unit 1)
 				)
 			)
@@ -2551,7 +2623,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d40401fd-b526-476b-bd26-9cbd7ec599d2")
-		(property "Reference" "C119"
+		(property "Reference" "C801"
 			(at 168.91 67.3099 0)
 			(effects
 				(font
@@ -2657,7 +2729,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "C119")
+					(reference "C801")
 					(unit 1)
 				)
 			)
@@ -2672,7 +2744,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "de6139c7-a1fc-43d0-aae4-100c57cd191c")
-		(property "Reference" "TP126"
+		(property "Reference" "TP801"
 			(at 115.316 74.93 0)
 			(effects
 				(font
@@ -2690,30 +2762,102 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
-			(at 123.19 82.55 0)
+		(property "Footprint" "5000"
+			(at 134.62 177.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 123.19 82.55 0)
+		(property "Datasheet" "http://www.keyelco.com/product-pdf.cfm?p=1310"
+			(at 134.62 277.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 				(hide yes)
 			)
 		)
-		(property "Description" "test point"
+		(property "Description" "KEYSTONE - 5001 - TEST POINT, CONNECTOR, BLACK"
 			(at 118.11 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
+			)
+		)
+		(property "Height" ""
+			(at 134.62 477.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Keystone Electronics"
+			(at 134.62 577.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "5001"
+			(at 134.62 677.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "534-5001"
+			(at 134.62 777.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Keystone-Electronics/5001?qs=q0tsjPZWdm%2FW0vdr%2FwowKg%3D%3D"
+			(at 134.62 877.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "5001"
+			(at 134.62 977.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/5001/keystone-electronics?utm_currency=USD&region=europe"
+			(at 134.62 1077.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
 				(hide yes)
 			)
 		)
@@ -2723,7 +2867,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "TP126")
+					(reference "TP801")
 					(unit 1)
 				)
 			)
@@ -2739,7 +2883,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e62bc87b-ce12-4eb5-8b06-d3038deb8bdb")
-		(property "Reference" "C122"
+		(property "Reference" "C804"
 			(at 180.34 115.5699 0)
 			(effects
 				(font
@@ -2845,7 +2989,7 @@
 		(instances
 			(project "controller"
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/0e7b3f4d-646f-4949-ba8d-4e4489aa7d1d"
-					(reference "C122")
+					(reference "C804")
 					(unit 1)
 				)
 			)

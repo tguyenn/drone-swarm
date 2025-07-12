@@ -63,7 +63,16 @@
           "width": 0.1554
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "solder_mask_bridge|144150000|60300000|259eb4e0-5b17-4d8b-863e-05b623357967|54cc64d8-1a36-41dc-83d1-766a13d1bf30",
+          "Intentional Bridging"
+        ],
+        [
+          "solder_mask_bridge|145350000|60570000|259eb4e0-5b17-4d8b-863e-05b623357967|8387a418-8dbb-4072-952f-541b3619565f",
+          "Intentional Bridging"
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -128,22 +137,22 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.15,
+        "min_clearance": 0.09,
         "min_connection": 0.0,
         "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.2,
-        "min_hole_to_hole": 0.5,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.25,
         "min_microvia_drill": 0.15,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
-        "min_track_width": 0.1,
-        "min_via_annular_width": 0.1,
-        "min_via_diameter": 0.3,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.05,
+        "min_via_annular_width": 0.05,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -248,16 +257,7 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [
-      [
-        "lib_symbol_mismatch|1930400|698500|855b5fe8-ebc9-47b3-8fba-342711464783|00000000-0000-0000-0000-000000000000|||",
-        "Swapped pins 5 and 8 because lazy"
-      ],
-      [
-        "multiple_net_names|2501900|1346200|dd5f9ece-de08-4bf3-83dd-ef7327570f61|bafd7ca8-6cc8-4f71-859c-5d965d1005c6|/869bea87-c885-4ead-826b-3f34ceacafad/e70789ad-230b-4d46-b635-87f45083e468|/869bea87-c885-4ead-826b-3f34ceacafad/e70789ad-230b-4d46-b635-87f45083e468|/869bea87-c885-4ead-826b-3f34ceacafad/e70789ad-230b-4d46-b635-87f45083e468",
-        "GNDPWR and common GND nets to be connected near common GND pin on buck boost converter"
-      ]
-    ],
+    "erc_exclusions": [],
     "meta": {
       "version": 0
     },
@@ -558,7 +558,7 @@
     "page_layout_descr_file": ""
   },
   "schematic": {
-    "annotate_start_num": 100,
+    "annotate_start_num": 0,
     "bom_export_filename": "${PROJECTNAME}.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
@@ -668,6 +668,24 @@
           "group_by": false,
           "label": "Sim.Pins",
           "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Function",
+          "name": "Function",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
           "show": false
         }
       ],

@@ -219,7 +219,7 @@
 		(uuid "daa3a0ef-bead-4b35-82c4-6371d8451832")
 	)
 	(embedded_fonts no)
-	(model "C:\\Users\\tobya\\OneDrive\\Desktop\\drone_swarm\\hardware\\libraries\\SamacSys_Parts.3dshapes\\SMF5.0A_R1_00001.stp"
+	(model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/SMF5.0A_R1_00001.stp"
 		(offset
 			(xyz 0 0 0)
 		)

@@ -3450,7 +3450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SamacSys_Parts:TestPoint_Pad_1.0x1.0mm"
 			(at 190.5 62.23 0)
 			(effects
 				(font
@@ -4176,7 +4176,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SamacSys_Parts:TestPoint_Pad_1.0x1.0mm"
 			(at 81.28 110.49 0)
 			(effects
 				(font
@@ -4985,7 +4985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SamacSys_Parts:TestPoint_Pad_1.0x1.0mm"
 			(at 81.28 71.12 0)
 			(effects
 				(font
@@ -6013,7 +6013,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SamacSys_Parts:TestPoint_Pad_1.0x1.0mm"
 			(at 138.43 110.49 0)
 			(effects
 				(font
@@ -6080,7 +6080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_1.0x1.0mm"
+		(property "Footprint" "SamacSys_Parts:TestPoint_Pad_1.0x1.0mm"
 			(at 190.5 72.39 0)
 			(effects
 				(font

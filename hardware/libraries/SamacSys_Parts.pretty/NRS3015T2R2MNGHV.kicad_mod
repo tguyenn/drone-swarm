@@ -1,31 +1,191 @@
-(module "NRS3015T2R2MNGHV" (layer F.Cu)
-  (descr "NRS3015T2R2MNGHV-2")
-  (tags "Inductor")
-  (attr smd)
-  (fp_text reference L** (at 0.000 -0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0.000 -0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "NRS3015T2R2MNGHV" (at 0.000 -0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.5 -1.5) (end 1.5 -1.5) (layer F.Fab) (width 0.2))
-  (fp_line (start 1.5 -1.5) (end 1.5 1.5) (layer F.Fab) (width 0.2))
-  (fp_line (start 1.5 1.5) (end -1.5 1.5) (layer F.Fab) (width 0.2))
-  (fp_line (start -1.5 1.5) (end -1.5 -1.5) (layer F.Fab) (width 0.2))
-  (fp_line (start -2.5 -2.5) (end 2.5 -2.5) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 2.5 -2.5) (end 2.5 2.5) (layer F.CrtYd) (width 0.1))
-  (fp_line (start 2.5 2.5) (end -2.5 2.5) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -2.5 2.5) (end -2.5 -2.5) (layer F.CrtYd) (width 0.1))
-  (fp_line (start -0.5 -1.5) (end 0.5 -1.5) (layer F.SilkS) (width 0.1))
-  (fp_line (start -0.5 1.5) (end 0.5 1.5) (layer F.SilkS) (width 0.1))
-  (pad 1 smd rect (at -1.100 -0 0) (size 0.800 2.700) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 1.100 -0 0) (size 0.800 2.700) (layers F.Cu F.Paste F.Mask))
-  (model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/NRS3015T2R2MNGHV.stp"
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "NRS3015T2R2MNGHV"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "NRS3015T2R2MNGHV-2")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "a1369c62-3714-4da4-a2db-0406fd334757")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "NRS3015T2R2MNGHV"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "d53b5ba9-604b-44a7-a03c-97b9de3ff349")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71d4a394-5bd9-4ac0-b4df-847241113af9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91e68474-1c99-4864-a568-916bf22b3178")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.5 -1.5)
+		(end 0.5 -1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "59de4bf5-d4ca-4f55-8d80-47fb3f454326")
+	)
+	(fp_line
+		(start -0.5 1.5)
+		(end 0.5 1.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cd5338e3-bea7-4813-97a7-6b751d7dba82")
+	)
+	(fp_line
+		(start -1.8 -1.8)
+		(end 1.8 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d5afbc20-9cbd-4e4c-8dbc-94e38afaa785")
+	)
+	(fp_line
+		(start -1.8 1.8)
+		(end -1.8 -1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "0256e5bc-8875-4bcf-a7bd-f7340fccab55")
+	)
+	(fp_line
+		(start 1.8 -1.8)
+		(end 1.8 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "958b2953-4c1b-4d1f-ab41-d6ffb1538361")
+	)
+	(fp_line
+		(start 1.8 1.8)
+		(end -1.8 1.8)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "47aa95b7-9e0d-48ed-ba64-c79c1c90740e")
+	)
+	(fp_line
+		(start -1.5 -1.5)
+		(end 1.5 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bd0c316e-637a-4171-bcac-13555c5918a5")
+	)
+	(fp_line
+		(start -1.5 1.5)
+		(end -1.5 -1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "124fafc4-5408-4d91-aa7d-42cdf4bf94fc")
+	)
+	(fp_line
+		(start 1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c5f729c5-0ac9-46f6-8b67-fd9ac2c37e2c")
+	)
+	(fp_line
+		(start 1.5 1.5)
+		(end -1.5 1.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "86868969-e276-4206-bb5b-0e8707d991a3")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7eb80f0b-ee4d-4e94-b933-db8f846ef40a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.1 0)
+		(size 0.8 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "dbc96fdc-6907-491d-b17d-b43396f2e0dc")
+	)
+	(pad "2" smd rect
+		(at 1.1 0)
+		(size 0.8 2.7)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b2af5e1a-22f5-4100-8799-76b778fa46fe")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/NRS3015T2R2MNGHV.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

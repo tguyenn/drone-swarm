@@ -22,7 +22,7 @@
   (fp_circle (center -2.825 0) (end -2.825 0.05) (layer F.SilkS) (width 0.2))
   (pad 1 smd rect (at -1.725 0 0) (size 1.25 1.55) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.725 0 0) (size 1.25 1.55) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\tobya\\OneDrive\\Desktop\\drone_swarm\\hardware\\libraries\\SamacSys_Parts.3dshapes\\ERJ-P08J101V.stp"
+  (model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/ERJ-P08J101V.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

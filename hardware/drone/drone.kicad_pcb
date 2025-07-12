@@ -12856,7 +12856,7 @@
 	(footprint "SamacSys_Parts:LEDM2214X140N"
 		(layer "F.Cu")
 		(uuid "abebccaf-926a-463a-a203-bbec404cca0f")
-		(at 181.5 80.5)
+		(at 175.55 77.5)
 		(descr "LS M67K-J2L1-1-Z")
 		(tags "LED")
 		(property "Reference" "LED106"
@@ -13483,7 +13483,7 @@
 	(footprint "SamacSys_Parts:LEDM2214X140N"
 		(layer "F.Cu")
 		(uuid "c1e14feb-98ce-4c66-9eb2-32296b053729")
-		(at 181.45 78.5)
+		(at 175.5 75.5)
 		(descr "LS M67K-J2L1-1-Z")
 		(tags "LED")
 		(property "Reference" "LED105"

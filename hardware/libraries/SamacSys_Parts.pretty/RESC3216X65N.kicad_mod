@@ -22,7 +22,7 @@
   (fp_line (start 0 -0.7) (end 0 0.7) (layer F.SilkS) (width 0.2))
   (pad 1 smd rect (at -1.45 0 0) (size 1.15 1.8) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 1.45 0 0) (size 1.15 1.8) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\tobya\\OneDrive\\Desktop\\drone_swarm\\hardware\\libraries\\SamacSys_Parts.3dshapes\\KTR18EZPF27R0.stp"
+  (model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/KTR18EZPF27R0.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -22,7 +22,7 @@
   (fp_line (start 0 -0.2) (end 0 0.2) (layer F.SilkS) (width 0.2))
   (pad 1 smd rect (at -0.55 0 90) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
   (pad 2 smd rect (at 0.55 0 90) (size 0.8 0.8) (layers F.Cu F.Paste F.Mask))
-  (model "C:\\Users\\tobya\\OneDrive\\Desktop\\drone_swarm\\hardware\\libraries\\SamacSys_Parts.3dshapes\\AIMC-0402HQ-3N0B-T.stp"
+  (model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/AIMC-0402HQ-3N0B-T.stp"
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
