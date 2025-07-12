@@ -6,4 +6,4 @@ Controller
 - USBC / LiPo battery charging and power
     - Physical board switch
 - Current measurement
-- 
+- LCD with FPC connector

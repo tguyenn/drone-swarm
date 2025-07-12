@@ -1,4 +1,4 @@
 (sym_lib_table
   (version 7)
-  (lib (name "SamacSys_Parts")(type "KiCad")(uri "C:/Users/tobya/Desktop/drone_swarm/hardware/libraries/SamacSys_Parts.kicad_sym")(options "")(descr ""))
+  (lib (name "SamacSys_Parts")(type "KiCad")(uri "${KIPRJMOD}/../libraries/SamacSys_Parts.kicad_sym")(options "")(descr ""))
 )

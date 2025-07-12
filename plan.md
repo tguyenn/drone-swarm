@@ -25,7 +25,7 @@ This project is going to be a fully DIY drone swarm project based around ESP32 c
     - Magnetometer
     - Minimize PCB area for weight reduction
 - 3D printed chassis (Onshape)
-- Brushless DC motors
+- Brushless DC motors ?
 - Remote control through ESP32 based controller
     - Or do I want to do a web based GUI on the phone?
 - Weight must be under 250g

@@ -250,6 +250,10 @@
   "erc": {
     "erc_exclusions": [
       [
+        "lib_symbol_mismatch|1930400|698500|855b5fe8-ebc9-47b3-8fba-342711464783|00000000-0000-0000-0000-000000000000|||",
+        "Swapped pins 5 and 8 because lazy"
+      ],
+      [
         "multiple_net_names|2501900|1346200|dd5f9ece-de08-4bf3-83dd-ef7327570f61|bafd7ca8-6cc8-4f71-859c-5d965d1005c6|/869bea87-c885-4ead-826b-3f34ceacafad/e70789ad-230b-4d46-b635-87f45083e468|/869bea87-c885-4ead-826b-3f34ceacafad/e70789ad-230b-4d46-b635-87f45083e468|/869bea87-c885-4ead-826b-3f34ceacafad/e70789ad-230b-4d46-b635-87f45083e468",
         "GNDPWR and common GND nets to be connected near common GND pin on buck boost converter"
       ]
