@@ -63,16 +63,7 @@
           "width": 0.1554
         }
       ],
-      "drc_exclusions": [
-        [
-          "solder_mask_bridge|144150000|60300000|259eb4e0-5b17-4d8b-863e-05b623357967|54cc64d8-1a36-41dc-83d1-766a13d1bf30",
-          "Intentional Bridging"
-        ],
-        [
-          "solder_mask_bridge|145350000|60570000|259eb4e0-5b17-4d8b-863e-05b623357967|8387a418-8dbb-4072-952f-541b3619565f",
-          "Intentional Bridging"
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -575,7 +566,7 @@
       "exclude_dnp": false,
       "fields_ordered": [
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Reference",
           "name": "Reference",
           "show": true
@@ -587,7 +578,7 @@
           "show": true
         },
         {
-          "group_by": true,
+          "group_by": false,
           "label": "Value",
           "name": "Value",
           "show": true
@@ -611,7 +602,7 @@
           "show": true
         },
         {
-          "group_by": false,
+          "group_by": true,
           "label": "Footprint",
           "name": "Footprint",
           "show": true

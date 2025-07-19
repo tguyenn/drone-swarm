@@ -3462,6 +3462,18 @@
 		(uuid 590b2c23-78d5-4bbd-8429-486eb94bb3dd)
 	)
 	(rectangle
+		(start 15.24 45.72)
+		(end 123.19 105.918)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ac5e692f-9eda-4aad-a4ef-0e48dee30656)
+	)
+	(rectangle
 		(start 235.585 25.908)
 		(end 272.415 57.658)
 		(stroke
@@ -3537,9 +3549,9 @@
 		)
 		(uuid "b38bc386-de22-46cd-bbf9-d64fa14f8d94")
 	)
-	(text "LED Driver"
+	(text "RGB LED Driver"
 		(exclude_from_sim no)
-		(at 20.066 44.704 0)
+		(at 22.352 44.704 0)
 		(effects
 			(font
 				(size 1.27 1.27)
