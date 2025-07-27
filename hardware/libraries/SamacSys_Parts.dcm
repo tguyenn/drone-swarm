@@ -330,4 +330,10 @@ K
 F http://www.keyelco.com/product-pdf.cfm?p=1310
 $ENDCMP
 #
+$CMP USB4800-03-A
+D USB Connectors USB2.0 Type C Rcpt, SMT, Hrz, 3.5mm elevated, 16 Pin
+K
+F https://gct.co/connector/usb4800
+$ENDCMP
+#
 #End Doc Library

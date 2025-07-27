@@ -1,21 +1,102 @@
-(module "CAPC2013X94N" (layer F.Cu)
-  (descr "CAPC2013X94N")
-  (tags "Capacitor")
-  (attr smd)
-  (fp_text reference C** (at -3.4544 -1.905) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at -3.4544 -1.905) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "CAPC2013X94N" (at -3.4544 -1.905) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (pad 1 smd rect (at -0.8128 0 0) (size 0.9144 1.4478) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.8128 0 0) (size 0.9144 1.4478) (layers F.Cu F.Paste F.Mask))
-  (model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/08053A100JAT2A.stp"
-    (at (xyz 0 0 0.018503936960941))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "CAPC2013X94N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "CAPC2013X94N")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at -3.4544 -1.905 0)
+		(layer "F.SilkS")
+		(uuid "75d45680-df81-4f84-8011-e3a9d9ec99c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAPC2013X94N"
+		(at -3.4544 -1.905 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "842c23ed-cb1f-4759-9252-df7ce1118b45")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "91e840e3-a277-42fb-b006-10e7035261fd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fb8dca24-a737-4de7-afe3-7eacabe6e874")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.4 -0.85)
+		(end 1.4 0.85)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "e34f616e-27ea-4d2e-89ca-38ee826f2034")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -3.4544 -1.905 0)
+		(layer "F.Fab")
+		(uuid "697a4aa3-ebe4-420c-8ca8-86aee614f135")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8128 0)
+		(size 0.9144 1.4478)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c331648d-35f1-4b85-b83c-27481a01c19d")
+	)
+	(pad "2" smd rect
+		(at 0.8128 0)
+		(size 0.9144 1.4478)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d3f706ef-8315-44dd-97df-14dd6f563c52")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/08053A100JAT2A.stp"
+		(offset
+			(xyz 0 0 0.4699999917)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
