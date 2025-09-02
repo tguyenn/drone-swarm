@@ -2387,12 +2387,6 @@
 		(uuid "cedab7a2-b85d-43fb-aa02-50679493b260")
 	)
 	(junction
-		(at 66.04 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e0e78713-c86c-499a-9cf9-e7d7c5d179c8")
-	)
-	(junction
 		(at 212.09 129.54)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2586,7 +2580,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 105.41) (xy 91.44 105.41)
+			(xy 80.01 105.41) (xy 88.9 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2596,7 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 93.98) (xy 128.27 93.98)
+			(xy 116.84 93.98) (xy 128.27 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2733,16 +2727,6 @@
 			(type default)
 		)
 		(uuid "7133627d-86f8-4b81-a7c9-24a123c78f1b")
-	)
-	(wire
-		(pts
-			(xy 88.9 93.98) (xy 91.44 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "83d1b7b5-abae-40c6-97a4-9b685029244d")
 	)
 	(wire
 		(pts
@@ -2886,16 +2870,6 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 34.29) (xy 62.23 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aca986bb-f3f2-473f-b638-7df2797edc2d")
-	)
-	(wire
-		(pts
 			(xy 231.14 91.44) (xy 231.14 78.74)
 		)
 		(stroke
@@ -2946,7 +2920,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 104.14) (xy 125.73 104.14)
+			(xy 116.84 104.14) (xy 125.73 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2996,16 +2970,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 34.29) (xy 67.31 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8ed1f9c-84b6-4ebb-b1ce-577ccfb0cccc")
-	)
-	(wire
-		(pts
 			(xy 246.38 97.79) (xy 254 97.79)
 		)
 		(stroke
@@ -3046,7 +3010,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 118.11) (xy 107.95 113.03)
+			(xy 105.41 118.11) (xy 105.41 113.03)
 		)
 		(stroke
 			(width 0)
@@ -3103,6 +3067,16 @@
 			(type default)
 		)
 		(uuid "eacba194-961a-4f3b-90e3-63d024f2105c")
+	)
+	(wire
+		(pts
+			(xy 59.69 34.29) (xy 62.23 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eafad8cf-88b7-4b7f-ac22-9af019e08f33")
 	)
 	(wire
 		(pts
@@ -3586,7 +3560,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.rohm.com/datasheet?p=SFR03EZPJ&dist=Mouser&media=referral&source=mouser.com&campaign=Mouser"
+		(property "Datasheet" "https://www.rohm.com/datasheet?p=SFR03EZPJ&dist=Mouser&media=referral&source=mouser.co.uk&campaign=Mouser"
 			(at 236.22 104.14 0)
 			(effects
 				(font
@@ -3613,7 +3587,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/ROHM-Semiconductor/SFR03EZPJ105?qs=sGAEpiMZZMvdGkrng054t7z4BkURc4Lzl1WyxFadKNwUJSL%2FdgazDw%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/SFR03EZPJ105?qs=sGAEpiMZZMvdGkrng054t7z4BkURc4Lzl1WyxFadKNwUJSL%2FdgazDw%3D%3D"
 			(at 236.22 104.14 0)
 			(effects
 				(font
@@ -4277,7 +4251,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 107.95 118.11 0)
+		(at 105.41 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4286,7 +4260,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e55504f-9806-415f-b60d-f089782472fd")
 		(property "Reference" "#PWR0208"
-			(at 107.95 124.46 0)
+			(at 105.41 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4295,7 +4269,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 123.19 0)
+			(at 105.41 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4303,7 +4277,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 118.11 0)
+			(at 105.41 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4312,7 +4286,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 118.11 0)
+			(at 105.41 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4321,7 +4295,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 107.95 118.11 0)
+			(at 105.41 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5488,7 +5462,7 @@
 				)
 			)
 		)
-		(property "Value" "1769"
+		(property "Value" "JST-PH Conn"
 			(at 33.02 88.9 0)
 			(effects
 				(font
@@ -5663,7 +5637,7 @@
 	)
 	(symbol
 		(lib_id "SamacSys_Parts:LM66100DCKR")
-		(at 91.44 93.98 0)
+		(at 88.9 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5672,7 +5646,7 @@
 		(fields_autoplaced yes)
 		(uuid "c72f00d4-c922-474e-91ae-1c83178c8e33")
 		(property "Reference" "D203"
-			(at 105.41 86.36 0)
+			(at 102.87 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5680,7 +5654,7 @@
 			)
 		)
 		(property "Value" "LM66100DCKR"
-			(at 105.41 88.9 0)
+			(at 102.87 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5688,7 +5662,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:SOP65P210X110-6N"
-			(at 115.57 188.9 0)
+			(at 113.03 188.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5698,7 +5672,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/gpn/LM66100"
-			(at 115.57 288.9 0)
+			(at 113.03 288.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5708,7 +5682,7 @@
 			)
 		)
 		(property "Description" "+/-6-V, Low IQ ideal diode with input polarity protection"
-			(at 91.44 93.98 0)
+			(at 88.9 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +5691,7 @@
 			)
 		)
 		(property "Height" "1.1"
-			(at 115.57 488.9 0)
+			(at 113.03 488.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5727,7 +5701,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-LM66100DCKR"
-			(at 115.57 588.9 0)
+			(at 113.03 588.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5737,7 +5711,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM66100DCKR?qs=vLWxofP3U2y2yPPrXoBBoA%3D%3D"
-			(at 115.57 688.9 0)
+			(at 113.03 688.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5747,7 +5721,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 115.57 788.9 0)
+			(at 113.03 788.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5757,7 +5731,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "LM66100DCKR"
-			(at 115.57 888.9 0)
+			(at 113.03 888.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -3141,8 +3141,16 @@
 		(uuid "8fba82d1-046a-4886-94ae-4747745152cd")
 	)
 	(no_connect
+		(at 248.92 119.38)
+		(uuid "a15a31ef-6c1c-4af9-9869-9624a0e40b90")
+	)
+	(no_connect
 		(at 182.88 66.04)
 		(uuid "c6d0aec9-f7d7-4dd7-b84a-4ee58a057a1c")
+	)
+	(no_connect
+		(at 182.88 111.76)
+		(uuid "dd67cf7b-f7ba-49f5-8b92-bea6301f9aa7")
 	)
 	(bus_entry
 		(at 43.18 111.76)
@@ -3251,15 +3259,6 @@
 			(type default)
 		)
 		(uuid "360f8032-ec25-41b3-bc1c-6f0a64d47f01")
-	)
-	(bus_entry
-		(at 90.17 76.2)
-		(size 2.54 2.54)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3baf0d88-5bab-406f-9bf9-572bc6eb6d18")
 	)
 	(bus_entry
 		(at 43.18 81.28)
@@ -7555,7 +7554,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGQ15ACG2A1R8BT?qs=sGAEpiMZZMsh%252B1woXyUXj17cMikWvs6%2F%252Bbo%2FT8Vs%252Bm0%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/KGQ15ACG2A1R8BT?qs=sGAEpiMZZMsh%252B1woXyUXj17cMikWvs6%2F%252Bbo%2FT8Vs%252Bm0%3D"
 			(at 157.48 650.8 0)
 			(effects
 				(font
@@ -8867,7 +8866,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.mouser.com/datasheet/2/115/DIOD_S_A0002236414_1-2542067.pdf"
+		(property "Datasheet" "https://www.mouser.co.uk/datasheet/2/115/DIOD_S_A0002236414_1-2542067.pdf"
 			(at 162.56 268.58 0)
 			(effects
 				(font
@@ -10936,7 +10935,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/ProductDetail/KYOCERA-AVX/KGQ15ACG2A1R8BT?qs=sGAEpiMZZMsh%252B1woXyUXj17cMikWvs6%2F%252Bbo%2FT8Vs%252Bm0%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/KYOCERA-AVX/KGQ15ACG2A1R8BT?qs=sGAEpiMZZMsh%252B1woXyUXj17cMikWvs6%2F%252Bbo%2FT8Vs%252Bm0%3D"
 			(at 168.91 650.8 0)
 			(effects
 				(font

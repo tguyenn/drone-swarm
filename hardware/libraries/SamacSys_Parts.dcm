@@ -336,4 +336,64 @@ K
 F https://gct.co/connector/usb4800
 $ENDCMP
 #
+$CMP TMF8805-1B
+D Distance Sensor Development Tool TMF8805-1B OLGA12 LF T&RDP
+K
+F https://ams.com/documents/20143/4372629/TMF8805_DS000692_4-00.pdf
+$ENDCMP
+#
+$CMP BMI323
+D 3.0 SHUTTLE BOARD DEV KIT BMI323
+K
+F https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bmi323-ds000.pdf
+$ENDCMP
+#
+$CMP LC76GABMD
+D GNSS / GPS Modules Single band, 4 GNSS, w/ LNA (Airoha 3352)
+K
+F 
+$ENDCMP
+#
+$CMP DRV8833RTYR
+D 2A Low Voltage Dual Brushed DC or Single Bipolar Stepper Motor Driver (PWM Ctrl)
+K
+F http://www.ti.com/lit/gpn/drv8833
+$ENDCMP
+#
+$CMP SRV05-4.TCT
+D Semtech SRV05-4.TCT, Uni-Directional TVS Diode Array, 300W, 6-Pin SOT-23
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA26/1842016.pdf
+$ENDCMP
+#
+$CMP USBLC6-4SC6Y
+D STMICROELECTRONICS - USBLC6-4SC6Y - ESD Protection Device, 17 V, SOT-23, 6 Pins
+K
+F https://www.st.com/resource/en/datasheet/usblc6-4sc6y.pdf
+$ENDCMP
+#
+$CMP MBASL168SB5225KTNA01
+D MULTILAYER CERAMIC CAPACITORS[Multilayer Ceramic Capacitors (High dielectric type) for Telecommunications Infrastructure and Industrial Equipment]
+K
+F https://ds.yuden.co.jp/TYCOMPAS/or/detail?pn=MBASL168SB5225KTNA01
+$ENDCMP
+#
+$CMP CL21B106KOQNFNE
+D Multilayer Ceramic Capacitors MLCC - SMD/SMT 10uF+/-10% 16V X7R 2012
+K
+F 
+$ENDCMP
+#
+$CMP 0805B103K160CT
+D WALSIN - 0805B103K160CT - CAP, 0.01F, 16V, 10%, X7R, 0805, REEL
+K
+F https://componentsearchengine.com/Datasheets/1/0805B103K160CT.pdf
+$ENDCMP
+#
+$CMP LPS25HBTR
+D Board Mount Pressure Sensor 26kPa to 126kPa Absolute 10-Pin HLGA T/R
+K
+F https://www.st.com/resource/en/datasheet/lps25hb.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -703,6 +703,12 @@
           "label": "Arrow Price/Stock",
           "name": "Arrow Price/Stock",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Stock/Price",
+          "name": "Mouser Stock/Price",
+          "show": false
         }
       ],
       "filter_string": "",

@@ -1628,7 +1628,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Stock/Price" "https://www.mouser.com/ProductDetail/Same-Sky/UJ20-C-H-G-SMT-1-P16-TR?qs=IKkN%2F947nfA6nby92vSKkw%3D%3D&srsltid=AfmBOoqgW8J1ZzVCat00JQQ9Um36NnE84vN6B7UjXbLiSONBgxyj8db_"
+		(property "Mouser Stock/Price" "https://www.mouser.co.uk/ProductDetail/Same-Sky/UJ20-C-H-G-SMT-1-P16-TR?qs=IKkN%2F947nfA6nby92vSKkw%3D%3D&srsltid=AfmBOoqgW8J1ZzVCat00JQQ9Um36NnE84vN6B7UjXbLiSONBgxyj8db_"
 			(at 33.02 68.58 0)
 			(effects
 				(font
@@ -2398,7 +2398,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW0402J-27"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/Search/Refine.aspx?Keyword=71-CRCW0402J-27"
 			(at 704.14 57.15 0)
 			(effects
 				(font
@@ -2639,7 +2639,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=71-CRCW0402J-27"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/Search/Refine.aspx?Keyword=71-CRCW0402J-27"
 			(at 704.14 54.61 0)
 			(effects
 				(font
