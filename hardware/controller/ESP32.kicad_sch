@@ -2996,16 +2996,6 @@
 		)
 		(uuid ff84147d-cd46-446c-b1ff-a858738d63d4)
 	)
-	(text "how does capacitor and VCC work if VCC is DC??"
-		(exclude_from_sim no)
-		(at 243.332 26.924 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0b005c46-d116-48db-add7-2d6989823c02")
-	)
 	(text "JTAG Interface Breakout"
 		(exclude_from_sim no)
 		(at 82.296 169.672 0)
@@ -3073,6 +3063,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "40874770-b287-40a7-ae14-03c2447e4875")
+	)
+	(junction
+		(at 215.9 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "47556285-14e6-47e2-87df-85636f1349ef")
 	)
 	(junction
 		(at 160.02 50.8)
@@ -3605,16 +3601,6 @@
 		)
 		(uuid "1748a373-2a6b-41f7-ae61-feffa32e22c8")
 	)
-	(wire
-		(pts
-			(xy 215.9 34.29) (xy 215.9 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17fe6750-06af-45d2-a797-330af0d5c047")
-	)
 	(bus
 		(pts
 			(xy 43.18 26.67) (xy 43.18 29.21)
@@ -4137,6 +4123,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 26.67) (xy 215.9 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75e22ef2-f2fd-4d0e-ad93-7e558efc136a")
+	)
+	(wire
+		(pts
 			(xy 45.72 134.62) (xy 63.5 134.62)
 		)
 		(stroke
@@ -4437,6 +4433,26 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 30.48) (xy 215.9 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6d04c4f-0094-461f-a970-561704f2920a")
+	)
+	(wire
+		(pts
+			(xy 226.06 30.48) (xy 224.79 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7f7e77b-107c-4215-aae0-49205fc3d5fe")
+	)
+	(wire
+		(pts
 			(xy 45.72 58.42) (xy 77.47 58.42)
 		)
 		(stroke
@@ -4474,6 +4490,16 @@
 			(type default)
 		)
 		(uuid "d10db22b-dafe-41d1-b72b-f6de8e97ac14")
+	)
+	(wire
+		(pts
+			(xy 215.9 30.48) (xy 217.17 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1856943-e7a1-43e2-a6dc-d59b75341478")
 	)
 	(wire
 		(pts
@@ -5577,7 +5603,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 215.9 30.48 0)
+		(at 220.98 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5586,25 +5612,23 @@
 		(fields_autoplaced yes)
 		(uuid "056e6c98-f508-43a2-ba3c-29fcbab97c73")
 		(property "Reference" "C9"
-			(at 219.71 29.2099 0)
+			(at 220.98 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "u1"
-			(at 219.71 31.7499 0)
+			(at 220.98 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:MAJx16"
-			(at 224.79 126.67 0)
+			(at 317.17 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5614,7 +5638,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 226.67 0)
+			(at 417.17 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5624,7 +5648,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 215.9 30.48 0)
+			(at 220.98 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +5657,7 @@
 			)
 		)
 		(property "Height" "0.8"
-			(at 224.79 426.67 0)
+			(at 617.17 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5643,7 +5667,7 @@
 			)
 		)
 		(property "Mouser Part Number" "963-MAJCH168BB7104KT"
-			(at 224.79 526.67 0)
+			(at 717.17 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5653,7 +5677,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/TAIYO-YUDEN/MAJCH168BB7104KTEA01?qs=ZcfC38r4PovaTBrG0IdezQ%3D%3D"
-			(at 224.79 626.67 0)
+			(at 817.17 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5663,7 +5687,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "TAIYO YUDEN"
-			(at 224.79 726.67 0)
+			(at 917.17 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5673,7 +5697,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "MAJCH168BB7104KTEA01"
-			(at 224.79 826.67 0)
+			(at 1017.17 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9087,6 +9111,71 @@
 			(project ""
 				(path "/869bea87-c885-4ead-826b-3f34ceacafad/803675b3-25f7-4b49-b465-4697774a1dce"
 					(reference "AE1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 226.06 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "995738ff-e28a-4cca-9d85-03f4ef0b2513")
+		(property "Reference" "#PWR020"
+			(at 226.06 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 230.632 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 226.06 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bc77ba1d-fcd3-4004-aa65-d332f7bf13cf")
+		)
+		(instances
+			(project "controller"
+				(path "/869bea87-c885-4ead-826b-3f34ceacafad/803675b3-25f7-4b49-b465-4697774a1dce"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)

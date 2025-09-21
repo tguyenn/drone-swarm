@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "Motor solder point"
-		(at 0 2.85 0)
+		(at 0 1.7 0)
 		(layer "F.SilkS")
 		(uuid "b2f509a9-d684-4df6-882e-8a07b86033e1")
 		(effects

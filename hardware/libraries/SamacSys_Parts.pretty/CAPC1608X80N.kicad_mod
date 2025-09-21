@@ -1,30 +1,182 @@
-(module "CAPC1608X80N" (layer F.Cu)
-  (descr "C1608 (080 thickness)")
-  (tags "Capacitor")
-  (attr smd)
-  (fp_text reference C** (at 0 0) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at 0 0) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "CAPC1608X80N" (at 0 0) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -1.22 -0.62) (end 1.22 -0.62) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.22 -0.62) (end 1.22 0.62) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.22 0.62) (end -1.22 0.62) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.22 0.62) (end -1.22 -0.62) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -0.8 -0.4) (end 0.8 -0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 -0.4) (end 0.8 0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start 0.8 0.4) (end -0.8 0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start -0.8 0.4) (end -0.8 -0.4) (layer F.Fab) (width 0.1))
-  (fp_line (start 0 -0.3) (end 0 0.3) (layer F.SilkS) (width 0.2))
-  (pad 1 smd rect (at -0.8 0 0) (size 0.54 0.94) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.8 0 0) (size 0.54 0.94) (layers F.Cu F.Paste F.Mask))
-  (model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/C1608X7T1A106M080AC.stp"
-    (at (xyz 0 0 0.015748031730727))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 -90))
-  )
+(footprint "CAPC1608X80N"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C1608 (080 thickness)")
+	(tags "Capacitor")
+	(property "Reference" "C**"
+		(at 0.05 -1.55 0)
+		(layer "F.SilkS")
+		(uuid "b21feac6-84ce-4e7d-8465-16e5e9b338af")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "CAPC1608X80N"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "fd07ebb2-601f-49b0-87db-244155fb6eb9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0adafd81-8551-4f3d-a9fc-60ed4005b2a9")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbd56b20-8a0f-4cb1-ae92-7f5c3ac4fb6b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.15 -0.55)
+		(end 1.15 0.55)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "94d34e86-3498-4449-998b-9953e996dfd2")
+	)
+	(fp_line
+		(start -1.22 -0.62)
+		(end 1.22 -0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "56c208ca-51ae-4588-a601-fdec7d8eb8ac")
+	)
+	(fp_line
+		(start -1.22 0.62)
+		(end -1.22 -0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d8853b82-9db7-4c74-bb86-1ddcdbbe5a5c")
+	)
+	(fp_line
+		(start 1.22 -0.62)
+		(end 1.22 0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "5b25b175-a12b-416c-842f-4ee032c3aaaf")
+	)
+	(fp_line
+		(start 1.22 0.62)
+		(end -1.22 0.62)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "08f480a9-7ce5-4569-8b44-2b2e7a6d33a7")
+	)
+	(fp_line
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bfa4597e-3b44-42fb-9e9a-fa79efdc0764")
+	)
+	(fp_line
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "79a7011d-48c9-4fdb-a413-4859e638e2ab")
+	)
+	(fp_line
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c193a270-d05c-4492-a402-6c53d42aef9c")
+	)
+	(fp_line
+		(start 0.8 0.4)
+		(end -0.8 0.4)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "76085c64-a3b8-4ecb-9b0f-d9c163340827")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "772eac69-3e05-43a1-b681-0b17baab33d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.8 0)
+		(size 0.54 0.94)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5fa7214f-7f56-4f7a-a754-e8d8565549b3")
+	)
+	(pad "2" smd rect
+		(at 0.8 0)
+		(size 0.54 0.94)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "27eefaaa-c981-4852-8567-732b0b20f60c")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/C1608X7T1A106M080AC.stp"
+		(offset
+			(xyz 0 0 0.4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
 )

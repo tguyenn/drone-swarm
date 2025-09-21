@@ -53,6 +53,17 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -1.4 -0.75)
+		(end 1.4 0.7)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "bbbaa595-d9a2-4351-ace4-dbdc66d797cd")
+	)
 	(fp_line
 		(start -1.425 -0.75)
 		(end 1.425 -0.75)

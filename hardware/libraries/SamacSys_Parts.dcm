@@ -396,4 +396,16 @@ K
 F https://www.st.com/resource/en/datasheet/lps25hb.pdf
 $ENDCMP
 #
+$CMP AMK107BJ475MA-T
+D AMK107BJ475MA-T
+K
+F https://ds.yuden.co.jp/TYCOMPAS/ut/download?pn=LMK063BBJ474MPLF&fileType=CA
+$ENDCMP
+#
+$CMP 1N4148WQ-7-F
+D Diodes - General Purpose, Power, Switching SMT Fast Switching Diode
+K
+F https://www.diodes.com/assets/Datasheets/BAV16W_1N4148W.pdf
+$ENDCMP
+#
 #End Doc Library

@@ -1,14 +1,14 @@
-(footprint "CAPC2012X135N"
+(footprint "CAPC1608X90N"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "0805 (2012) (D)")
+	(descr "0603CCCCC")
 	(tags "Capacitor")
 	(property "Reference" "C**"
-		(at 0 -1.95 0)
+		(at 0 0 0)
 		(layer "F.SilkS")
-		(uuid "10f02066-555f-4f80-a632-80e2c298d919")
+		(uuid "dc13c5b8-ce40-42d6-94ec-04399a95c67a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16,11 +16,11 @@
 			)
 		)
 	)
-	(property "Value" "CAPC2012X135N"
+	(property "Value" "CAPC1608X90N"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "4376b066-99d8-4b34-bf9f-bbfe7d0e5067")
+		(uuid "0c3ec27d-ad05-44e3-8cf7-acb841782d6c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9659c4bb-2f6f-4ed9-99e5-513a8c1cd123")
+		(uuid "5fed7c47-91e3-4d25-8de7-628a9a9a25df")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d16a4225-5228-4d63-9d1b-478fccd24264")
+		(uuid "b8b6ca5b-c961-4399-ac46-90069f192d49")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -54,100 +54,100 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -1.4 -0.8)
-		(end 1.4 0.8)
+		(start -1.2 -0.65)
+		(end 1.25 0.65)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "ec260315-a3ee-4b71-9d31-053dda03869a")
+		(uuid "8f68091a-80e0-48c7-b64e-86a5ab3ec87e")
 	)
 	(fp_line
-		(start -1.44 -0.85)
-		(end 1.44 -0.85)
+		(start -1.225 -0.62)
+		(end 1.225 -0.62)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "c1cab566-3ab3-4d1f-a5cb-bf393e0af69a")
+		(uuid "40525528-f5eb-4084-ae90-382cd2fca559")
 	)
 	(fp_line
-		(start -1.44 0.85)
-		(end -1.44 -0.85)
+		(start -1.225 0.62)
+		(end -1.225 -0.62)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f51cb3eb-6f67-41e2-9ef8-a42be554df17")
+		(uuid "6b0a6e00-4685-4ba6-b923-63fd837e2f61")
 	)
 	(fp_line
-		(start 1.44 -0.85)
-		(end 1.44 0.85)
+		(start 1.225 -0.62)
+		(end 1.225 0.62)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "778d0549-078d-4dce-8b31-bee9152822d9")
+		(uuid "28aabdf0-3d0a-40bb-86c1-9b0dd0d106c1")
 	)
 	(fp_line
-		(start 1.44 0.85)
-		(end -1.44 0.85)
+		(start 1.225 0.62)
+		(end -1.225 0.62)
 		(stroke
 			(width 0.05)
 			(type solid)
 		)
 		(layer "F.CrtYd")
-		(uuid "f8e3be36-14d1-4b29-b51e-4351d8bfde77")
+		(uuid "8b956ce2-1a15-4278-922d-d893a0015087")
 	)
 	(fp_line
-		(start -1 -0.625)
-		(end 1 -0.625)
+		(start -0.8 -0.4)
+		(end 0.8 -0.4)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "6f760a13-a2f0-4c71-b83d-b4e7a7ff0a6e")
+		(uuid "8e3d9f74-f3f6-4cb2-acfe-7a1eb7ea14ff")
 	)
 	(fp_line
-		(start -1 0.625)
-		(end -1 -0.625)
+		(start -0.8 0.4)
+		(end -0.8 -0.4)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "8a247d34-fce6-4708-b784-455c2f9171ce")
+		(uuid "572a11b9-8b75-455d-82ad-3aeb260adb0a")
 	)
 	(fp_line
-		(start 1 -0.625)
-		(end 1 0.625)
+		(start 0.8 -0.4)
+		(end 0.8 0.4)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "2f8dc689-83d7-41ac-9b38-57a547755331")
+		(uuid "da7a2f53-0f05-4689-a967-f1f95e03841c")
 	)
 	(fp_line
-		(start 1 0.625)
-		(end -1 0.625)
+		(start 0.8 0.4)
+		(end -0.8 0.4)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "F.Fab")
-		(uuid "dbb4e996-57ef-4bd8-844d-5e7f16259e5a")
+		(uuid "4e9c0852-561c-436d-b09f-3beb03ada274")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 0)
 		(layer "F.Fab")
-		(uuid "75d817c5-21e3-4fa3-8128-fd8eef6cd60c")
+		(uuid "6f232bb6-d2cb-4e45-bd8c-0a7bacc37a94")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -156,19 +156,19 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -0.81 0)
-		(size 0.96 1.39)
+		(at -0.67 0)
+		(size 0.81 0.94)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "bb1c7297-8223-43f4-97b1-1249ea0d4e6b")
+		(uuid "9f894be6-3a8b-46b3-90da-32194096d07e")
 	)
 	(pad "2" smd rect
-		(at 0.81 0)
-		(size 0.96 1.39)
+		(at 0.67 0)
+		(size 0.81 0.94)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "9773b248-8dfa-414c-a832-d0dffb26c50d")
+		(uuid "6e1c3040-469c-48b1-b2ec-dd96be8992f9")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/0805X105K160CT.stp"
+	(model "C:\\Users\\tobya\\Desktop\\drone_swarm\\hardware\\libraries\\SamacSys_Parts.3dshapes\\AMK107BJ475MA-T.stp"
 		(offset
 			(xyz 0 0 0)
 		)

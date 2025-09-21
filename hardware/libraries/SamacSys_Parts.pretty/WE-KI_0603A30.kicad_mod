@@ -1,25 +1,142 @@
-(module "WE-KI_0603A30" (layer F.Cu)
-  (descr "WE-KI_0603A30")
-  (tags "Inductor")
-  (attr smd)
-  (fp_text reference L** (at -2.2 2) (layer F.SilkS)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text user %R (at -2.2 2) (layer F.Fab)
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_text value "WE-KI_0603A30" (at -2.2 2) (layer F.SilkS) hide
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
-  )
-  (fp_line (start -0.8 -0.5) (end 0.8 -0.5) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.8 0.5) (end 0.8 0.5) (layer F.Fab) (width 0.127))
-  (fp_line (start -0.8 -0.5) (end -0.8 0.5) (layer F.Fab) (width 0.127))
-  (fp_line (start 0.8 -0.5) (end 0.8 0.5) (layer F.Fab) (width 0.127))
-  (pad 2 smd rect (at 0.6375 0 0) (size 0.625 1) (layers F.Cu F.Paste F.Mask))
-  (pad 1 smd rect (at -0.6375 0 0) (size 0.625 1) (layers F.Cu F.Paste F.Mask))
-  (model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/744761020A.stp"
-    (at (xyz 0 0 0.014566929321589))
-    (scale (xyz 1 1 1))
-    (rotate (xyz -90 0 0))
-  )
+(footprint "WE-KI_0603A30"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "WE-KI_0603A30")
+	(tags "Inductor")
+	(property "Reference" "L**"
+		(at -2.2 2 0)
+		(layer "F.SilkS")
+		(uuid "7200c63e-465f-4bf1-b6aa-9d84e0019470")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Value" "WE-KI_0603A30"
+		(at -2.2 2 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "297e9be5-9bca-42e2-8952-f9d4c59ae3c8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4d8afa21-5956-4b89-b0b6-6da9f9813276")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e816311a-1c18-4617-bec5-8d65f1428bd6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -1.05 -0.6)
+		(end 1.05 0.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "012f0773-0add-4b43-a5ed-0e5e79792202")
+	)
+	(fp_line
+		(start -0.8 -0.5)
+		(end -0.8 0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d2ec36c-8c4a-468e-b0e7-91bb3f71c2f5")
+	)
+	(fp_line
+		(start -0.8 -0.5)
+		(end 0.8 -0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a92624cd-3aeb-4d64-a868-b0543cf8b0eb")
+	)
+	(fp_line
+		(start -0.8 0.5)
+		(end 0.8 0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "8a2acf45-bf53-47e1-aaa7-2dc839da5433")
+	)
+	(fp_line
+		(start 0.8 -0.5)
+		(end 0.8 0.5)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "afa4bca9-c58d-4b52-8846-2f0933f0dee6")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -2.2 2 0)
+		(layer "F.Fab")
+		(uuid "346ec1aa-0e03-4853-b692-665f614987da")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.6375 0)
+		(size 0.625 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4df7d5d4-3691-4baa-8ffc-d7bf4b10a882")
+	)
+	(pad "2" smd rect
+		(at 0.6375 0)
+		(size 0.625 1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "04a7ac35-23a8-4082-8960-a19296d55ddb")
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/../libraries/SamacSys_Parts.3dshapes/744761020A.stp"
+		(offset
+			(xyz 0 0 0.3699999992)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )
