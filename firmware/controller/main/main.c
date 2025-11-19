@@ -15,7 +15,6 @@ BASIC CONTROLLER FUNCTIONALITIES TO INCLUDE:
 // TODO
 // blinky :D
 // PWM blinky
-// I2C IMU
 // SPI display
 // understand how to RTOS
 // understand how to ESPNOW
@@ -35,9 +34,18 @@ BASIC CONTROLLER FUNCTIONALITIES TO INCLUDE:
 
 #define ONBOARD_LED 2
 
-static void configure_gpios(void) {
+void configureBlinky(void) {
 	gpio_reset_pin(ONBOARD_LED);
 	gpio_set_direction(ONBOARD_LED, GPIO_MODE_OUTPUT);
+}
+
+void blinkyTask(void* arg) {
+	while (1) {
+			gpio_set_level(ONBOARD_LED, 1);
+			vTaskDelay(pdMS_TO_TICKS(500)); 
+			gpio_set_level(ONBOARD_LED, 0); 
+			vTaskDelay(pdMS_TO_TICKS(500)); 	
+	}
 }
 
 static void configurePWM(void) {
@@ -62,38 +70,43 @@ static void configurePWM(void) {
     ledc_timer_config(&ledTimerConf);
     ledc_channel_config(&ledChanConf);
     ledc_fade_func_install(0);
-
 }
 
 void blinkyPWMTask(void* arg) {
     int duty = 0;
 	while (1) {
-            vTaskDelay(1);
-            duty++;
-            if(duty > 8191) duty = 0;
-            ledc_set_duty_and_update(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_0, duty, 0);
+        vTaskDelay(1);
+        duty++;
+        if(duty > 8191) duty = 0;
+        ledc_set_duty_and_update(LEDC_LOW_SPEED_MODE, LEDC_CHANNEL_0, duty, 0);
     }
 }
 
-void blinkyTask(void* arg) {
-	while (1) {
-			gpio_set_level(ONBOARD_LED, 1);
-			vTaskDelay(pdMS_TO_TICKS(500)); 
-			gpio_set_level(ONBOARD_LED, 0); 
-			vTaskDelay(pdMS_TO_TICKS(500)); 	
-	}
-}
-
-void app_main(void) {
-	// configure_gpios();
-    configurePWM();
-	xTaskCreate(
+void startPWM() {
+    xTaskCreate(
 		blinkyPWMTask,                 // Task Function
-		// blinkyTask,                 // Task Function
-		"Led State Switcher",    // Task name (for debugging)
+		"PWM",    // Task name (for debugging)
 		2048, 			// Stack size (in words)
 		NULL,                  // Task input args
 		1,                    // Prioritity
 		NULL                 // Task Handle
 	);
+}
+
+void startBlinky() {
+    xTaskCreate(
+		blinkyTask,                 // Task Function
+		"Blinky",    // Task name (for debugging)
+		2048, 			// Stack size (in words)
+		NULL,                  // Task input args
+		1,                    // Prioritity
+		NULL                 // Task Handle
+	);
+}
+
+void app_main(void) {
+    configurePWM();
+    startPWM();
+    // configureBlinky();
+    // startBlinky();
 }
