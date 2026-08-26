@@ -31,7 +31,7 @@ This project is going to be a fully DIY drone swarm project based around ESP32 c
 - Weight must be under 250g
 
 # Controller Hardware Requirements
-- ESP32 with antenna
+- nRF52 with antenna
 - Touchscreen
 - Joysticks
 - Buttons
